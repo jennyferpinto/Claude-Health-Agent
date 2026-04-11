@@ -34,13 +34,15 @@ def build_prompt() -> str:
     return f"""\
 Generate my weekly health progress summary for {this_start.isoformat()} to {this_end.isoformat()} (Mon-Sun, inclusive).
 
+FETCH WINDOW — for every source below, pull the combined 14-day range {prev_start.isoformat()}..{this_end.isoformat()} in a SINGLE call, then slice the result in code into two buckets: current_week ({this_start.isoformat()}..{this_end.isoformat()}) and prior_week ({prev_start.isoformat()}..{prev_end.isoformat()}). Do NOT make two separate per-week calls to the same source — that doubles token cost on large tool results.
+
 SOURCE MAP — each metric has ONE authoritative source. Use exactly the source listed; do not substitute.
 
 1. Weight + body composition -> Withings MCP.
-   Pull every measurement in the window. Report: latest weight, weekly average weight, body fat %, muscle mass, water %, and any other fields Withings returns.
+   Pull every measurement over the full 14-day fetch window {prev_start.isoformat()}..{this_end.isoformat()} in one call, then bucket into current_week / prior_week. Report per week: latest weight, weekly average weight, body fat %, muscle mass, water %, and any other fields Withings returns.
 
 2. Daily activity (steps, cardio, calories burned, HR) -> Withings MCP.
-   This feed is piped from Apple Health, so it covers steps, distance, active minutes, cardio sessions, and resting/active heart rate. Report daily steps (avg + total), any cardio sessions logged, and activity calories.
+   This feed is piped from Apple Health, so it covers steps, distance, active minutes, cardio sessions, and resting/active heart rate. Pull the full 14-day window in one call and bucket by week. Report per week: daily steps (avg + total), any cardio sessions logged, and activity calories.
    Do NOT look for strength training here — it will not be in Withings.
 
 3. Strength workouts (sets / reps / weights) -> Coupler.io MCP (backed by a Google Sheet).
@@ -60,23 +62,23 @@ SOURCE MAP — each metric has ONE authoritative source. Use exactly the source 
 
    Procedure:
    a. Call list-dataflows to enumerate the Coupler dataflows. Identify the one whose name references the strength / workout sheet. Then call get-schema to see its tabs.
-   b. Pick the tab that contains the target window ({this_start.isoformat()}..{this_end.isoformat()}). If multiple tabs overlap, use the one whose WEEK header matches; if the target week is newer than any tab, use the most recently populated tab.
-   c. Use get-data to fetch the full tab, then parse it in code (not by eyeballing):
+   b. Pick the tab(s) that cover the combined 14-day window {prev_start.isoformat()}..{this_end.isoformat()}. Usually one tab (since each tab spans 4 weeks) will cover both weeks; if the 14-day window straddles a tab boundary, pull both tabs.
+   c. Use get-data to fetch the chosen tab(s) ONCE, then parse in code (not by eyeballing):
       - Walk column A. A row starting with "WEEK " opens a new week block. A row whose column A contains a day-of-week + dash + date-at-end (regex roughly `^(Mon|Tue|Wed|Thu|Fri|Sat|Sun)[a-z]*.* [A-Z][a-z]{{2}} \\d{{1,2}}$`) opens a new session block. A row whose column A equals "Exercise" is the column-header row; the rows immediately following it (until the next session or week header, or a blank row) are exercise entries.
       - Session dates are "Mon DD" with NO YEAR. Infer the year: assume the session is in the current year ({this_start.year}); if that would place the date more than 60 days in the FUTURE relative to today, subtract one year.
-      - Keep only sessions whose inferred date falls inside {this_start.isoformat()}..{this_end.isoformat()} (inclusive).
-   d. For each in-window session report: date, day/split label, exercise type, and every exercise row (name, sets x reps, weight, actual, notes). Parse "Sets x Reps" as two integers (e.g. "3 x 8" -> 3 sets of 8 reps). Compute per-exercise volume = sets * reps * weight_lbs (if weight is blank/bodyweight, record volume as sets * reps with a bodyweight flag).
-   e. Weekly totals: number of distinct training days (count of in-window session headers), total sets (sum across all exercises), total volume (lbs), and if the session header's split label implies a muscle group (e.g. "Upper A", "Lower A", "Push", "Pull"), bucket volume by that label.
+      - Keep sessions whose inferred date falls inside the 14-day fetch window {prev_start.isoformat()}..{this_end.isoformat()} (inclusive). Then bucket each kept session into current_week or prior_week based on its date.
+   d. For each in-window session (both weeks) report: date, day/split label, exercise type, and every exercise row (name, sets x reps, weight, actual, notes). Parse "Sets x Reps" as two integers (e.g. "3 x 8" -> 3 sets of 8 reps). Compute per-exercise volume = sets * reps * weight_lbs (if weight is blank/bodyweight, record volume as sets * reps with a bodyweight flag).
+   e. Weekly totals PER BUCKET (current_week and prior_week independently): number of distinct training days, total sets, total volume (lbs), and if the session header's split label implies a muscle group (e.g. "Upper A", "Lower A", "Push", "Pull"), bucket volume by that label.
 
 4. Nutrition (calories, macros, adherence) -> the latest .xlsx attachment on the Notion page titled "MacroFactor exports".
    Procedure:
    a. Use notion-search to find the page "MacroFactor exports" and open it with notion-fetch.
    b. Identify the most recently uploaded .xlsx attachment on that page.
-   c. Download it and parse with code execution (pandas / openpyxl).
-   d. Filter rows to {this_start.isoformat()}..{this_end.isoformat()} and compute: avg daily kcal, avg daily protein/carbs/fat (g), number of days logged, and adherence vs target if target columns exist.
-   Do NOT pull MacroFactor data from Google Sheets / Coupler — MacroFactor lives only in the Notion xlsx.
+   c. Download it ONCE and parse with code execution (pandas / openpyxl).
+   d. Filter rows to the 14-day fetch window {prev_start.isoformat()}..{this_end.isoformat()}, then split into current_week and prior_week buckets. For EACH bucket compute: avg daily kcal, avg daily protein/carbs/fat (g), number of days logged, and adherence vs target if target columns exist.
+   Do NOT pull MacroFactor data from Google Sheets / Coupler — MacroFactor lives only in the Notion xlsx. Do NOT re-download the file for the prior week; one download covers both buckets.
 
-5. Week-over-week comparison -> repeat steps 1-4 for the prior week ({prev_start.isoformat()}..{prev_end.isoformat()}) and compute deltas for every metric (absolute and %).
+5. Week-over-week comparison -> using the current_week and prior_week buckets you already produced in steps 1-4 (no additional tool calls), compute deltas for every metric (absolute and %). If you find yourself about to call a source a second time just to get the prior week, STOP — you already have the data in the 14-day bucket.
 
 OUTPUT:
 - Print a concise human-readable summary to the session log with all metrics and week-over-week deltas.
