@@ -1,8 +1,9 @@
 """Download the latest MacroFactor xlsx export from the Notion database.
 
 Uses the Notion public REST API (api.notion.com) directly rather than an MCP.
-The Anthropic Notion MCP returns opaque `file://` references for file blocks,
-which can't be downloaded. The real API returns signed S3 URLs which can.
+Reads the file from the "File" property (Files & media type) on the most
+recent row in the MacroFactor Exports database. Files in database properties
+persist reliably, unlike file blocks in page bodies which Notion can expire.
 
 Requires `NOTION_API_KEY` — a secret from an internal Notion integration that
 has been explicitly shared with the "MacroFactor Exports" database via
@@ -51,31 +52,24 @@ def main() -> int:
     created = latest.get("created_time", "<unknown>")
     print(f"latest export row: {page_id} (created {created})")
 
-    # 2. List the blocks on that row's page and find the first file block.
-    r = requests.get(
-        f"https://api.notion.com/v1/blocks/{page_id}/children",
-        headers=auth,
-        params={"page_size": 100},
-        timeout=30,
-    )
-    if r.status_code != 200:
-        print(f"error: block list failed: {r.status_code} {r.text}", file=sys.stderr)
-        return 1
-    blocks = r.json().get("results", [])
-    file_block = next((b for b in blocks if b.get("type") == "file"), None)
-    if file_block is None:
-        types = [b.get("type") for b in blocks]
-        print(f"error: no file block on page {page_id}. block types: {types}", file=sys.stderr)
+    # 2. Read the "File" property from the database row.
+    props = latest.get("properties", {})
+    file_prop = props.get("File", {})
+    files = file_prop.get("files", [])
+    if not files:
+        print(f"error: no file in 'File' property on page {page_id}.", file=sys.stderr)
+        print("Upload the xlsx to the 'File' column in the MacroFactor Exports database.", file=sys.stderr)
         return 1
 
-    payload = file_block["file"]
-    if payload.get("type") == "file":
-        signed_url = payload["file"]["url"]
-    elif payload.get("type") == "external":
-        signed_url = payload["external"]["url"]
+    first_file = files[0]
+    if first_file.get("type") == "file":
+        signed_url = first_file["file"]["url"]
+    elif first_file.get("type") == "external":
+        signed_url = first_file["external"]["url"]
     else:
-        print(f"error: unexpected file payload type {payload.get('type')}", file=sys.stderr)
+        print(f"error: unexpected file type {first_file.get('type')}", file=sys.stderr)
         return 1
+    print(f"found file: {first_file.get('name', '<unnamed>')}")
 
     # 3. Download the xlsx.
     output_path.parent.mkdir(parents=True, exist_ok=True)
