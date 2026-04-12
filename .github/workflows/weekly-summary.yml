@@ -2,8 +2,8 @@ name: Weekly Health Summary
 
 on:
   schedule:
-    # Every Monday at 13:00 UTC (adjust to your timezone as needed)
-    - cron: "0 13 * * 1"
+    # Every Sunday at 9 PM ET (01:00 UTC Monday)
+    - cron: "0 1 * * 1"
   workflow_dispatch: {}
 
 permissions:
