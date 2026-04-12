@@ -60,6 +60,14 @@ jobs:
           WINDOW_END: ${{ steps.dates.outputs.WINDOW_END }}
         run: python scripts/fetch_workouts.py
 
+      - name: Compute cycle phase from Clue data
+        env:
+          CLUE_EXPORT_PATH: data/clue_measurements.json
+          CLUE_CONTEXT_PATH: /tmp/clue_context.txt
+          WINDOW_START: ${{ steps.dates.outputs.WINDOW_START }}
+          WINDOW_END: ${{ steps.dates.outputs.WINDOW_END }}
+        run: python scripts/fetch_clue_data.py
+
       - name: Run weekly summary agent
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -68,4 +76,5 @@ jobs:
           VAULT_ID: ${{ secrets.VAULT_ID }}
           MACROFACTOR_XLSX_PATH: /tmp/macrofactor.xlsx
           WORKOUTS_CSV_PATH: /tmp/workouts.csv
+          CLUE_CONTEXT_PATH: /tmp/clue_context.txt
         run: python scripts/weekly_summary.py

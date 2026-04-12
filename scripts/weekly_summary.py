@@ -99,6 +99,9 @@ def build_prompt() -> str:
         sys.exit(1)
     workouts_csv = workouts_path.read_text().rstrip()
 
+    clue_path = Path(os.environ.get("CLUE_CONTEXT_PATH", "/tmp/clue_context.txt"))
+    clue_context = clue_path.read_text().rstrip() if clue_path.exists() else ""
+
     return f"""\
 Generate my weekly health progress summary for {this_start.isoformat()} to {this_end.isoformat()} (Mon-Sun, inclusive).
 
@@ -145,9 +148,18 @@ SOURCE MAP — each metric has ONE authoritative source. Use exactly the source 
    Parse the CSV above in code (it is already filtered to the 14-day window) and bucket rows into current_week ({this_start.isoformat()}..{this_end.isoformat()}) and prior_week ({prev_start.isoformat()}..{prev_end.isoformat()}) by the Date column. For EACH bucket compute: avg daily kcal, avg daily protein/carbs/fat (g), avg daily steps, number of days logged, and adherence vs target (Calories vs Target Calories, Protein vs Target Protein, etc.).
    Do NOT call any tool for MacroFactor data. It is already in this prompt. If the CSV is empty for one of the weeks, state that explicitly — do not fabricate values.
 
-5. Week-over-week comparison -> using the current_week and prior_week buckets you already produced in steps 1-4 (no additional tool calls), compute deltas for every metric (absolute and %). If you find yourself about to call a source a second time just to get the prior week, STOP — you already have the data in the 14-day bucket.
+5. Menstrual cycle phase -> already provided inline below, do NOT fetch it.
+   {"" if not clue_context else f"""The GitHub Action pre-computed cycle phase from a Clue data export:
 
-6. SYNTHESIS — cross-source insights. No additional tool calls. Use data already collected in steps 1-5.
+   <cycle-data>
+{clue_context}
+   </cycle-data>
+
+   Use this to contextualize weight fluctuations (luteal phase causes water retention of 1-3 lbs), energy levels, and training performance. Do NOT call any tool for cycle data."""}{"   No cycle data available for this run — skip cycle-related analysis." if not clue_context else ""}
+
+6. Week-over-week comparison -> using the current_week and prior_week buckets you already produced in steps 1-5 (no additional tool calls), compute deltas for every metric (absolute and %). If you find yourself about to call a source a second time just to get the prior week, STOP — you already have the data in the 14-day bucket.
+
+7. SYNTHESIS — cross-source insights. No additional tool calls. Use data already collected in steps 1-6.
 
    a. Energy balance reconciliation (MacroFactor CSV).
       For each week bucket: net_kcal = sum(Calories) - sum(Expenditure).
@@ -177,6 +189,15 @@ SOURCE MAP — each metric has ONE authoritative source. Use exactly the source 
       - Weekly avg dropped >0.5 WoW -> flag "perceived recovery declining — consider deload or extra rest day".
       - Weekly avg rose WoW alongside rising volume -> note "handling increased load well".
 
+   f. Cycle phase context (step 5, if available).
+      If cycle data was provided, note the current phase and its expected effects:
+      - Menstrual (days 1-5): lower energy, potential strength dip — a tough training week here is normal, not a red flag.
+      - Follicular (days 6-13): rising energy, good window for progressive overload.
+      - Ovulatory (days 14-16): peak strength potential.
+      - Luteal (days 17+): water retention (1-3 lbs is normal — flag it as likely water retention), cravings, lower energy.
+      If the weight went up but the user is in the luteal phase and deficit is on track, explicitly note "weight increase likely water retention from luteal phase, not fat gain."
+      If cycle data was not provided, skip this section.
+
 OUTPUT:
 - Print a concise human-readable summary to the session log with all metrics and week-over-week deltas.
 - Then write a structured weekly sub-page directly under the "2026 Goals" Notion page, ID `47325bff-c70b-42cc-8f0d-91ae062156b4`. Each weekly analysis is its own sub-page of 2026 Goals — there is no intermediate "health tracker" container page.
@@ -185,12 +206,13 @@ OUTPUT:
     b. Look for an existing child titled exactly "Week of {this_start.isoformat()}". If it exists, call notion-update-page to replace its body with this run's summary. If it does NOT exist, call notion-create-pages with parent=`47325bff-c70b-42cc-8f0d-91ae062156b4` and title "Week of {this_start.isoformat()}".
   Do NOT create a duplicate sub-page for the same week_start under any circumstances.
 - Body content for the weekly sub-page, as Notion blocks, in this order:
-    1. **Key Insights** (from step 6 synthesis): 3-5 bullet points leading with the most actionable finding. Energy balance gap, body comp direction, fatigue/recovery flags, NEAT warnings, RPE trends. This is the section the user reads first — make it punchy and specific, not generic.
+    1. **Key Insights** (from step 7 synthesis): 3-5 bullet points leading with the most actionable finding. Energy balance gap, body comp direction, fatigue/recovery flags, NEAT warnings, RPE trends, cycle phase effects. This is the section the user reads first — make it punchy and specific, not generic.
     2. **Weight & Body Composition** (Withings) — metrics + WoW deltas.
     3. **Activity** (Withings) — steps, cardio, HR, calories burned + WoW deltas.
     4. **Strength Workouts** (Google Sheets) — session list, volume totals, RPE scores + WoW deltas.
     5. **Nutrition** (MacroFactor) — daily avgs, target adherence, energy balance + WoW deltas.
-    6. **Data Sources** — one-line per source confirming what was used (for auditability).
+    6. **Cycle Phase** (Clue, if available) — current phase, cycle day, expected effects on weight/energy/performance.
+    7. **Data Sources** — one-line per source confirming what was used (for auditability).
 
 VERIFICATION — before calling the task done, explicitly state each of these in your final message:
 - "Activity (steps/cardio) from Withings MCP: <avg daily steps>, <N> cardio sessions".
