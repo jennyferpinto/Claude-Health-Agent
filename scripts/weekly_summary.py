@@ -6,13 +6,67 @@ wired up via its environment and vault. We just send the weekly prompt, stream
 the reply to the Actions log, and archive the session when done.
 """
 
+import csv
+import io
 import os
 import sys
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
+from pathlib import Path
 
 import anthropic
+import openpyxl
 
 BETA = "managed-agents-2026-04-01"
+MACROFACTOR_CORE_COLS = [
+    "Date",
+    "Expenditure",
+    "Trend Weight (lbs)",
+    "Weight (lbs)",
+    "Calories (kcal)",
+    "Protein (g)",
+    "Fat (g)",
+    "Carbs (g)",
+    "Target Calories (kcal)",
+    "Target Protein (g)",
+    "Target Fat (g)",
+    "Target Carbs (g)",
+    "Steps",
+]
+
+
+def load_macrofactor_csv(xlsx_path: Path, window_start: date, window_end: date) -> str:
+    """Parse MacroFactor xlsx Quick Export sheet, filter to window, return CSV.
+
+    Keeps only the core aggregate columns (defined in MACROFACTOR_CORE_COLS) —
+    the full sheet has 64 columns of micronutrient data we don't use.
+    """
+    wb = openpyxl.load_workbook(xlsx_path, data_only=True)
+    ws = wb["Quick Export"]
+    rows = list(ws.iter_rows(values_only=True))
+    headers = list(rows[0])
+    col_idx = [headers.index(c) for c in MACROFACTOR_CORE_COLS]
+
+    buf = io.StringIO()
+    writer = csv.writer(buf)
+    writer.writerow(MACROFACTOR_CORE_COLS)
+    for row in rows[1:]:
+        raw_date = row[col_idx[0]]
+        if raw_date is None:
+            continue
+        row_date = raw_date.date() if isinstance(raw_date, datetime) else raw_date
+        if not (window_start <= row_date <= window_end):
+            continue
+        out = []
+        for i, idx in enumerate(col_idx):
+            v = row[idx]
+            if i == 0:
+                out.append(row_date.isoformat())
+            elif v is None:
+                out.append("")
+            else:
+                out.append(v)
+        writer.writerow(out)
+    return buf.getvalue().rstrip()
 
 
 def week_range(today: date) -> tuple[date, date]:
@@ -31,6 +85,13 @@ def build_prompt() -> str:
     this_start, this_end = week_range(date.today())
     prev_start = this_start - timedelta(days=7)
     prev_end = this_end - timedelta(days=7)
+
+    xlsx_path = Path(os.environ.get("MACROFACTOR_XLSX_PATH", "/tmp/macrofactor.xlsx"))
+    if not xlsx_path.exists():
+        print(f"error: MacroFactor xlsx not found at {xlsx_path}", file=sys.stderr)
+        sys.exit(1)
+    macrofactor_csv = load_macrofactor_csv(xlsx_path, prev_start, this_end)
+
     return f"""\
 Generate my weekly health progress summary for {this_start.isoformat()} to {this_end.isoformat()} (Mon-Sun, inclusive).
 
@@ -70,13 +131,15 @@ SOURCE MAP — each metric has ONE authoritative source. Use exactly the source 
    d. For each in-window session (both weeks) report: date, day/split label, exercise type, and every exercise row (name, sets x reps, weight, actual, notes). Parse "Sets x Reps" as two integers (e.g. "3 x 8" -> 3 sets of 8 reps). Compute per-exercise volume = sets * reps * weight_lbs (if weight is blank/bodyweight, record volume as sets * reps with a bodyweight flag).
    e. Weekly totals PER BUCKET (current_week and prior_week independently): number of distinct training days, total sets, total volume (lbs), and if the session header's split label implies a muscle group (e.g. "Upper A", "Lower A", "Push", "Pull"), bucket volume by that label.
 
-4. Nutrition (calories, macros, adherence) -> the latest .xlsx attachment on the Notion page titled "MacroFactor exports".
-   Procedure:
-   a. Use notion-search to find the page "MacroFactor exports" and open it with notion-fetch.
-   b. Identify the most recently uploaded .xlsx attachment on that page.
-   c. Download it ONCE and parse with code execution (pandas / openpyxl).
-   d. Filter rows to the 14-day fetch window {prev_start.isoformat()}..{this_end.isoformat()}, then split into current_week and prior_week buckets. For EACH bucket compute: avg daily kcal, avg daily protein/carbs/fat (g), number of days logged, and adherence vs target if target columns exist.
-   Do NOT pull MacroFactor data from Google Sheets / Coupler — MacroFactor lives only in the Notion xlsx. Do NOT re-download the file for the prior week; one download covers both buckets.
+4. Nutrition (calories, macros, adherence) -> already provided inline below, do NOT fetch it.
+   The GitHub Action pre-downloaded the latest MacroFactor xlsx export from Notion using the real Notion API, parsed the "Quick Export" sheet, and filtered it to the 14-day window {prev_start.isoformat()}..{this_end.isoformat()}. The daily aggregate rows are embedded as CSV in the <macrofactor-data> block below.
+
+   <macrofactor-data>
+{macrofactor_csv}
+   </macrofactor-data>
+
+   Parse the CSV above in code (it is already filtered to the 14-day window) and bucket rows into current_week ({this_start.isoformat()}..{this_end.isoformat()}) and prior_week ({prev_start.isoformat()}..{prev_end.isoformat()}) by the Date column. For EACH bucket compute: avg daily kcal, avg daily protein/carbs/fat (g), avg daily steps, number of days logged, and adherence vs target (Calories vs Target Calories, Protein vs Target Protein, etc.).
+   Do NOT call notion-search, notion-fetch, Coupler, or any other tool for MacroFactor data. It is already in this prompt. If the CSV is empty for one of the weeks, state that explicitly — do not fabricate values.
 
 5. Week-over-week comparison -> using the current_week and prior_week buckets you already produced in steps 1-4 (no additional tool calls), compute deltas for every metric (absolute and %). If you find yourself about to call a source a second time just to get the prior week, STOP — you already have the data in the 14-day bucket.
 

@@ -31,10 +31,17 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r scripts/requirements.txt
 
+      - name: Pre-download latest MacroFactor export from Notion
+        env:
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          MACROFACTOR_XLSX_PATH: /tmp/macrofactor.xlsx
+        run: python scripts/fetch_macrofactor_export.py
+
       - name: Run weekly summary agent
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           AGENT_ID: ${{ secrets.AGENT_ID }}
           ENVIRONMENT_ID: ${{ secrets.ENVIRONMENT_ID }}
           VAULT_ID: ${{ secrets.VAULT_ID }}
+          MACROFACTOR_XLSX_PATH: /tmp/macrofactor.xlsx
         run: python scripts/weekly_summary.py
