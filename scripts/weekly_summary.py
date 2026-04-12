@@ -85,6 +85,7 @@ def build_prompt() -> str:
     this_start, this_end = week_range(date.today())
     prev_start = this_start - timedelta(days=7)
     prev_end = this_end - timedelta(days=7)
+    withings_start = (prev_start - timedelta(days=1)).isoformat()
 
     xlsx_path = Path(os.environ.get("MACROFACTOR_XLSX_PATH", "/tmp/macrofactor.xlsx"))
     if not xlsx_path.exists():
@@ -101,15 +102,20 @@ def build_prompt() -> str:
     return f"""\
 Generate my weekly health progress summary for {this_start.isoformat()} to {this_end.isoformat()} (Mon-Sun, inclusive).
 
+GOALS — frame all analysis and recommendations through these objectives:
+- Primary goal: lose 5-8 lbs of fat while preserving all muscle mass (body recomposition on a deficit).
+- Currently training on a caloric deficit.
+- Key signals to watch: fat mass trending down, lean mass stable or up, strength maintained or progressing, NEAT isn't dropping too much, adequate protein intake, and deficit not too aggressive (risking muscle loss or performance decline).
+
 FETCH WINDOW — for every source below, pull the combined 14-day range {prev_start.isoformat()}..{this_end.isoformat()} in a SINGLE call, then slice the result in code into two buckets: current_week ({this_start.isoformat()}..{this_end.isoformat()}) and prior_week ({prev_start.isoformat()}..{prev_end.isoformat()}). Do NOT make two separate per-week calls to the same source — that doubles token cost on large tool results.
 
 SOURCE MAP — each metric has ONE authoritative source. Use exactly the source listed; do not substitute.
 
 1. Weight + body composition -> Withings MCP.
-   Pull every measurement over the full 14-day fetch window {prev_start.isoformat()}..{this_end.isoformat()} in one call, then bucket into current_week / prior_week. Report per week: latest weight, weekly average weight, body fat %, muscle mass, water %, and any other fields Withings returns.
+   Pull every measurement over the full 14-day fetch window. IMPORTANT: the Withings API treats startdate as exclusive, so set startdate={withings_start}, enddate={this_end.isoformat()}. Then bucket results into current_week ({this_start.isoformat()}..{this_end.isoformat()}) and prior_week ({prev_start.isoformat()}..{prev_end.isoformat()}) by measurement date. Report all values in lbs. Report per week: latest weight, weekly average weight, body fat %, muscle mass, water %, and any other fields Withings returns.
 
 2. Daily activity (steps, cardio, calories burned, HR) -> Withings MCP.
-   This feed is piped from Apple Health, so it covers steps, distance, active minutes, cardio sessions, and resting/active heart rate. Pull the full 14-day window in one call and bucket by week. Report per week: daily steps (avg + total), any cardio sessions logged, and activity calories.
+   This feed is piped from Apple Health, so it covers steps, distance, active minutes, cardio sessions, and resting/active heart rate. Use the same padded date range as step 1: startdate={withings_start}, enddate={this_end.isoformat()}. Bucket by week. Report per week: daily steps (avg + total), any cardio sessions logged, and activity calories.
    Do NOT look for strength training here — it will not be in Withings.
 
 3. Strength workouts (sets / reps / weights) -> already provided inline below, do NOT fetch it.
