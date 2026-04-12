@@ -1,7 +1,7 @@
 """Weekly health progress summary — runs on a GitHub Actions cron.
 
 Starts a session against a pre-configured Anthropic Managed Agent, which already
-has the model, system prompt, and MCP tools (Notion, Coupler.io, Withings, etc.)
+has the model, system prompt, and MCP tools (Notion, Withings, etc.)
 wired up via its environment and vault. We just send the weekly prompt, stream
 the reply to the Actions log, and archive the session when done.
 """
@@ -92,6 +92,12 @@ def build_prompt() -> str:
         sys.exit(1)
     macrofactor_csv = load_macrofactor_csv(xlsx_path, prev_start, this_end)
 
+    workouts_path = Path(os.environ.get("WORKOUTS_CSV_PATH", "/tmp/workouts.csv"))
+    if not workouts_path.exists():
+        print(f"error: workouts CSV not found at {workouts_path}", file=sys.stderr)
+        sys.exit(1)
+    workouts_csv = workouts_path.read_text().rstrip()
+
     return f"""\
 Generate my weekly health progress summary for {this_start.isoformat()} to {this_end.isoformat()} (Mon-Sun, inclusive).
 
@@ -106,30 +112,22 @@ SOURCE MAP — each metric has ONE authoritative source. Use exactly the source 
    This feed is piped from Apple Health, so it covers steps, distance, active minutes, cardio sessions, and resting/active heart rate. Pull the full 14-day window in one call and bucket by week. Report per week: daily steps (avg + total), any cardio sessions logged, and activity calories.
    Do NOT look for strength training here — it will not be in Withings.
 
-3. Strength workouts (sets / reps / weights) -> Coupler.io MCP (backed by a Google Sheet).
-   This is the ONLY source for lifting sessions. The sheet is NOT a flat relational table — it is a block-structured human-readable log. Parse it as described below.
+3. Strength workouts (sets / reps / weights) -> already provided inline below, do NOT fetch it.
+   The GitHub Action pre-fetched workout data from Google Sheets, parsed the wide block-structured layout into flat exercise rows, and filtered to the 14-day window. The rows are embedded as CSV in the <workout-data> block below.
 
-   Sheet structure:
-   - The spreadsheet has multiple TABS. Each tab holds ~4 weeks of training and specifies the dates covered by the tab. You must first pick the right tab for the target date window.
-   - Within a tab, column A contains header rows that delimit the blocks. Columns B-E contain exercise data.
-   - Layout (walking top to bottom in a tab):
-       Row: [A] "WEEK N — Phase X — <label> (Week N of 4)"        <- week block header
-       Row: [A] "<Day> — <Split> (<Type>)    <Mon Day>"           <- session header, e.g. "Tuesday — Upper A (Strength) Mar 31"
-       Row: [A]"Exercise" [B]"Sets x Reps" [C]"Weight (lbs)" [D]"Actual" [E]"How I Felt"   <- column header row
-       Row: [A]<exercise name> [B]<sets x reps, e.g. "3 x 8"> [C]<weight lbs> [D]<actual performed> [E]<scale from 1-5 (1 = terrible, 2 = rough, 3 = okay, 4 = good, 5 = great)>
-       ... more exercise rows ...
-       Row: [A] "<next Day> — <next Split> ... <Mon Day>"         <- next session header
-       ... and so on. Then the next WEEK block, then the next.
+   <workout-data>
+{workouts_csv}
+   </workout-data>
 
-   Procedure:
-   a. Call list-dataflows to enumerate the Coupler dataflows. Identify the one whose name references the strength / workout sheet. Then call get-schema to see its tabs.
-   b. Pick the tab(s) that cover the combined 14-day window {prev_start.isoformat()}..{this_end.isoformat()}. Usually one tab (since each tab spans 4 weeks) will cover both weeks; if the 14-day window straddles a tab boundary, pull both tabs.
-   c. Use get-data to fetch the chosen tab(s) ONCE, then parse in code (not by eyeballing):
-      - Walk column A. A row starting with "WEEK " opens a new week block. A row whose column A contains a day-of-week + dash + date-at-end (regex roughly `^(Mon|Tue|Wed|Thu|Fri|Sat|Sun)[a-z]*.* [A-Z][a-z]{{2}} \\d{{1,2}}$`) opens a new session block. A row whose column A equals "Exercise" is the column-header row; the rows immediately following it (until the next session or week header, or a blank row) are exercise entries.
-      - Session dates are "Mon DD" with NO YEAR. Infer the year: assume the session is in the current year ({this_start.year}); if that would place the date more than 60 days in the FUTURE relative to today, subtract one year.
-      - Keep sessions whose inferred date falls inside the 14-day fetch window {prev_start.isoformat()}..{this_end.isoformat()} (inclusive). Then bucket each kept session into current_week or prior_week based on its date.
-   d. For each in-window session (both weeks) report: date, day/split label, exercise type, and every exercise row (name, sets x reps, weight, actual, notes). Parse "Sets x Reps" as two integers (e.g. "3 x 8" -> 3 sets of 8 reps). Compute per-exercise volume = sets * reps * weight_lbs (if weight is blank/bodyweight, record volume as sets * reps with a bodyweight flag).
-   e. Weekly totals PER BUCKET (current_week and prior_week independently): number of distinct training days, total sets, total volume (lbs), and if the session header's split label implies a muscle group (e.g. "Upper A", "Lower A", "Push", "Pull"), bucket volume by that label.
+   CSV columns: Date, Session (day + split type), Exercise, Sets_x_Reps, Weight_lbs, Actual (sets completed), How_I_Felt (1-5 scale: 1=terrible, 2=rough, 3=okay, 4=good, 5=great).
+   Parse this CSV in code and bucket rows by Date into current_week ({this_start.isoformat()}..{this_end.isoformat()}) and prior_week ({prev_start.isoformat()}..{prev_end.isoformat()}).
+   For each week compute:
+   - Number of distinct training days (unique Dates).
+   - Per-session summary: date, session name, exercise count.
+   - Per-exercise volume: parse Sets_x_Reps (e.g. "3x10" -> 3 sets of 10 reps), compute volume = sets * reps * weight_lbs. If weight is blank or non-numeric (e.g. "Black band"), flag as bodyweight/band and compute volume = sets * reps only.
+   - Weekly totals: total sets, total volume (lbs), and volume bucketed by session split (e.g. "Upper A", "Lower A", "Glute Day") extracted from the Session column.
+   - Average "How I Felt" score per session and overall weekly average (ignore blanks).
+   Do NOT call any tool for workout data. It is already in this prompt.
 
 4. Nutrition (calories, macros, adherence) -> already provided inline below, do NOT fetch it.
    The GitHub Action pre-downloaded the latest MacroFactor xlsx export from Notion using the real Notion API, parsed the "Quick Export" sheet, and filtered it to the 14-day window {prev_start.isoformat()}..{this_end.isoformat()}. The daily aggregate rows are embedded as CSV in the <macrofactor-data> block below.
@@ -139,9 +137,39 @@ SOURCE MAP — each metric has ONE authoritative source. Use exactly the source 
    </macrofactor-data>
 
    Parse the CSV above in code (it is already filtered to the 14-day window) and bucket rows into current_week ({this_start.isoformat()}..{this_end.isoformat()}) and prior_week ({prev_start.isoformat()}..{prev_end.isoformat()}) by the Date column. For EACH bucket compute: avg daily kcal, avg daily protein/carbs/fat (g), avg daily steps, number of days logged, and adherence vs target (Calories vs Target Calories, Protein vs Target Protein, etc.).
-   Do NOT call notion-search, notion-fetch, Coupler, or any other tool for MacroFactor data. It is already in this prompt. If the CSV is empty for one of the weeks, state that explicitly — do not fabricate values.
+   Do NOT call any tool for MacroFactor data. It is already in this prompt. If the CSV is empty for one of the weeks, state that explicitly — do not fabricate values.
 
 5. Week-over-week comparison -> using the current_week and prior_week buckets you already produced in steps 1-4 (no additional tool calls), compute deltas for every metric (absolute and %). If you find yourself about to call a source a second time just to get the prior week, STOP — you already have the data in the 14-day bucket.
+
+6. SYNTHESIS — cross-source insights. No additional tool calls. Use data already collected in steps 1-5.
+
+   a. Energy balance reconciliation (MacroFactor CSV).
+      For each week bucket: net_kcal = sum(Calories) - sum(Expenditure).
+      Expected weight change = net_kcal / 3500 lbs.
+      Actual trend weight change = last "Trend Weight (lbs)" of the week minus first.
+      Report: net balance (kcal), expected change (lbs), actual trend change (lbs), and the gap.
+      If the gap exceeds 0.5 lb, flag possible causes: water retention, logging gaps, or metabolic adaptation.
+
+   b. Body composition signal (Withings, step 1).
+      If Withings returned lean mass AND fat mass (not just total weight), compute the WoW change in each.
+      Classify: fat down + lean stable/up = recomp (progressing). Fat up + lean down = regressing. Both down = deficit. Both up = surplus.
+      If body comp breakdown is unavailable, skip and note "only total weight tracked by Withings".
+
+   c. Training load vs recovery (workout CSV volume + Withings avg HR).
+      Compare total weekly strength volume (step 3e) to weekly avg heart rate from Withings (step 2).
+      - Volume up + avg HR up WoW -> flag "monitor for accumulated fatigue".
+      - Volume up + avg HR stable/down -> note "adapting well to increased load".
+      - If avg HR data is unavailable from Withings, skip and note.
+      Do NOT look for sleep data — it is not tracked.
+
+   d. NEAT compensation check (MacroFactor CSV).
+      If the person is in a deficit (net_kcal from 6a < 0) AND trend weight did not decrease as expected, check if avg daily steps fell WoW.
+      If steps dropped >10% WoW while in a deficit, flag: "possible NEAT compensation — body reducing non-exercise activity. Consider adding a short walk or increasing daily movement target."
+
+   e. Session effort trend (workout CSV "How I Felt" column, 1-5 scale).
+      Compute per-session avg and overall weekly avg of the "How I Felt" scores parsed in step 3d.
+      - Weekly avg dropped >0.5 WoW -> flag "perceived recovery declining — consider deload or extra rest day".
+      - Weekly avg rose WoW alongside rising volume -> note "handling increased load well".
 
 OUTPUT:
 - Print a concise human-readable summary to the session log with all metrics and week-over-week deltas.
@@ -150,12 +178,19 @@ OUTPUT:
     a. Call notion-fetch on the 2026 Goals page and enumerate its child pages.
     b. Look for an existing child titled exactly "Week of {this_start.isoformat()}". If it exists, call notion-update-page to replace its body with this run's summary. If it does NOT exist, call notion-create-pages with parent=`47325bff-c70b-42cc-8f0d-91ae062156b4` and title "Week of {this_start.isoformat()}".
   Do NOT create a duplicate sub-page for the same week_start under any circumstances.
-- Body content for the weekly sub-page, as Notion blocks: a short prose summary at the top, then sections for Weight & Body Composition, Activity (Withings), Strength Workouts (Coupler), and Nutrition (MacroFactor) — each section listing the metrics and the week-over-week deltas.
+- Body content for the weekly sub-page, as Notion blocks, in this order:
+    1. **Key Insights** (from step 6 synthesis): 3-5 bullet points leading with the most actionable finding. Energy balance gap, body comp direction, fatigue/recovery flags, NEAT warnings, RPE trends. This is the section the user reads first — make it punchy and specific, not generic.
+    2. **Weight & Body Composition** (Withings) — metrics + WoW deltas.
+    3. **Activity** (Withings) — steps, cardio, HR, calories burned + WoW deltas.
+    4. **Strength Workouts** (Google Sheets) — session list, volume totals, RPE scores + WoW deltas.
+    5. **Nutrition** (MacroFactor) — daily avgs, target adherence, energy balance + WoW deltas.
+    6. **Data Sources** — one-line per source confirming what was used (for auditability).
 
 VERIFICATION — before calling the task done, explicitly state each of these in your final message:
 - "Activity (steps/cardio) from Withings MCP: <avg daily steps>, <N> cardio sessions".
-- "Strength workouts from Coupler MCP: tab=<tab name>, WEEK block=<WEEK N label>, session headers found in block=<N>, sessions inside target window=<N>, total sets=<N>, total volume=<N> lbs". The "sessions inside target window" count must match the number of session blocks you actually enumerated above.
-- "Nutrition from Notion .xlsx attachment on 'MacroFactor exports', file named <filename>, <N> days logged".
+- "Strength workouts from pre-fetched CSV: <N> exercise rows in current week, <N> distinct training days, total sets=<N>, total volume=<N> lbs".
+- "Nutrition from pre-fetched MacroFactor CSV: <N> days in current week, <N> days in prior week".
+- "Synthesis: net energy balance = <N> kcal, expected weight change = <N> lbs, actual trend change = <N> lbs, gap = <N> lbs".
 - "Date range used: {this_start.isoformat()} to {this_end.isoformat()}".
 - "Notion weekly sub-page under 2026 Goals: <created|updated> at <page URL or ID>, titled 'Week of {this_start.isoformat()}'".
 

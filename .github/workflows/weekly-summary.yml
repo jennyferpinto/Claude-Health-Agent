@@ -31,11 +31,34 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r scripts/requirements.txt
 
+      - name: Compute date window
+        id: dates
+        run: |
+          python -c "
+          from datetime import date, timedelta
+          today = date.today()
+          days_since_sunday = (today.weekday() + 1) % 7 or 7
+          last_sunday = today - timedelta(days=days_since_sunday)
+          this_start = last_sunday - timedelta(days=6)
+          prev_start = this_start - timedelta(days=7)
+          this_end = last_sunday
+          print(f'WINDOW_START={prev_start.isoformat()}')
+          print(f'WINDOW_END={this_end.isoformat()}')
+          " >> "$GITHUB_OUTPUT"
+
       - name: Pre-download latest MacroFactor export from Notion
         env:
           NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
           MACROFACTOR_XLSX_PATH: /tmp/macrofactor.xlsx
         run: python scripts/fetch_macrofactor_export.py
+
+      - name: Pre-fetch workout data from Google Sheets
+        env:
+          GOOGLE_SHEETS_API_KEY: ${{ secrets.GOOGLE_SHEETS_API_KEY }}
+          WORKOUTS_CSV_PATH: /tmp/workouts.csv
+          WINDOW_START: ${{ steps.dates.outputs.WINDOW_START }}
+          WINDOW_END: ${{ steps.dates.outputs.WINDOW_END }}
+        run: python scripts/fetch_workouts.py
 
       - name: Run weekly summary agent
         env:
@@ -44,4 +67,5 @@ jobs:
           ENVIRONMENT_ID: ${{ secrets.ENVIRONMENT_ID }}
           VAULT_ID: ${{ secrets.VAULT_ID }}
           MACROFACTOR_XLSX_PATH: /tmp/macrofactor.xlsx
+          WORKOUTS_CSV_PATH: /tmp/workouts.csv
         run: python scripts/weekly_summary.py
