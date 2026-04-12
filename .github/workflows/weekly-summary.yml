@@ -44,6 +44,8 @@ jobs:
           this_end = last_sunday
           print(f'WINDOW_START={prev_start.isoformat()}')
           print(f'WINDOW_END={this_end.isoformat()}')
+          print(f'THIS_START={this_start.isoformat()}')
+          print(f'THIS_END={this_end.isoformat()}')
           " >> "$GITHUB_OUTPUT"
 
       - name: Pre-download latest MacroFactor export from Notion
@@ -51,6 +53,21 @@ jobs:
           NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
           MACROFACTOR_XLSX_PATH: /tmp/macrofactor.xlsx
         run: python scripts/fetch_macrofactor_export.py
+
+      - name: Extract MacroFactor CSV from xlsx
+        env:
+          MACROFACTOR_XLSX_PATH: /tmp/macrofactor.xlsx
+        run: |
+          python -c "
+          from scripts.weekly_summary import load_macrofactor_csv
+          from datetime import date
+          from pathlib import Path
+          start = date.fromisoformat('${{ steps.dates.outputs.WINDOW_START }}')
+          end = date.fromisoformat('${{ steps.dates.outputs.WINDOW_END }}')
+          csv_text = load_macrofactor_csv(Path('/tmp/macrofactor.xlsx'), start, end)
+          Path('/tmp/macrofactor_filtered.csv').write_text(csv_text)
+          print(f'wrote {len(csv_text.splitlines())-1} rows to /tmp/macrofactor_filtered.csv')
+          "
 
       - name: Pre-fetch workout data from Google Sheets
         env:
@@ -68,6 +85,17 @@ jobs:
           WINDOW_END: ${{ steps.dates.outputs.WINDOW_END }}
         run: python scripts/fetch_clue_data.py
 
+      - name: Precompute workout and nutrition stats
+        env:
+          WORKOUTS_CSV_PATH: /tmp/workouts.csv
+          MACROFACTOR_CSV_PATH: /tmp/macrofactor_filtered.csv
+          STATS_PATH: /tmp/precomputed_stats.txt
+          WINDOW_START: ${{ steps.dates.outputs.WINDOW_START }}
+          WINDOW_END: ${{ steps.dates.outputs.WINDOW_END }}
+          THIS_START: ${{ steps.dates.outputs.THIS_START }}
+          THIS_END: ${{ steps.dates.outputs.THIS_END }}
+        run: python scripts/precompute_stats.py
+
       - name: Run weekly summary agent
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -77,4 +105,5 @@ jobs:
           MACROFACTOR_XLSX_PATH: /tmp/macrofactor.xlsx
           WORKOUTS_CSV_PATH: /tmp/workouts.csv
           CLUE_CONTEXT_PATH: /tmp/clue_context.txt
+          STATS_PATH: /tmp/precomputed_stats.txt
         run: python scripts/weekly_summary.py
