@@ -190,6 +190,8 @@ After writing, confirm:
 - "Synthesis: net energy balance=<N> kcal, expected change=<N> lbs, actual trend change=<N> lbs, gap=<N> lbs".
 
 If any source had zero rows or errors, state that explicitly.
+
+This is the FINAL step. After confirming, do NOT ask follow-up questions or offer further assistance — the session will be archived automatically.
 """
 
     return [prompt_1_collect, prompt_2_analyze, prompt_3_write]
@@ -228,10 +230,17 @@ def send_and_stream(client: anthropic.Anthropic, session_id: str, text: str) -> 
                         for block in event.content:
                             if block.type == "text":
                                 print(block.text, end="", flush=True)
+                    elif event_type == "agent.mcp_tool_use":
+                        name = getattr(event, "name", "?")
+                        print(f"\n[tool call: {name}]", flush=True)
+                    elif event_type == "session.status_idle":
+                        print(flush=True)  # trailing newline
+                        return True
                     elif event_type == "session.status_terminated":
                         print("\n[session terminated unexpectedly]", flush=True)
                         return False
-            print(flush=True)  # trailing newline
+            # Stream ended without idle signal — treat as success but warn
+            print("\n[stream ended without idle event]", flush=True)
             return True
 
         except anthropic.RateLimitError:
