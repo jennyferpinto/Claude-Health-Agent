@@ -102,13 +102,17 @@ def build_prompt() -> str:
     clue_path = Path(os.environ.get("CLUE_CONTEXT_PATH", "/tmp/clue_context.txt"))
     clue_context = clue_path.read_text().rstrip() if clue_path.exists() else ""
 
+    goals_path = Path(os.environ.get("GOALS_PATH", "data/goals.txt"))
+    if not goals_path.exists():
+        # Fall back to repo root relative path
+        goals_path = Path(__file__).resolve().parent.parent / "data" / "goals.txt"
+    goals_text = goals_path.read_text().rstrip() if goals_path.exists() else "No goals configured."
+
     return f"""\
 Generate my weekly health progress summary for {this_start.isoformat()} to {this_end.isoformat()} (Mon-Sun, inclusive).
 
 GOALS — frame all analysis and recommendations through these objectives:
-- Primary goal: lose 5-8 lbs of fat while preserving all muscle mass (body recomposition on a deficit).
-- Currently training on a caloric deficit.
-- Key signals to watch: fat mass trending down, lean mass stable or up, strength maintained or progressing, NEAT isn't dropping too much, adequate protein intake, and deficit not too aggressive (risking muscle loss or performance decline).
+{goals_text}
 
 FETCH WINDOW — for every source below, pull the combined 14-day range {prev_start.isoformat()}..{this_end.isoformat()} in a SINGLE call, then slice the result in code into two buckets: current_week ({this_start.isoformat()}..{this_end.isoformat()}) and prior_week ({prev_start.isoformat()}..{prev_end.isoformat()}). Do NOT make two separate per-week calls to the same source — that doubles token cost on large tool results.
 
