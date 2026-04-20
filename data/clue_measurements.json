@@ -1,1 +1,4290 @@
-[{"type":"craving","id":"8fed8f4d-2849-4e47-9998-c2b2183896cd","date":"2018-05-07","value":[{"option":"sweet"},{"option":"salty"}]},{"type":"craving","id":"e4bc8155-5d47-4498-b4d0-7011e314d8b5","date":"2017-11-20","value":[{"option":"carbs"},{"option":"sweet"}]},{"type":"craving","id":"fff4caa1-5a93-43b3-9d5f-f026ea229f9b","date":"2018-05-06","value":[{"option":"sweet"}]},{"type":"craving","id":"7cecb66f-08ab-4856-9acf-b70aa429df2a","date":"2018-05-08","value":[{"option":"sweet"},{"option":"salty"}]},{"type":"craving","id":"2f89f51c-6290-402b-880e-71014d433768","date":"2017-11-21","value":[{"option":"carbs"}]},{"type":"digestion","id":"c40d68a9-63f0-4ef1-b1ae-14a84c7f0687","date":"2019-03-10","value":[{"option":"nauseous"},{"option":"bloated"},{"option":"gassy"}]},{"type":"digestion","id":"c33ee28a-a00c-4506-9bbb-8a31f3b3ec03","date":"2017-10-28","value":[{"option":"bloated"},{"option":"nauseous"}]},{"type":"digestion","id":"74279a07-dfc4-4492-a1bb-185143244c3a","date":"2017-09-03","value":[{"option":"ok"}]},{"type":"digestion","id":"48c389ee-e2b6-423a-afde-b143a547c70d","date":"2019-08-21","value":[{"option":"nauseous"}]},{"type":"digestion","id":"b99ec5b2-5be7-4366-9a27-2d6144212d57","date":"2018-04-10","value":[{"option":"nauseous"}]},{"type":"digestion","id":"9c2728cf-f7b5-43d8-89d4-038a97acf6a3","date":"2017-11-23","value":[{"option":"gassy"},{"option":"nauseous"},{"option":"bloated"}]},{"type":"digestion","id":"8941b3f8-62e7-4652-87a5-298079f06ccf","date":"2016-09-27","value":[{"option":"bloated"}]},{"type":"digestion","id":"87a9f211-332b-4339-ac6e-aa8d046f1bb1","date":"2018-05-11","value":[{"option":"ok"}]},{"type":"digestion","id":"b3fefbb6-051f-4c19-960f-131d477cb8e9","date":"2017-07-05","value":[{"option":"gassy"}]},{"type":"digestion","id":"ce2cc509-f2a0-4ae0-9fea-42168b70e5de","date":"2019-11-18","value":[{"option":"gassy"}]},{"type":"digestion","id":"a879c684-7875-4dcf-a3e2-c091b8fa3f34","date":"2016-09-26","value":[{"option":"bloated"}]},{"type":"digestion","id":"dc1ef070-331c-4bce-99cf-efc610dba2a0","date":"2017-11-21","value":[{"option":"bloated"}]},{"type":"digestion","id":"e0a0793e-fa1a-411e-8919-a1c1a45307fb","date":"2017-09-22","value":[{"option":"gassy"}]},{"type":"digestion","id":"b0eed941-4da4-4fb4-9531-73c93f4724f3","date":"2019-11-17","value":[{"option":"gassy"},{"option":"bloated"}]},{"type":"digestion","id":"737b5a19-3a54-467c-85e6-c4a516d29c4f","date":"2019-09-17","value":[{"option":"gassy"},{"option":"bloated"}]},{"type":"digestion","id":"9b3834fc-cf63-4942-b0c0-fb3796e11e17","date":"2019-03-11","value":[{"option":"nauseous"},{"option":"bloated"},{"option":"gassy"}]},{"type":"digestion","id":"53b0bbc6-1995-4ca8-adfb-6418d01824ed","date":"2019-07-22","value":[{"option":"bloated"}]},{"type":"digestion","id":"96900721-e161-4fd2-a317-748877741c74","date":"2018-05-09","value":[{"option":"nauseous"},{"option":"gassy"},{"option":"bloated"}]},{"type":"digestion","id":"1615a4e6-19b1-4b83-bcee-d7f958d6fb6b","date":"2019-09-18","value":[{"option":"gassy"},{"option":"bloated"}]},{"type":"digestion","id":"49eb21f7-8ac4-4f6f-964f-a655e152547b","date":"2019-03-12","value":[{"option":"bloated"},{"option":"nauseous"},{"option":"gassy"}]},{"type":"digestion","id":"39d17bab-eb44-4134-92bd-f3f7cd207fcc","date":"2017-09-01","value":[{"option":"nauseous"},{"option":"gassy"}]},{"type":"digestion","id":"2caee454-cb58-45c0-89de-81807af3ab6e","date":"2017-11-24","value":[{"option":"nauseous"},{"option":"bloated"}]},{"type":"digestion","id":"2b77edba-cfe7-408e-945e-d6fd1e36e6f2","date":"2018-03-29","value":[{"option":"gassy"}]},{"type":"digestion","id":"424d0697-75c1-4592-be9c-e575fceec781","date":"2018-05-10","value":[{"option":"bloated"},{"option":"gassy"}]},{"type":"digestion","id":"43faa80e-8c7d-48e3-b6d5-96d260ba80b6","date":"2019-03-09","value":[{"option":"nauseous"}]},{"type":"digestion","id":"e2982175-63f3-45c9-b666-ac0bfc69d514","date":"2017-09-02","value":[{"option":"gassy"}]},{"type":"digestion","id":"08fc142f-6c43-4104-9289-a2f11ef9fd89","date":"2018-03-28","value":[{"option":"gassy"}]},{"type":"digestion","id":"8dd1fba8-ce67-4276-bc9a-98cff2e51e46","date":"2019-11-19","value":[{"option":"gassy"}]},{"type":"digestion","id":"5776bcaa-620a-4f8d-9620-c35be1a2fc4a","date":"2017-10-02","value":[{"option":"gassy"}]},{"type":"discharge","id":"c7247ef1-0951-4340-8bb8-ea00b218f06a","date":"2019-03-06","value":[{"option":"creamy"}]},{"type":"discharge","id":"92b42eb4-40a1-42ae-a456-82f25bf0fbb4","date":"2019-03-04","value":[{"option":"creamy"}]},{"type":"discharge","id":"3d664bae-a7ca-400e-98cd-c4ed0da2e6cd","date":"2019-03-05","value":[{"option":"creamy"}]},{"type":"energy","id":"6bb99ff1-3329-4b74-9063-162ed819f336","date":"2017-11-21","value":[{"option":"tired"}]},{"type":"energy","id":"933dd21b-a0bf-4199-8d39-b50c149ddec6","date":"2017-07-05","value":[{"option":"exhausted"}]},{"type":"energy","id":"aff29ee2-e614-48a4-9219-762114f5dee3","date":"2017-10-28","value":[{"option":"tired"}]},{"type":"energy","id":"a4240bd7-3f56-4283-8a13-6aec555dc166","date":"2019-09-16","value":[{"option":"tired"}]},{"type":"energy","id":"19b8dfc7-d06e-44c0-9a4f-1314f1d66478","date":"2018-03-19","value":[{"option":"fully_energized"}]},{"type":"energy","id":"4a62fcb4-abd4-4263-8b23-26cccd58a2b7","date":"2017-10-02","value":[{"option":"tired"}]},{"type":"energy","id":"b9c4da87-5946-4d59-afb3-023be9a95d17","date":"2017-09-01","value":[{"option":"exhausted"}]},{"type":"energy","id":"d5f9fc74-3eba-4f6d-b84f-f6f6bc32265d","date":"2017-09-02","value":[{"option":"energetic"}]},{"type":"energy","id":"5485bc7d-5107-44cd-b852-f7f85145b1db","date":"2017-09-03","value":[{"option":"energetic"}]},{"type":"energy","id":"9d1abe50-b06a-45f3-8ca3-d24ce1a5d6a9","date":"2018-03-09","value":[{"option":"exhausted"}]},{"type":"energy","id":"131c0cee-aa0e-490a-95b6-0e8db3d1a25c","date":"2017-11-23","value":[{"option":"tired"}]},{"type":"energy","id":"ed13a7b8-a51d-4ab0-b584-b6981690eab8","date":"2017-08-05","value":[{"option":"exhausted"}]},{"type":"energy","id":"18f32159-cb91-4019-8668-37bd44597e55","date":"2019-07-22","value":[{"option":"tired"}]},{"type":"energy","id":"524c81a4-c2ea-479c-9692-36391854207c","date":"2019-09-18","value":[{"option":"tired"}]},{"type":"energy","id":"d39f942f-4045-4f01-8293-4a5e9dda9628","date":"2018-04-11","value":[{"option":"tired"}]},{"type":"energy","id":"48a0f617-d484-426e-a78f-15e9ddf229c4","date":"2018-01-05","value":[{"option":"tired"}]},{"type":"energy","id":"d5452987-8ad3-4507-afc7-22bd594e0b75","date":"2017-10-01","value":[{"option":"exhausted"}]},{"type":"energy","id":"658f3403-0391-462d-b9d9-8bd52dedcfbe","date":"2019-09-17","value":[{"option":"tired"}]},{"type":"energy","id":"e7f5265f-a9cc-4678-9087-ffea047a2c08","date":"2018-04-10","value":[{"option":"exhausted"}]},{"type":"energy","id":"c0a91b24-f665-4d1a-975c-b19a6a081fb6","date":"2025-05-28","value":[{"option":"tired"}]},{"type":"energy","id":"b4ee587a-267b-4de0-9248-478ce6991fb3","date":"2025-05-27","value":[{"option":"tired"}]},{"type":"energy","id":"2479819f-e579-4cd2-b10b-12a465957e7f","date":"2025-05-26","value":[{"option":"tired"}]},{"type":"exercise","id":"b7832799-fa95-4a22-972f-e71bc27f5819","date":"2019-07-21","value":[{"option":"running"}]},{"type":"exercise","id":"83f37232-19d4-4d49-b211-bc6dd6688d16","date":"2017-09-23","value":[{"option":"cycling"}]},{"type":"exercise","id":"c038e5da-da33-43ab-93a8-c9e4b3aa6d58","date":"2017-09-03","value":[{"option":"yoga"}]},{"type":"exercise","id":"fd03f025-8381-4cae-956f-b34e8b8acf38","date":"2017-09-22","value":[{"option":"cycling"}]},{"type":"exercise","id":"d4a9c0d4-fe1f-42c5-b883-fb88e4b1681c","date":"2017-09-01","value":[{"option":"yoga"}]},{"type":"exercise","id":"698196cf-64c1-4db0-a0c6-c904540e3339","date":"2018-03-26","value":[{"option":"yoga"}]},{"type":"exercise","id":"f852ebf8-be2d-4a6b-9f01-3040b491df58","date":"2017-11-19","value":[{"option":"yoga"}]},{"type":"exercise","id":"3bfc9a44-1d0f-4d80-a5c9-b10d655112b2","date":"2018-03-19","value":[{"option":"yoga"}]},{"type":"exercise","id":"00b438ad-b278-4856-baee-639ccc690ae5","date":"2017-09-02","value":[{"option":"cycling"}]},{"type":"feelings","id":"d243eefa-0c13-49a5-b1f5-4327b89a8138","date":"2017-08-24","value":[{"option":"sad"}]},{"type":"feelings","id":"e6079bc6-ea2a-4586-9088-606e62d7c2ff","date":"2019-09-15","value":[{"option":"sensitive"}]},{"type":"feelings","id":"9a85c338-30c3-4eea-a195-db9451a7f9e8","date":"2019-02-06","value":[{"option":"sad"}]},{"type":"feelings","id":"7d50656a-2250-4ff3-ba33-44a84e459cf6","date":"2017-09-01","value":[{"option":"sensitive"}]},{"type":"feelings","id":"057ba126-8cc5-4a8c-a3cf-f1cfdca853b7","date":"2017-09-19","value":[{"option":"sad"}]},{"type":"feelings","id":"3d9249e5-5193-4349-b336-47948e4cee23","date":"2019-09-11","value":[{"option":"sensitive"}]},{"type":"feelings","id":"bddfb712-1cbd-4fe4-9211-5c5b6089b957","date":"2017-08-25","value":[{"option":"sad"},{"option":"sensitive"}]},{"type":"feelings","id":"9616d22e-3ff2-4f00-9d85-a95b50f7dbac","date":"2019-09-16","value":[{"option":"sensitive"}]},{"type":"feelings","id":"c49aaf99-125e-4a1e-86d1-1a15507b65d1","date":"2017-09-22","value":[{"option":"sensitive"}]},{"type":"feelings","id":"012bf4cc-5b80-4e84-ae8c-dfc0f19d4cae","date":"2017-10-28","value":[{"option":"sensitive"}]},{"type":"feelings","id":"cff21baa-ab80-440b-a3a1-cee033eedd55","date":"2018-03-04","value":[{"option":"sensitive"},{"option":"sad"}]},{"type":"feelings","id":"0c0891e9-357c-4482-9a47-dc53e4cf1fef","date":"2019-11-18","value":[{"option":"sensitive"}]},{"type":"feelings","id":"f5dc1aeb-edd1-49a4-9b86-7768c3f1d66e","date":"2017-09-03","value":[{"option":"happy"}]},{"type":"feelings","id":"36aca4cb-9d58-4054-a39b-3c1cefbe8f12","date":"2018-03-05","value":[{"option":"sensitive"}]},{"type":"feelings","id":"218bdb01-60d6-4d10-a796-973024e38c19","date":"2018-03-07","value":[{"option":"sensitive"},{"option":"sad"}]},{"type":"feelings","id":"90369b97-f442-41ec-8731-6f3efdb5eb62","date":"2017-09-02","value":[{"option":"happy"}]},{"type":"feelings","id":"4a2c4084-42ea-4220-8976-edca3fc44f3e","date":"2017-11-24","value":[{"option":"sad"}]},{"type":"feelings","id":"1dd4ac91-1674-4dd0-b0da-2d21cec6a03b","date":"2017-08-23","value":[{"option":"sad"}]},{"type":"feelings","id":"c7bb283f-8ba9-4775-9e9b-76afe4b5c848","date":"2019-02-05","value":[{"option":"sad"}]},{"type":"medication","id":"f904897f-f5f5-4c58-a93c-a10c057256bd","date":"2017-09-01","value":[{"option":"painkillers"}]},{"type":"mind","id":"6230a4f1-ded6-4cc0-a004-76c6427f7dc8","date":"2019-02-06","value":[{"option":"stressed"}]},{"type":"mind","id":"ea4fa038-58cf-4852-b63c-6d832fd79863","date":"2019-03-06","value":[{"option":"distracted"},{"option":"unproductive"},{"option":"unmotivated"}]},{"type":"mind","id":"08ebcfdb-8609-48da-8b24-43f0a58d4d63","date":"2017-11-21","value":[{"option":"stressed"},{"option":"distracted"},{"option":"unproductive"},{"option":"unmotivated"}]},{"type":"mind","id":"ce71171e-9734-4cd4-b1bb-c2b7b3deccad","date":"2019-09-17","value":[{"option":"unmotivated"}]},{"type":"mind","id":"dca86fd9-594b-450c-9524-ebdaf7adf6b6","date":"2017-11-19","value":[{"option":"distracted"},{"option":"stressed"},{"option":"unproductive"}]},{"type":"mind","id":"ad0f808e-77d9-476e-b8fa-305c2b8ee0d1","date":"2019-02-07","value":[{"option":"stressed"}]},{"type":"mind","id":"90d506aa-92f6-4b59-b1e6-849266c7403c","date":"2019-02-05","value":[{"option":"stressed"},{"option":"unmotivated"}]},{"type":"mind","id":"d9bcadd2-c38f-4bc3-b4a1-ceb69bda2265","date":"2018-03-06","value":[{"option":"unproductive"},{"option":"unmotivated"}]},{"type":"mind","id":"d365cbe8-e165-4950-904d-b461fe523713","date":"2019-02-04","value":[{"option":"stressed"}]},{"type":"mind","id":"6c80c069-498d-485b-9cf8-a3137d2e1caf","date":"2018-03-07","value":[{"option":"unmotivated"},{"option":"unproductive"}]},{"type":"mind","id":"5441c5a6-f704-49ec-a0fa-e0466206e81a","date":"2017-11-20","value":[{"option":"distracted"},{"option":"stressed"},{"option":"unmotivated"},{"option":"unproductive"}]},{"type":"mind","id":"808a6412-bfdf-48ae-9fc5-473c8821b90c","date":"2018-03-05","value":[{"option":"unproductive"},{"option":"unmotivated"}]},{"type":"mind","id":"bfdb8ee5-f915-44a5-a36f-66d52da7f8bc","date":"2018-03-26","value":[{"option":"calm"},{"option":"productive"}]},{"type":"mind","id":"dfef5c13-26ef-4caa-9c8e-c17c94b10237","date":"2018-01-05","value":[{"option":"unmotivated"}]},{"type":"mind","id":"2bedf750-9f9e-4ace-af2b-93d763e17a64","date":"2019-09-16","value":[{"option":"stressed"},{"option":"distracted"}]},{"type":"mind","id":"745701d5-df55-42ac-963b-84f23cafdc06","date":"2017-11-24","value":[{"option":"unproductive"},{"option":"unmotivated"}]},{"type":"mind","id":"dfadecdd-facc-4c2c-b7c3-41fc2511adcd","date":"2017-11-23","value":[{"option":"distracted"},{"option":"unproductive"},{"option":"unmotivated"}]},{"type":"mind","id":"b04b6cf0-dc00-4f66-8219-21ec96b92fea","date":"2019-03-07","value":[{"option":"distracted"},{"option":"unproductive"},{"option":"unmotivated"}]},{"type":"pain","id":"77edf05e-5ca1-496b-97ea-b452eac2b35a","date":"2016-09-28","value":[{"option":"breast_tenderness"}]},{"type":"pain","id":"baa3adc3-ab0c-4b53-97db-6259c28f2e17","date":"2019-09-12","value":[{"option":"breast_tenderness"}]},{"type":"pain","id":"bd7f651f-b997-494c-8f5b-ffd1d88f45f3","date":"2020-12-28","value":[{"option":"headache"}]},{"type":"pain","id":"964b8cfe-7ba2-465b-b40b-85ba19613978","date":"2016-12-01","value":[{"option":"period_cramps"}]},{"type":"pain","id":"7438c7de-537b-4061-8963-128346dade62","date":"2016-09-30","value":[{"option":"breast_tenderness"}]},{"type":"pain","id":"e5d6540f-c731-42a3-8b2f-ece9b994dc83","date":"2016-09-29","value":[{"option":"breast_tenderness"}]},{"type":"pain","id":"0ae36825-4c8a-4a92-b93d-71f323359e01","date":"2019-03-04","value":[{"option":"period_cramps"}]},{"type":"pain","id":"9e8900a0-4f48-445f-b31d-932833d18274","date":"2019-09-11","value":[{"option":"breast_tenderness"}]},{"type":"pain","id":"f622ed87-9f01-47d1-886c-9fcfe9b074c0","date":"2017-08-23","value":[{"option":"breast_tenderness"}]},{"type":"pain","id":"afb776cb-a9c3-483e-8779-19dc875dbb87","date":"2018-08-18","value":[{"option":"headache"},{"option":"period_cramps"}]},{"type":"pain","id":"0e69dd71-1e16-4fee-b387-34df05ef258a","date":"2018-04-10","value":[{"option":"period_cramps"}]},{"type":"pain","id":"ef842253-8a88-4f5c-b2c6-5de9855b2f4e","date":"2018-02-06","value":[{"option":"period_cramps"}]},{"type":"pain","id":"4b365827-b3b9-4d5c-8d56-2cdacb036ec4","date":"2016-09-27","value":[{"option":"breast_tenderness"}]},{"type":"pain","id":"ed799622-34db-4d5b-834c-510f1ed10e61","date":"2020-12-26","value":[{"option":"breast_tenderness"}]},{"type":"pain","id":"e4e55fb4-919a-48c9-b2dc-a722034ca2a6","date":"2017-01-02","value":[{"option":"period_cramps"}]},{"type":"pain","id":"e4343b09-da92-4a95-b460-b4847b54a2fc","date":"2019-03-13","value":[{"option":"period_cramps"}]},{"type":"pain","id":"144eca28-dc5d-4b27-a649-2e3fc9926f4c","date":"2020-12-24","value":[{"option":"breast_tenderness"}]},{"type":"pain","id":"9eaf98cf-89fd-492b-8302-953669dbe67b","date":"2017-09-01","value":[{"option":"breast_tenderness"},{"option":"period_cramps"}]},{"type":"pain","id":"6e93cb84-0470-4f54-88fc-02c04fb90662","date":"2016-09-26","value":[{"option":"breast_tenderness"}]},{"type":"pain","id":"04af086d-c974-481e-9df1-a740954b1716","date":"2017-08-27","value":[{"option":"breast_tenderness"}]},{"type":"pain","id":"33e62c88-f513-4966-b352-81d55cc34a56","date":"2019-11-17","value":[{"option":"breast_tenderness"}]},{"type":"pain","id":"4ed3569f-b708-4bbc-9ee9-dc4e6cc732cf","date":"2018-03-07","value":[{"option":"breast_tenderness"}]},{"type":"pain","id":"5a5b7274-76db-4db1-85f5-eb7d4a372090","date":"2018-05-09","value":[{"option":"period_cramps"}]},{"type":"pain","id":"e095c212-4154-4e22-adfc-c0fa349e60c6","date":"2017-12-08","value":[{"option":"period_cramps"},{"option":"headache"}]},{"type":"pain","id":"3cd406b9-d817-43ba-a284-4433c0d62ae6","date":"2016-11-02","value":[{"option":"period_cramps"}]},{"type":"pain","id":"d5aecd4c-6e3f-4a96-b4fd-a3ee94476710","date":"2018-03-09","value":[{"option":"period_cramps"}]},{"type":"pain","id":"525e76f4-4ef8-4951-8838-05232fc369d6","date":"2019-09-13","value":[{"option":"breast_tenderness"}]},{"type":"pain","id":"faa5ee59-9a37-4981-9aff-570e739434b4","date":"2017-10-28","value":[{"option":"period_cramps"},{"option":"breast_tenderness"}]},{"type":"pain","id":"2f8a347d-5bef-411e-97f5-125841fbb4da","date":"2019-11-18","value":[{"option":"breast_tenderness"}]},{"type":"pain","id":"2564dbb2-e98a-4f97-a239-b81949428dcd","date":"2020-12-25","value":[{"option":"breast_tenderness"}]},{"type":"pain","id":"3f0bedfe-d94f-4afd-a3c9-7dbd29f941ec","date":"2017-08-25","value":[{"option":"breast_tenderness"}]},{"type":"pain","id":"26ef609f-3d17-47f0-b43e-4576c2e7e683","date":"2017-08-05","value":[{"option":"period_cramps"}]},{"type":"pain","id":"b3a7b5bc-6810-48b6-9fad-b2bfece26bfa","date":"2018-07-16","value":[{"option":"period_cramps"}]},{"type":"pain","id":"d0dc8e43-e0b5-49e0-93cf-92a420e3a859","date":"2019-07-22","value":[{"option":"period_cramps"}]},{"type":"pain","id":"a145372d-6d9e-4954-991b-b4c42b698ef0","date":"2017-12-07","value":[{"option":"headache"},{"option":"period_cramps"}]},{"type":"pain","id":"bf2519ec-9d50-4271-9ed6-d60f19a1a8dc","date":"2018-03-05","value":[{"option":"breast_tenderness"}]},{"type":"pain","id":"7867916a-57dc-43c7-a89a-4622b199473a","date":"2018-03-04","value":[{"option":"breast_tenderness"}]},{"type":"pain","id":"870829fb-3241-4f26-a3aa-4bae3c0ca7aa","date":"2017-06-04","value":[{"option":"period_cramps"}]},{"type":"pain","id":"b3c0f25a-628c-46d7-ba1d-c6c495b0a670","date":"2018-04-11","value":[{"option":"period_cramps"}]},{"type":"pain","id":"51e1c1c7-7dcb-4f69-85ca-51780133ef3f","date":"2017-08-28","value":[{"option":"breast_tenderness"}]},{"type":"pain","id":"8efc25a4-5c55-484d-9dd1-35120edd46ca","date":"2017-03-02","value":[{"option":"period_cramps"}]},{"type":"pain","id":"cbf77430-43fd-453a-b957-d828ae9938e7","date":"2016-09-06","value":[{"option":"breast_tenderness"}]},{"type":"pain","id":"95c5ed95-b624-4179-b73f-5bc8340c49a7","date":"2017-05-05","value":[{"option":"period_cramps"}]},{"type":"pain","id":"e735d86d-f4b2-46c6-9bc8-9af320fa5f54","date":"2017-08-24","value":[{"option":"breast_tenderness"}]},{"type":"pain","id":"d3dc45e0-0c29-4a9d-ac76-867c571af4ca","date":"2018-03-06","value":[{"option":"breast_tenderness"}]},{"type":"pain","id":"741e2567-7066-4995-b506-840e06451a1e","date":"2016-10-05","value":[{"option":"period_cramps"}]},{"type":"pain","id":"50f99594-cc7c-4daf-9b81-15b2c6940d25","date":"2017-08-26","value":[{"option":"breast_tenderness"}]},{"type":"pain","id":"48484ad9-2d47-451c-b876-7dc5ed0b7b1b","date":"2018-01-05","value":[{"option":"period_cramps"}]},{"type":"pain","id":"79c80fc4-58e3-4602-a96b-895d3ef5f64d","date":"2019-09-14","value":[{"option":"breast_tenderness"}]},{"type":"pain","id":"491326b2-1de8-4da9-9e12-a8f1ddf354e5","date":"2017-01-30","value":[{"option":"period_cramps"}]},{"type":"pain","id":"d66dfe8e-d71e-4009-b854-0da6eb256b30","date":"2019-08-21","value":[{"option":"period_cramps"}]},{"type":"pain","id":"b6e0a8de-dbe2-449b-a278-27ad09ad8096","date":"2019-03-05","value":[{"option":"period_cramps"}]},{"type":"pain","id":"fee7d244-6f3b-49d7-8d52-293b59738082","date":"2017-07-05","value":[{"option":"period_cramps"}]},{"type":"pain","id":"79cafda0-d756-4c38-b29f-577bb1e8e922","date":"2017-04-01","value":[{"option":"period_cramps"}]},{"type":"period","id":"69469766-9e8f-4c8e-adbc-f4db9d24a84e","date":"2018-05-13","value":{"option":"medium"}},{"type":"period","id":"1cd704cb-4f4a-4c4a-8161-64e5e9c108aa","date":"2019-12-23","value":{"option":"medium"}},{"type":"period","id":"bc4ece99-977f-407b-a24a-7625ab6e1c89","date":"2017-09-03","value":{"option":"medium"}},{"type":"period","id":"4bfbc5d5-3f4e-4f75-915e-759a206fea13","date":"2019-03-13","value":{"option":"heavy"}},{"type":"period","id":"bf3da72b-fa30-4f0d-afa1-e96d03f18219","date":"2021-01-31","value":{"option":"medium"}},{"type":"period","id":"666f3d5c-37a5-41ea-98d4-0fa6e458dd37","date":"2019-04-16","value":{"option":"heavy"}},{"type":"period","id":"317da7c7-0343-4100-8e39-eb7aad4a3f87","date":"2021-01-01","value":{"option":"light"}},{"type":"period","id":"1cf16093-f12c-40c1-a70c-4d4332603db1","date":"2018-04-12","value":{"option":"medium"}},{"type":"period","id":"815e6296-cbc7-40f7-8b68-18f2262f485d","date":"2020-12-01","value":{"option":"heavy"}},{"type":"period","id":"40513a1b-073c-4149-be29-44c0d448e3c6","date":"2018-09-19","value":{"option":"light"}},{"type":"period","id":"98812472-213c-4987-9015-47b769aa5247","date":"2019-05-17","value":{"option":"medium"}},{"type":"period","id":"273f2969-33ae-49c0-98fb-4fc95459ad8d","date":"2016-12-01","value":{"option":"heavy"}},{"type":"period","id":"4851249c-20fe-4c33-9c06-07b7ab25f695","date":"2022-01-17","value":{"option":"medium"}},{"type":"period","id":"50af284d-d74b-4617-a11a-2e47e98d78db","date":"2017-02-02","value":{"option":"light"}},{"type":"period","id":"766c5419-80bd-4ce2-a723-dc61d919aaa0","date":"2020-12-02","value":{"option":"medium"}},{"type":"period","id":"09508171-26d4-4fc7-ab45-4074f86ce225","date":"2020-10-03","value":{"option":"light"}},{"type":"period","id":"bbce908e-dba2-48f1-ad75-e01cb1ee61df","date":"2018-03-11","value":{"option":"light"}},{"type":"period","id":"4bed106b-aaac-4f9c-b6f4-a95a33b6ee1e","date":"2017-10-31","value":{"option":"light"}},{"type":"period","id":"ffff8b45-467f-4bdc-b769-66d19b7721c5","date":"2018-04-11","value":{"option":"heavy"}},{"type":"period","id":"a4c468ba-5809-4a6f-8108-9d154abaa41f","date":"2020-12-03","value":{"option":"light"}},{"type":"period","id":"93648077-147b-42d2-a296-8ea309121fba","date":"2018-02-07","value":{"option":"medium"}},{"type":"period","id":"89cc94e1-640e-4818-9fd8-88a08f274a1f","date":"2020-04-07","value":{"option":"medium"}},{"type":"period","id":"c623f1de-2c08-41ab-9527-e4af608d9273","date":"2021-02-01","value":{"option":"light"}},{"type":"period","id":"5e8e5660-e3fe-4bc2-b616-c009e633210c","date":"2018-12-12","value":{"option":"medium"}},{"type":"period","id":"3152cabc-b827-4a28-a7ff-4f4927c056cb","date":"2018-09-18","value":{"option":"medium"}},{"type":"period","id":"c9561138-c005-47f1-a0fc-50d0dd11ef9f","date":"2017-06-04","value":{"option":"heavy"}},{"type":"period","id":"3d7ffb57-19dc-4c15-868a-85fdcaacf12d","date":"2020-02-28","value":{"option":"light"}},{"type":"period","id":"ebb741b3-8492-48cf-8a08-4cd6cf64bd11","date":"2018-03-13","value":{"option":"light"}},{"type":"period","id":"2de5d7de-d832-46ee-955e-aee456ba3b9e","date":"2017-03-04","value":{"option":"medium"}},{"type":"period","id":"035caa8b-bd3f-4f0e-91f1-e7321ca3572d","date":"2017-07-09","value":{"option":"light"}},{"type":"period","id":"09fde256-2a8b-465f-958a-718f8c491043","date":"2018-03-12","value":{"option":"light"}},{"type":"period","id":"311dee5d-d6d2-4f06-8b49-ebc0820fe604","date":"2018-02-09","value":{"option":"light"}},{"type":"period","id":"62b08098-3e98-4c74-9aa9-75f282fb5119","date":"2020-09-03","value":{"option":"heavy"}},{"type":"period","id":"8ce63844-06c1-4e62-859d-9467cde66afd","date":"2020-09-05","value":{"option":"medium"}},{"type":"period","id":"8dbfea57-b46f-48db-86bc-3c935c754b97","date":"2021-08-28","value":{"option":"light"}},{"type":"period","id":"b4e9d1ab-2d86-4f05-a16b-4c9460d485f3","date":"2020-08-06","value":{"option":"medium"}},{"type":"period","id":"d2b3651e-b126-46ad-9c46-786ffd059903","date":"2017-07-06","value":{"option":"medium"}},{"type":"period","id":"b0718188-a018-4cf6-b9de-b08d488c6c7e","date":"2021-08-27","value":{"option":"medium"}},{"type":"period","id":"55cdc11b-9de2-486b-b1b1-ac9a0d28ad13","date":"2017-03-05","value":{"option":"light"}},{"type":"period","id":"3838585e-4d0b-4a3f-8dda-3045364b3160","date":"2019-06-20","value":{"option":"medium"}},{"type":"period","id":"3ab8ae04-65fa-4b41-a961-59569f7a4a02","date":"2020-07-07","value":{"option":"light"}},{"type":"period","id":"1409d870-13a3-4156-a9b8-d3b8392713be","date":"2020-02-27","value":{"option":"light"}},{"type":"period","id":"0107a758-8753-4ed9-9cdf-8ca1dd54ecf7","date":"2019-08-23","value":{"option":"medium"}},{"type":"period","id":"4755f1bb-8119-48a2-9975-cf2c75ba44fc","date":"2019-10-20","value":{"option":"medium"}},{"type":"period","id":"0190f2ae-4f08-4cac-ab48-4a9979acfd29","date":"2019-06-22","value":{"option":"light"}},{"type":"period","id":"cccaf69f-38eb-46d8-ab67-0e0c61ce71eb","date":"2020-10-05","value":{"option":"medium"}},{"type":"period","id":"b0fad43f-35e6-4219-9230-98b9cf30e992","date":"2019-04-15","value":{"option":"heavy"}},{"type":"period","id":"368f2be9-2454-4e74-9203-c12dba76619a","date":"2019-12-22","value":{"option":"medium"}},{"type":"period","id":"a36ba4ba-e030-4305-a104-bb8f8fa7b015","date":"2018-01-09","value":{"option":"light"}},{"type":"period","id":"22343e79-da63-4b3a-bc3e-b12f1bf37d27","date":"2017-01-30","value":{"option":"heavy"}},{"type":"period","id":"23315ac1-a2ca-4da1-9566-cde76d0c862b","date":"2016-09-08","value":{"option":"medium"}},{"type":"period","id":"3ff5326c-194f-4517-9e75-0c8e3d4f99f0","date":"2021-04-30","value":{"option":"medium"}},{"type":"period","id":"46cdc1ed-c805-493b-9fbe-03a96a24817d","date":"2020-07-06","value":{"option":"medium"}},{"type":"period","id":"35589afc-9e83-4a0a-8c69-12a50192cc8a","date":"2018-11-14","value":{"option":"medium"}},{"type":"period","id":"217636d2-1726-425d-b151-ce0b45717b93","date":"2016-09-06","value":{"option":"heavy"}},{"type":"period","id":"a63c491d-a485-4561-9389-d4b177cc507b","date":"2020-12-31","value":{"option":"medium"}},{"type":"period","id":"063f84f9-d4cd-4f30-8700-9ae32b004c84","date":"2018-01-08","value":{"option":"light"}},{"type":"period","id":"4709f9ea-62e8-4b2d-a32c-8391acc6aba1","date":"2021-05-01","value":{"option":"medium"}},{"type":"period","id":"6fd6036e-81c8-4f17-8505-33c0bd7111e3","date":"2021-01-30","value":{"option":"heavy"}},{"type":"period","id":"69effb6d-f4c5-49dc-b76b-1839346afcc0","date":"2020-08-07","value":{"option":"medium"}},{"type":"period","id":"d31dd1ef-13f6-489a-b723-dff650589dcb","date":"2022-01-16","value":{"option":"medium"}},{"type":"period","id":"d919eeeb-a968-4a75-ada7-0f284573a3e7","date":"2021-08-25","value":{"option":"heavy"}},{"type":"period","id":"f8de42f6-7010-4d85-a470-51ab0a060c1b","date":"2020-11-30","value":{"option":"medium"}},{"type":"period","id":"09bcec85-abc7-4c91-bb74-450857586d52","date":"2020-12-30","value":{"option":"heavy"}},{"type":"period","id":"f33e60ff-1945-4961-8aea-d2e30b96abbb","date":"2017-03-02","value":{"option":"heavy"}},{"type":"period","id":"3e27c586-19fe-4616-9c67-28571b871f62","date":"2018-04-14","value":{"option":"light"}},{"type":"period","id":"5863654f-4a0e-461b-ac45-6384580b6c2f","date":"2018-06-11","value":{"option":"medium"}},{"type":"period","id":"ae08a937-72a7-46c4-a667-1e36df7fc3c5","date":"2020-02-24","value":{"option":"heavy"}},{"type":"period","id":"f4d023a2-526c-4e53-9d07-2119a56bf9e5","date":"2020-09-04","value":{"option":"medium"}},{"type":"period","id":"7625401b-a3bf-4912-93eb-a8f1948e1b7a","date":"2019-12-21","value":{"option":"medium"}},{"type":"period","id":"924c5fb6-cc48-46dd-89df-7b8809a1f815","date":"2021-09-26","value":{"option":"medium"}},{"type":"period","id":"5e6f9393-32da-4c5a-97b0-afc48fe6ef21","date":"2018-05-12","value":{"option":"medium"}},{"type":"period","id":"2684da09-ec01-4a57-867c-a485445adc1b","date":"2018-02-06","value":{"option":"medium"}},{"type":"period","id":"ca2bbf7e-c957-495a-9357-2bdc815cdd18","date":"2018-05-11","value":{"option":"medium"}},{"type":"period","id":"ba7d4966-ae95-4ae3-a729-7e3228db7735","date":"2021-10-25","value":{"option":"medium"}},{"type":"period","id":"0f34e1e9-d9d7-4068-a1cb-276a4b6d3e80","date":"2019-08-22","value":{"option":"medium"}},{"type":"period","id":"636f8510-49d0-4f08-92df-87e1104a5708","date":"2017-09-04","value":{"option":"medium"}},{"type":"period","id":"9095725c-43ec-4074-8f01-62b53e7aa719","date":"2020-06-10","value":{"option":"light"}},{"type":"period","id":"19c3db7d-a9b9-49ae-b91d-8943c368f6d6","date":"2021-10-23","value":{"option":"medium"}},{"type":"period","id":"dcc57ad7-b376-461b-aeb3-ddcd7c91ca80","date":"2017-12-06","value":{"option":"medium"}},{"type":"period","id":"3ee97ba9-aaca-4b66-8019-f80801f8c477","date":"2017-10-01","value":{"option":"light"}},{"type":"period","id":"4957af90-e96b-47c4-89b4-c365fdfb1e36","date":"2020-11-05","value":{"option":"light"}},{"type":"period","id":"9e83fb72-67e0-48ba-9d57-d0f98da8ce49","date":"2016-11-05","value":{"option":"light"}},{"type":"period","id":"3b400b4d-f9ac-45ee-a594-e252850fe38e","date":"2017-08-09","value":{"option":"light"}},{"type":"period","id":"35b3bc81-91ee-45ce-9b5b-86be8250aea7","date":"2022-02-11","value":{"option":"light"}},{"type":"period","id":"6edc2e96-6ca8-44bd-b16d-cd727cc831ff","date":"2017-12-10","value":{"option":"light"}},{"type":"period","id":"d446de82-74ee-4949-9ed0-21a5a6ccfe22","date":"2017-03-06","value":{"option":"light"}},{"type":"period","id":"ff993f8d-2b89-442a-8da4-af9b7739cc1d","date":"2020-10-04","value":{"option":"heavy"}},{"type":"period","id":"d43ef019-7995-4385-8ae9-a7d919be2fe1","date":"2018-07-16","value":{"option":"heavy"}},{"type":"period","id":"3b373849-bfa7-4c06-a42e-699fc1f55a4f","date":"2019-07-25","value":{"option":"light"}},{"type":"period","id":"cea27919-51a6-4070-add8-b5d696807cba","date":"2020-04-09","value":{"option":"light"}},{"type":"period","id":"3ab9040a-e8d6-4463-a0ea-1bfa430a6748","date":"2018-11-15","value":{"option":"light"}},{"type":"period","id":"cf9f31de-2576-4c60-b791-b45572c2392e","date":"2020-09-06","value":{"option":"light"}},{"type":"period","id":"89b1b43e-e417-4076-a751-c274c588f26f","date":"2016-12-04","value":{"option":"light"}},{"type":"period","id":"b7578147-24e1-448d-a92f-ceb9bd5cffb6","date":"2021-04-29","value":{"option":"medium"}},{"type":"period","id":"82a576a2-4106-4e50-acea-d41da28a1751","date":"2019-08-24","value":{"option":"light"}},{"type":"period","id":"ce4d707c-359e-40b2-aa53-e720e559706c","date":"2019-10-19","value":{"option":"medium"}},{"type":"period","id":"b2e3ee4d-b3ea-4a9f-8a8c-953f4fcccc47","date":"2020-12-29","value":{"option":"medium"}},{"type":"period","id":"97d23afc-3d00-4c44-bab8-cd6589a3908b","date":"2016-11-02","value":{"option":"heavy"}},{"type":"period","id":"4f7ad174-29bd-499c-b6b9-135d6f9740c0","date":"2019-02-12","value":{"option":"light"}},{"type":"period","id":"b7a2448d-6650-4c8e-9177-62dd3f05254b","date":"2021-09-27","value":{"option":"light"}},{"type":"period","id":"8971280b-b4b0-4a79-b43c-659cd63fc1d9","date":"2019-10-17","value":{"option":"heavy"}},{"type":"period","id":"94a113a2-9ef7-437a-90f9-17605c6ebe1e","date":"2018-07-18","value":{"option":"medium"}},{"type":"period","id":"c61bd4cf-2546-43fc-b084-5c9d84c0b49e","date":"2016-10-05","value":{"option":"heavy"}},{"type":"period","id":"21aa89dd-01a6-4b0e-8aa5-82ce0d6405a5","date":"2019-05-15","value":{"option":"medium"}},{"type":"period","id":"148df71b-e15b-4d9a-ba9d-4e4e34ebe5d0","date":"2018-10-17","value":{"option":"light"}},{"type":"period","id":"d4714fda-3156-4a34-aa94-c5a42e41d83a","date":"2017-09-05","value":{"option":"light"}},{"type":"period","id":"ed4e89ed-a643-4fa7-92d6-d0ee20ad0a29","date":"2018-10-16","value":{"option":"medium"}},{"type":"period","id":"6087d84a-8978-489a-9116-0e030472bc01","date":"2017-05-08","value":{"option":"light"}},{"type":"period","id":"9fc01aa3-f960-42be-ba52-0fcc2a442ba4","date":"2018-10-15","value":{"option":"medium"}},{"type":"period","id":"b083262d-612c-4c23-bae4-ab5f93e78af1","date":"2017-06-05","value":{"option":"medium"}},{"type":"period","id":"022441f6-0c19-433a-9804-ee258aef30d9","date":"2016-10-07","value":{"option":"light"}},{"type":"period","id":"f39bad13-c599-4450-93d1-4f811399817c","date":"2017-06-07","value":{"option":"light"}},{"type":"period","id":"f9143236-ccef-4e03-b684-d514fcd487b7","date":"2020-08-05","value":{"option":"medium"}},{"type":"period","id":"7395b334-932f-45b3-9bb4-ca8538da68ba","date":"2019-06-19","value":{"option":"medium"}},{"type":"period","id":"4726eed6-fa4d-411c-8d8a-c867afd0ced6","date":"2017-04-03","value":{"option":"light"}},{"type":"period","id":"ecfd1da1-f56e-4232-aac2-011fe3c369e1","date":"2017-02-03","value":{"option":"light"}},{"type":"period","id":"107817fd-0026-4730-9f39-8f8682125501","date":"2018-08-21","value":{"option":"light"}},{"type":"period","id":"117b721f-d007-4b44-a12a-07136044c154","date":"2021-05-02","value":{"option":"light"}},{"type":"period","id":"029d2c74-c4a5-46e7-90a0-44a6ece5a81d","date":"2019-06-21","value":{"option":"light"}},{"type":"period","id":"a0a884d7-48b0-45e9-a637-114307035cde","date":"2016-11-03","value":{"option":"medium"}},{"type":"period","id":"aa893b9d-2af7-41d5-a3c0-918dede7db4a","date":"2017-07-05","value":{"option":"heavy"}},{"type":"period","id":"b65bf437-18bc-44c7-836d-aa6b3c536e11","date":"2019-11-22","value":{"option":"light"}},{"type":"period","id":"7f1a52d6-a5f4-4b12-adae-9cb7b149be6a","date":"2019-10-21","value":{"option":"light"}},{"type":"period","id":"37aee742-cdf1-494b-ba18-5f609d009e09","date":"2019-04-18","value":{"option":"light"}},{"type":"period","id":"75af9c95-b5dd-418e-884c-e41731ece417","date":"2018-06-13","value":{"option":"light"}},{"type":"period","id":"84b1dd58-afe4-48b5-9c69-6f707e42269b","date":"2020-02-26","value":{"option":"medium"}},{"type":"period","id":"306e8eb1-6a25-46dd-8483-38b58ae5d24e","date":"2017-12-09","value":{"option":"light"}},{"type":"period","id":"5ddc428c-c2b5-4e08-9d86-0a557a6c8472","date":"2017-01-04","value":{"option":"light"}},{"type":"period","id":"47b24f09-3b26-4500-9485-b0e69e616017","date":"2020-09-02","value":{"option":"medium"}},{"type":"period","id":"5a582965-8720-408d-bb5d-7376e0a96fcb","date":"2020-08-08","value":{"option":"light"}},{"type":"period","id":"af3e8d58-33dc-4809-80cd-bf5673fba6da","date":"2017-10-04","value":{"option":"medium"}},{"type":"period","id":"239c9671-3ad7-44c6-8348-9cf33b27634c","date":"2018-04-10","value":{"option":"heavy"}},{"type":"period","id":"40ca8ce0-8c90-46e4-a7f2-b4c42e49a8eb","date":"2019-09-21","value":{"option":"light"}},{"type":"period","id":"1b0e5242-b5f5-41ef-96e4-82caa3c71a42","date":"2019-01-12","value":{"option":"light"}},{"type":"period","id":"dcf2a023-7700-4601-bb8e-cafb83ab93aa","date":"2018-10-18","value":{"option":"light"}},{"type":"period","id":"ec971093-aac8-42b6-b946-0ca10fafc17d","date":"2018-03-09","value":{"option":"heavy"}},{"type":"period","id":"afc5a2ee-0c29-472d-8035-ca76cb326acb","date":"2019-09-18","value":{"option":"medium"}},{"type":"period","id":"b6d92183-c9b7-4c8b-8837-0820264a0e5c","date":"2019-01-10","value":{"option":"medium"}},{"type":"period","id":"3709bacd-58ee-4927-9d65-7fa441b1c18c","date":"2016-09-10","value":{"option":"light"}},{"type":"period","id":"08ae98f9-fbc4-4c83-aff2-18881794e490","date":"2020-07-08","value":{"option":"light"}},{"type":"period","id":"befbdc65-252a-45fa-8937-6cd28d4c12c1","date":"2019-04-14","value":{"option":"medium"}},{"type":"period","id":"d6981fce-64d4-4bb3-9203-a7c72127dcff","date":"2020-06-08","value":{"option":"heavy"}},{"type":"period","id":"5be1add7-f02c-4e10-8a56-ccbc8b3fe93e","date":"2021-05-30","value":{"option":"medium"}},{"type":"period","id":"396746da-eaa5-49b3-81f7-ae20b5b2decf","date":"2016-12-05","value":{"option":"light"}},{"type":"period","id":"a56e8c88-5832-4a0a-98b9-5cc87756d0cf","date":"2018-12-14","value":{"option":"light"}},{"type":"period","id":"d9b837fe-a308-4f7e-a2fd-b4aa53169f8b","date":"2019-12-24","value":{"option":"light"}},{"type":"period","id":"b13a9514-68c5-4258-af28-d5312855441d","date":"2022-03-14","value":{"option":"medium"}},{"type":"period","id":"85c90c28-7d93-4139-a272-8d607005803e","date":"2021-11-19","value":{"option":"heavy"}},{"type":"period","id":"ab18648a-a1ae-48c0-b70a-6b2ac51c4491","date":"2017-08-08","value":{"option":"medium"}},{"type":"period","id":"23a71194-6885-40f2-a2f8-41a9614e461e","date":"2020-04-06","value":{"option":"medium"}},{"type":"period","id":"e538609a-a509-4511-9ab7-6ba119a803e8","date":"2017-04-04","value":{"option":"light"}},{"type":"period","id":"67677212-bfca-470c-bd89-c1d163febe73","date":"2018-12-11","value":{"option":"heavy"}},{"type":"period","id":"ba371d70-0929-44eb-9a04-a31943a4a4de","date":"2018-09-17","value":{"option":"medium"}},{"type":"period","id":"5a82abf7-535c-4766-bc5a-1341108d3977","date":"2021-08-26","value":{"option":"medium"}},{"type":"period","id":"4d46032e-7762-47ec-81e1-31e3fe89ae9c","date":"2020-05-09","value":{"option":"light"}},{"type":"period","id":"767bae21-0f74-4173-b278-c41b10328057","date":"2019-11-20","value":{"option":"medium"}},{"type":"period","id":"91cad463-8151-4bd3-a4ff-e5acc34f9db6","date":"2017-03-03","value":{"option":"medium"}},{"type":"period","id":"a1d6833c-021c-456c-bc09-e14ecd22383f","date":"2019-07-22","value":{"option":"heavy"}},{"type":"period","id":"9de0d19c-6fad-430c-9c5d-d5937c2bf9a5","date":"2018-06-12","value":{"option":"medium"}},{"type":"period","id":"b5a5a740-ee98-45b4-81a6-213c678a56d3","date":"2020-02-25","value":{"option":"heavy"}},{"type":"period","id":"689e3fc1-4272-4f57-8a56-40c021313ec2","date":"2021-07-29","value":{"option":"light"}},{"type":"period","id":"4d0a7e3c-0642-4c37-8e28-370f0e94acce","date":"2019-10-18","value":{"option":"heavy"}},{"type":"period","id":"0fc9913e-304f-40fd-8931-51fa0cccc8c7","date":"2020-11-03","value":{"option":"medium"}},{"type":"period","id":"98c7fb3c-a930-4165-9e85-a40581cd67db","date":"2021-07-28","value":{"option":"medium"}},{"type":"period","id":"3df3171b-f9b0-447d-8852-bf3575bc402d","date":"2019-03-16","value":{"option":"light"}},{"type":"period","id":"6fc33ebd-ca05-4c3b-88ff-1a654831fe00","date":"2019-09-19","value":{"option":"medium"}},{"type":"period","id":"6498c8f7-c30a-4073-b380-879b3533214b","date":"2019-01-11","value":{"option":"medium"}},{"type":"period","id":"0c301711-4db9-4850-a6ba-56904c2d3979","date":"2021-03-02","value":{"option":"light"}},{"type":"period","id":"482052bf-442b-424c-9fee-2602588b50db","date":"2020-08-09","value":{"option":"light"}},{"type":"period","id":"7e8a7fb7-414a-4550-bd13-3681d346e560","date":"2019-03-17","value":{"option":"light"}},{"type":"period","id":"5bf52ccc-f3d7-442f-aada-d66ef1429eb0","date":"2019-01-09","value":{"option":"heavy"}},{"type":"period","id":"5536b6a4-5c6a-4b1a-a700-d364f7008170","date":"2021-02-28","value":{"option":"medium"}},{"type":"period","id":"96772dcb-a012-445f-8824-64745466db81","date":"2020-05-07","value":{"option":"medium"}},{"type":"period","id":"1efc9a14-d816-4366-9afb-6d1551d0933d","date":"2017-10-29","value":{"option":"medium"}},{"type":"period","id":"67e71afc-3a49-4227-a106-c0a1d634bc66","date":"2019-05-18","value":{"option":"light"}},{"type":"period","id":"087ac59e-246d-4959-83bd-9c7e8076fc81","date":"2021-05-29","value":{"option":"medium"}},{"type":"period","id":"849bb7f1-d176-4d28-8bbe-c8efd7ca252e","date":"2020-10-06","value":{"option":"light"}},{"type":"period","id":"8f68b09b-b53a-4bfa-a59c-45e46ebf232a","date":"2018-12-13","value":{"option":"medium"}},{"type":"period","id":"ec9e24e0-1213-4bec-925a-8b6a2e64624f","date":"2022-04-12","value":{"option":"medium"}},{"type":"period","id":"5574d286-55e4-41e5-84c3-8a95e1815689","date":"2022-05-11","value":{"option":"light"}},{"type":"period","id":"cd562a65-479b-42a8-9ced-6df3e447c950","date":"2020-05-10","value":{"option":"light"}},{"type":"period","id":"a9ef657d-820b-4653-9d86-f9d4e627a511","date":"2020-06-09","value":{"option":"medium"}},{"type":"period","id":"a2b1b946-3163-492c-9123-4c4e96df2375","date":"2018-02-10","value":{"option":"light"}},{"type":"period","id":"0cd1e5be-a6b3-40c2-990f-f6e5db344dcc","date":"2018-05-14","value":{"option":"light"}},{"type":"period","id":"2a6f060f-67cf-48ae-ba6c-2878b833d6ac","date":"2020-11-04","value":{"option":"light"}},{"type":"period","id":"9c955184-36d2-4097-a80c-3e652396ef84","date":"2022-01-15","value":{"option":"medium"}},{"type":"period","id":"8805f42a-3109-4cf1-ae65-1cd260c3940b","date":"2017-02-01","value":{"option":"medium"}},{"type":"period","id":"9872bd9a-96ce-45a1-823e-d62a5fd15009","date":"2020-12-04","value":{"option":"light"}},{"type":"period","id":"80a0f5ed-ef5f-400e-be03-dbdb5b39cb01","date":"2018-09-16","value":{"option":"heavy"}},{"type":"period","id":"aa1d6f19-1883-4864-9434-dac66c391ec6","date":"2017-05-06","value":{"option":"medium"}},{"type":"period","id":"5d9afc1b-dd95-406c-98c6-fda0204f10d6","date":"2017-08-06","value":{"option":"medium"}},{"type":"period","id":"13542a2b-7e06-49bb-adfd-83b24f6b0f77","date":"2020-07-04","value":{"option":"medium"}},{"type":"period","id":"adf39739-3762-4ac5-90bc-643333786688","date":"2018-11-13","value":{"option":"medium"}},{"type":"period","id":"20a4f594-2ab8-4e43-aae4-d370026fec14","date":"2019-06-18","value":{"option":"heavy"}},{"type":"period","id":"29438216-bf08-42da-afe5-df9561ce555c","date":"2019-11-24","value":{"option":"light"}},{"type":"period","id":"28ca7062-788c-4ea4-b02c-ab053160760c","date":"2016-10-08","value":{"option":"light"}},{"type":"period","id":"378016ac-9bbd-40a3-b620-157477f51079","date":"2017-10-30","value":{"option":"medium"}},{"type":"period","id":"81a765be-8d67-4810-8463-87b597b89502","date":"2018-11-11","value":{"option":"heavy"}},{"type":"period","id":"ae0dfcec-ba5c-469a-94c3-80402577c382","date":"2018-03-10","value":{"option":"medium"}},{"type":"period","id":"00c02055-8fb6-4acf-8bae-5bc208eaf021","date":"2021-06-27","value":{"option":"heavy"}},{"type":"period","id":"e0f79e3c-f9b5-4ec5-b782-45c114e432e2","date":"2020-01-24","value":{"option":"heavy"}},{"type":"period","id":"5da14d7a-d11d-4727-b199-ae3b2f80d9f6","date":"2021-06-26","value":{"option":"heavy"}},{"type":"period","id":"de31fe96-8b6d-45f4-b799-1b9d1c094b62","date":"2019-05-16","value":{"option":"medium"}},{"type":"period","id":"f8949d0f-2ef9-46fb-b59a-3a3955f15f8d","date":"2019-03-15","value":{"option":"medium"}},{"type":"period","id":"8e046b74-a54e-481d-92af-5a6bc4d04a24","date":"2022-02-13","value":{"option":"medium"}},{"type":"period","id":"4726f3ba-f7ae-4075-bc28-5e8014ee1d70","date":"2019-12-25","value":{"option":"light"}},{"type":"period","id":"170e97e8-c455-4d55-b470-c542d7e0e298","date":"2022-02-12","value":{"option":"heavy"}},{"type":"period","id":"e67b1fb8-538c-47fc-b2ab-5d445d4442b7","date":"2018-01-05","value":{"option":"heavy"}},{"type":"period","id":"e71416a7-9aab-4a05-9736-7bcd07fb7857","date":"2019-11-23","value":{"option":"light"}},{"type":"period","id":"4ea8916c-9d79-4eec-b0f9-01e07442f1ae","date":"2022-04-13","value":{"option":"medium"}},{"type":"period","id":"6c7bdd0a-ab13-4cf5-b70b-73f4c2199129","date":"2022-06-05","value":{"option":"medium"}},{"type":"period","id":"d3cc75b9-e1f8-4d0c-a660-1febd5af475f","date":"2022-08-29","value":{"option":"medium"}},{"type":"period","id":"8a317b78-981f-42e1-aa69-34c0ba518602","date":"2022-11-27","value":{"option":"medium"}},{"type":"period","id":"d9b372cd-01ed-455d-800c-19bf809c1631","date":"2021-01-29","value":{"option":"heavy"}},{"type":"period","id":"ebd7d514-328c-4e85-b394-1cbbd3131df2","date":"2020-05-08","value":{"option":"medium"}},{"type":"period","id":"5dae1a2a-1a71-4103-a612-e4694d15418d","date":"2022-01-14","value":{"option":"light"}},{"type":"period","id":"e98e08ad-d509-4a1c-a2a6-8f2a11e37192","date":"2021-07-30","value":{"option":"light"}},{"type":"period","id":"159c0c6c-30f6-4c67-a2c9-e306fb6313c7","date":"2021-03-28","value":{"option":"light"}},{"type":"period","id":"367fdf99-4c26-4ec2-9054-111f7883cb71","date":"2019-07-24","value":{"option":"light"}},{"type":"period","id":"d22b553d-e096-4eab-9fe2-54d8c2da1b04","date":"2018-11-12","value":{"option":"heavy"}},{"type":"period","id":"dddd07f4-b559-43b2-ace1-521278edee45","date":"2021-10-26","value":{"option":"light"}},{"type":"period","id":"6a9019c0-c2e9-4b39-977e-c711ae075d11","date":"2019-07-23","value":{"option":"light"}},{"type":"period","id":"92869d53-f508-4a1f-a21f-684856ca0fb7","date":"2021-03-26","value":{"option":"medium"}},{"type":"period","id":"070ca6c5-a4a3-4c08-b52c-579d21dd91ce","date":"2016-11-04","value":{"option":"medium"}},{"type":"period","id":"03a36c67-4854-4aa9-be1f-d4ca10b96505","date":"2017-10-02","value":{"option":"heavy"}},{"type":"period","id":"eacab8c0-1a11-4748-a401-af6b65236da3","date":"2017-01-02","value":{"option":"heavy"}},{"type":"period","id":"fd4b1454-4604-429e-a360-fada67ca887f","date":"2019-02-11","value":{"option":"light"}},{"type":"period","id":"0ca5582d-66db-4833-a75c-7d8fd79f220b","date":"2017-11-01","value":{"option":"light"}},{"type":"period","id":"1298c8d1-53b2-45cb-a278-589181659c3e","date":"2021-03-01","value":{"option":"light"}},{"type":"period","id":"0d0ed03a-dc08-4c37-9589-adb32a0a73ad","date":"2016-09-07","value":{"option":"medium"}},{"type":"period","id":"081a93c5-b64e-4931-90ca-df51c0fd7686","date":"2017-06-06","value":{"option":"medium"}},{"type":"period","id":"8ad376c0-cd8b-4258-8ddf-8cb6ba11f235","date":"2018-07-17","value":{"option":"medium"}},{"type":"period","id":"ed169104-c4ad-400f-b9c9-9d63a9ebad7a","date":"2018-05-10","value":{"option":"medium"}},{"type":"period","id":"af572e0e-a9d6-49f1-9786-d26707738379","date":"2021-02-27","value":{"option":"medium"}},{"type":"period","id":"c2b80672-0846-44db-99ba-669a817ec385","date":"2017-04-01","value":{"option":"heavy"}},{"type":"period","id":"810bfbf0-87c0-4474-8ecc-acd35f9bb6d4","date":"2019-04-17","value":{"option":"medium"}},{"type":"period","id":"d6974068-2602-4579-a826-a8ecf14e71e3","date":"2022-04-11","value":{"option":"heavy"}},{"type":"period","id":"99c9422e-7595-463f-a0c2-c269456c3b1e","date":"2022-05-10","value":{"option":"medium"}},{"type":"period","id":"5bb5644f-d88b-4122-b287-1ea854a1b9ee","date":"2022-08-06","value":{"option":"medium"}},{"type":"period","id":"4f21b0f5-706a-4a80-b432-acda0d3da15e","date":"2022-10-28","value":{"option":"medium"}},{"type":"period","id":"07ea411d-e174-4773-a4ff-131c8ae9bb92","date":"2018-08-19","value":{"option":"medium"}},{"type":"period","id":"8af56112-8f79-4149-a49b-98a65d5c6ab2","date":"2019-09-22","value":{"option":"light"}},{"type":"period","id":"600d64e0-cae0-4f1a-980f-bb56383c9e33","date":"2021-12-16","value":{"option":"medium"}},{"type":"period","id":"e364cf4b-ae19-47ef-907a-bfe6e1db85a4","date":"2017-07-07","value":{"option":"light"}},{"type":"period","id":"7e22b911-cc95-429b-824c-fda824a549f2","date":"2018-07-20","value":{"option":"light"}},{"type":"period","id":"5cc06f26-67e6-4aac-b346-fc9c04184592","date":"2018-03-14","value":{"option":"light"}},{"type":"period","id":"ccdeadc7-44e7-4223-875f-61ba0a10beb0","date":"2016-09-09","value":{"option":"medium"}},{"type":"period","id":"f82cde8a-0a77-48cd-8926-2743d33ebca4","date":"2020-06-11","value":{"option":"light"}},{"type":"period","id":"3cc98ade-a5f6-49a1-8972-867c7948a418","date":"2021-03-25","value":{"option":"medium"}},{"type":"period","id":"13761f44-dc8d-417a-9759-c354919f5102","date":"2017-04-02","value":{"option":"medium"}},{"type":"period","id":"94027a7f-3b77-46a1-92ec-9f3a6db0d8a7","date":"2020-01-25","value":{"option":"medium"}},{"type":"period","id":"1655fe13-7c2b-4179-811c-a85d26f415e7","date":"2018-06-09","value":{"option":"medium"}},{"type":"period","id":"0e45ff1c-3f9b-468e-9717-b9a797159d6c","date":"2018-07-19","value":{"option":"light"}},{"type":"period","id":"232248fd-c33c-4734-9ace-c796f58f763c","date":"2019-08-21","value":{"option":"heavy"}},{"type":"period","id":"b0c7c52a-9553-4eaf-8445-a280940fa5ab","date":"2017-10-05","value":{"option":"light"}},{"type":"period","id":"0da8abf5-eb0a-48b3-80f0-3e3f7fc986be","date":"2018-12-15","value":{"option":"light"}},{"type":"period","id":"f7f342c2-747b-4e50-9b2e-8e8bfae375fc","date":"2020-04-08","value":{"option":"medium"}},{"type":"period","id":"9e1df118-e24b-4057-9fa8-5eca9268f3cc","date":"2019-07-21","value":{"option":"light"}},{"type":"period","id":"4ab77f89-d349-486b-ba1d-577c3b2c6b2d","date":"2018-09-20","value":{"option":"light"}},{"type":"period","id":"16560dea-4c8f-418f-94ef-0a1dabf8c085","date":"2021-08-29","value":{"option":"light"}},{"type":"period","id":"bc003b30-fe9d-4a8a-8d5a-9ad6e26da6ab","date":"2021-01-02","value":{"option":"light"}},{"type":"period","id":"a3ce3d3c-bdb9-4f0d-9187-5ca2a4d3a6fe","date":"2022-04-14","value":{"option":"light"}},{"type":"period","id":"61c3be45-b3a6-4759-9a73-d0060b50fe74","date":"2022-06-07","value":{"option":"medium"}},{"type":"period","id":"bdc3f75f-5c78-4ec1-96f3-54eec6c4b321","date":"2022-08-31","value":{"option":"light"}},{"type":"period","id":"f80de9e9-9b6d-493c-86ed-8e900ac60d1b","date":"2022-11-29","value":{"option":"light"}},{"type":"period","id":"ba68e4eb-d18c-4e9b-a173-0532d18df79d","date":"2017-01-03","value":{"option":"medium"}},{"type":"period","id":"d7391253-7316-4473-b885-78eef7008a49","date":"2016-12-03","value":{"option":"medium"}},{"type":"period","id":"b58c783e-da71-4a59-954f-66a28f6b6edb","date":"2020-07-05","value":{"option":"medium"}},{"type":"period","id":"e6780066-5db5-4cfc-a713-b79056db8e7c","date":"2017-01-05","value":{"option":"light"}},{"type":"period","id":"7a238978-775e-4b3c-9006-c3e29e15c56b","date":"2021-03-27","value":{"option":"medium"}},{"type":"period","id":"d843eb02-8bf6-4a64-918d-401fbd5b32e2","date":"2017-09-01","value":{"option":"heavy"}},{"type":"period","id":"043ce24a-25fb-4c93-a918-5be8b92908cf","date":"2018-06-10","value":{"option":"heavy"}},{"type":"period","id":"b0208155-b776-471e-8850-13c5c80117a8","date":"2021-11-20","value":{"option":"light"}},{"type":"period","id":"dccb0998-3ecc-408a-aa9b-c653dea8b0ea","date":"2021-07-27","value":{"option":"medium"}},{"type":"period","id":"d78606fb-7c77-4d3a-86af-5f682af70300","date":"2020-01-26","value":{"option":"light"}},{"type":"period","id":"cca13f05-aaa6-4710-81e1-8440c9222ee0","date":"2021-07-26","value":{"option":"medium"}},{"type":"period","id":"38ab9610-78af-46e2-859b-0b6b25739ff1","date":"2018-01-07","value":{"option":"medium"}},{"type":"period","id":"3ac88b39-0e73-4656-8e3b-fb31b82efdfb","date":"2021-10-24","value":{"option":"medium"}},{"type":"period","id":"e6d8d1b5-724a-4c70-a462-9eb94edb5865","date":"2017-08-07","value":{"option":"medium"}},{"type":"period","id":"d28d09d3-fb0d-49bd-8c18-df95ae8e1cbf","date":"2020-11-01","value":{"option":"medium"}},{"type":"period","id":"ee13da90-5f4a-4167-87e5-3eec6fdf3d10","date":"2017-10-28","value":{"option":"light"}},{"type":"period","id":"8517f55e-ad0b-4a81-a88f-cc2867b2f604","date":"2018-10-14","value":{"option":"heavy"}},{"type":"period","id":"9cd886e2-96b9-4c8e-8d5d-9ae41faf8292","date":"2021-09-24","value":{"option":"heavy"}},{"type":"period","id":"845735ec-7225-474f-89d4-fd2db157f8cf","date":"2017-06-08","value":{"option":"light"}},{"type":"period","id":"78a09ffc-d8bc-4a8c-a0da-9865263acd23","date":"2018-08-20","value":{"option":"medium"}},{"type":"period","id":"fd1029aa-f07b-4b4a-ab06-d2528652e65f","date":"2021-05-28","value":{"option":"heavy"}},{"type":"period","id":"ad462910-834b-4f81-92f6-d01128b8fdae","date":"2022-03-15","value":{"option":"light"}},{"type":"period","id":"21cc419e-e214-4275-aa3d-0379e4fae070","date":"2022-06-08","value":{"option":"light"}},{"type":"period","id":"07ab7885-b3bb-485a-8753-75b535af8352","date":"2022-09-01","value":{"option":"light"}},{"type":"period","id":"3adeaf9c-4886-4f88-9147-df7f6c7c6f68","date":"2022-11-30","value":{"option":"light"}},{"type":"period","id":"a574ee80-54c9-401b-b35d-2a41d34bcb7b","date":"2017-10-03","value":{"option":"medium"}},{"type":"period","id":"6394587d-5f2f-4bbb-928b-c29538dc002b","date":"2020-06-07","value":{"option":"medium"}},{"type":"period","id":"1982daa9-a3cb-4fd2-b880-a23ccda0aa3c","date":"2017-12-08","value":{"option":"medium"}},{"type":"period","id":"2395e823-485e-4581-85f2-25069d302b2f","date":"2019-09-20","value":{"option":"medium"}},{"type":"period","id":"fbb0fbd4-ce7f-4585-a145-77ef1834ed51","date":"2018-08-22","value":{"option":"light"}},{"type":"period","id":"4db3f311-a53f-4545-9c05-93df31df457d","date":"2017-07-08","value":{"option":"light"}},{"type":"period","id":"95472fd7-2a6b-42c3-8e6e-d014249cd141","date":"2020-01-27","value":{"option":"light"}},{"type":"period","id":"5ab72d01-2a11-41e1-b066-ba26a26b0d20","date":"2017-05-05","value":{"option":"heavy"}},{"type":"period","id":"5d62216d-9176-4bc2-8a45-6af82c382526","date":"2019-11-21","value":{"option":"medium"}},{"type":"period","id":"8d9f6209-33aa-4b4b-a532-a92915e72ebb","date":"2017-12-07","value":{"option":"medium"}},{"type":"period","id":"64fc484c-6d19-4dec-b08c-d2a75995ab2d","date":"2019-02-08","value":{"option":"heavy"}},{"type":"period","id":"b6545182-44d6-458d-af00-179076ea52f4","date":"2019-02-09","value":{"option":"medium"}},{"type":"period","id":"20678afe-e791-4c24-9023-cb0070ed512f","date":"2020-11-02","value":{"option":"medium"}},{"type":"period","id":"fc17f283-6423-4625-aaba-c8329f210d21","date":"2022-02-14","value":{"option":"light"}},{"type":"period","id":"b2273781-3978-4873-800e-5761c08cd68e","date":"2020-01-23","value":{"option":"heavy"}},{"type":"period","id":"267c27fd-bca1-46d5-a36c-6ba9a93c7778","date":"2017-05-09","value":{"option":"light"}},{"type":"period","id":"c14299e8-76ea-4a6d-ba47-9e269133cd31","date":"2019-08-25","value":{"option":"light"}},{"type":"period","id":"f7e4a9a5-8f48-469f-9c1b-d205980070c4","date":"2020-10-07","value":{"option":"light"}},{"type":"period","id":"8e326491-21d1-47b1-ae89-0a81f4617f6f","date":"2020-04-10","value":{"option":"light"}},{"type":"period","id":"1c7da178-e136-483e-9c2f-d067ee5bf457","date":"2017-01-06","value":{"option":"light"}},{"type":"period","id":"7ac7bc6a-5513-4614-a9f9-36605ea6991b","date":"2022-06-06","value":{"option":"medium"}},{"type":"period","id":"7170d5b1-e62f-4063-952d-bca338e089bb","date":"2022-08-30","value":{"option":"medium"}},{"type":"period","id":"c08e00dd-c56f-4aba-ab6b-f5df99c986a1","date":"2022-11-28","value":{"option":"medium"}},{"type":"period","id":"aa33d21d-23b4-4282-9fcb-6a5a35b7c255","date":"2019-02-10","value":{"option":"medium"}},{"type":"period","id":"88877792-49d7-4707-822b-8766c5b0ca0c","date":"2018-08-18","value":{"option":"heavy"}},{"type":"period","id":"739d988e-7bc1-4b67-a366-9dc3d558f06c","date":"2021-11-18","value":{"option":"medium"}},{"type":"period","id":"ca1affd3-89c4-4760-a35c-a87d2c8c8f88","date":"2021-11-21","value":{"option":"light"}},{"type":"period","id":"00b7ba2e-414f-4041-b170-adad5cb929f9","date":"2019-01-13","value":{"option":"light"}},{"type":"period","id":"7b02e11a-ca49-46b1-937a-c9e8e211f522","date":"2016-10-06","value":{"option":"medium"}},{"type":"period","id":"41c7c6cd-7930-42da-990e-ee5f3e065753","date":"2019-05-14","value":{"option":"heavy"}},{"type":"period","id":"dd008715-9ef6-451c-b95c-28c0c7681536","date":"2017-09-02","value":{"option":"medium"}},{"type":"period","id":"b14c0c1d-2547-431c-88c8-a8848298e526","date":"2021-09-25","value":{"option":"medium"}},{"type":"period","id":"161ed4d7-ac0b-4eb3-b5db-848972dce7ca","date":"2017-08-05","value":{"option":"heavy"}},{"type":"period","id":"0aa65318-4299-4e06-9e0a-e525d2a0a985","date":"2020-05-06","value":{"option":"medium"}},{"type":"period","id":"84ce3607-0b08-4030-805f-59434cb7c7d9","date":"2016-12-02","value":{"option":"medium"}},{"type":"period","id":"6e4c9410-cae9-435f-94f3-e8df6e32859a","date":"2019-03-14","value":{"option":"medium"}},{"type":"period","id":"f295bc3f-c004-47f8-b43a-035a2224a0d1","date":"2018-04-13","value":{"option":"medium"}},{"type":"period","id":"a5d90793-dbef-41bd-a0d2-0e9fac459da4","date":"2017-05-07","value":{"option":"medium"}},{"type":"period","id":"a644303c-7ca8-468f-a583-145bd302b475","date":"2017-01-31","value":{"option":"medium"}},{"type":"period","id":"e56f197c-6303-4a5d-acef-f670d287caa3","date":"2018-02-08","value":{"option":"medium"}},{"type":"period","id":"fa2db78b-dcf4-489a-8c56-f26dcd1506b0","date":"2021-02-26","value":{"option":"medium"}},{"type":"period","id":"ccc8829b-54db-45a1-bc6a-236f099766f5","date":"2018-01-06","value":{"option":"medium"}},{"type":"period","id":"2b51ba39-f4f8-4192-959d-8a7cb73608ae","date":"2022-03-13","value":{"option":"medium"}},{"type":"period","id":"99d3ee6c-f050-4df4-8259-5654799f44a2","date":"2022-05-08","value":{"option":"heavy"}},{"type":"period","id":"fc186a73-9a89-47bd-9764-0d57b7c04760","date":"2022-07-08","value":{"option":"medium"}},{"type":"period","id":"0717add5-27ee-42f7-b0ca-b29cf90d0004","date":"2022-10-02","value":{"option":"medium"}},{"type":"period","id":"5fe0d76d-18b2-4432-9c3b-1ec56b68042b","date":"2022-03-12","value":{"option":"light"}},{"type":"period","id":"be9d87ce-be0f-41c0-a7fb-ea00661e60db","date":"2022-05-07","value":{"option":"medium"}},{"type":"period","id":"28043f7d-3c05-4ea1-9990-128b74f48366","date":"2022-06-09","value":{"option":"light"}},{"type":"period","id":"13a5bc8b-75ed-4faf-beda-64a6e3c9d949","date":"2022-10-01","value":{"option":"light"}},{"type":"period","id":"28fc5cb5-bb57-4d27-8507-9412fd39c188","date":"2022-04-10","value":{"option":"heavy"}},{"type":"period","id":"e47179b3-e302-493c-bef1-ff3a35e07e36","date":"2022-05-09","value":{"option":"medium"}},{"type":"period","id":"d5e6763d-e542-4e15-8aba-80c38776ebde","date":"2022-08-05","value":{"option":"medium"}},{"type":"period","id":"45cc3c29-3fdf-4db4-b760-74e15465b354","date":"2022-10-04","value":{"option":"light"}},{"type":"period","id":"4e99d640-1926-439d-abc5-1f0bdf16b589","date":"2022-08-04","value":{"option":"heavy"}},{"type":"period","id":"e4140199-e665-482e-9580-2f9a595a3beb","date":"2022-10-03","value":{"option":"medium"}},{"type":"period","id":"dc1ca905-4e6d-4e57-9f27-0517a00411db","date":"2022-08-07","value":{"option":"light"}},{"type":"period","id":"eabda161-07f5-45fb-af25-8045d8e78bae","date":"2022-11-26","value":{"option":"medium"}},{"type":"period","id":"05dcf0ac-6979-4a65-83fe-5061dd14a50e","date":"2022-12-25","value":{"option":"medium"}},{"type":"period","id":"8d773e10-1761-4c79-bd3a-f20ebe9c6254","date":"2022-12-26","value":{"option":"heavy"}},{"type":"period","id":"548508d0-2f19-4c1d-bc8b-c6705b289ef4","date":"2022-12-27","value":{"option":"medium"}},{"type":"period","id":"892aa26c-3460-4f68-b526-415a2c7942e6","date":"2022-12-28","value":{"option":"medium"}},{"type":"period","id":"18d2cfa5-4262-4cf0-91dc-4c41f07fe83c","date":"2023-01-24","value":{"option":"medium"}},{"type":"period","id":"80b28a2f-d65b-4c7e-8fcf-c69f7f32c685","date":"2023-01-25","value":{"option":"medium"}},{"type":"period","id":"b0d5a43b-023c-43ad-830b-2491c4a20a6a","date":"2023-01-27","value":{"option":"light"}},{"type":"period","id":"908a6222-549a-478a-af8d-cd7daf9836c8","date":"2023-01-26","value":{"option":"light"}},{"type":"period","id":"1b084e8e-aca1-4969-a38c-f4fc474bb830","date":"2023-02-23","value":{"option":"light"}},{"type":"period","id":"58dda059-950e-48fd-ac86-eb002673b09d","date":"2023-03-28","value":{"option":"medium"}},{"type":"period","id":"75833a35-b804-4c18-a55a-18717cc8963a","date":"2023-04-26","value":{"option":"heavy"}},{"type":"period","id":"db063d3f-f4de-4839-8848-548a972cfb6f","date":"2023-05-27","value":{"option":"heavy"}},{"type":"period","id":"f51403ca-3f04-4d18-9e83-f7a8e867af9a","date":"2023-05-26","value":{"option":"medium"}},{"type":"period","id":"160a860b-0ccd-4bd2-9e53-6171a6e8d716","date":"2023-06-20","value":{"option":"light"}},{"type":"period","id":"2570ab26-9bdd-4f58-8299-b5c2fb746638","date":"2023-06-21","value":{"option":"medium"}},{"type":"period","id":"6cef99b2-c556-400f-acb9-3c1b5c93dc40","date":"2023-06-23","value":{"option":"light"}},{"type":"period","id":"2364d4d7-93f9-456f-868b-a0311c260fcb","date":"2023-07-16","value":{"option":"medium"}},{"type":"period","id":"41245918-d494-4f04-b9f9-aba4df720ef9","date":"2023-08-22","value":{"option":"medium"}},{"type":"period","id":"7f5653ad-3322-41c1-85fd-261dee1ca3c4","date":"2023-09-23","value":{"option":"medium"}},{"type":"period","id":"e2838def-76d0-49df-bee6-0ec00029a81d","date":"2023-09-25","value":{"option":"medium"}},{"type":"period","id":"5f8223ac-3c79-4f98-9207-155070b732ae","date":"2023-09-24","value":{"option":"heavy"}},{"type":"period","id":"576fb65a-b30b-4e25-8c7e-33db8eb9a61f","date":"2023-10-19","value":{"option":"medium"}},{"type":"period","id":"655c255f-081d-4b65-b83d-b8001259698f","date":"2023-10-22","value":{"option":"light"}},{"type":"period","id":"d9d20e15-36d7-433e-96dd-e23ce7540a45","date":"2023-10-21","value":{"option":"medium"}},{"type":"period","id":"5793e9d3-5377-4e5d-a4c5-9ecacd381d90","date":"2023-10-20","value":{"option":"heavy"}},{"type":"period","id":"86d27c35-154f-45e3-b1d0-10bd1f706aad","date":"2023-11-16","value":{"option":"heavy"}},{"type":"period","id":"ee3e8e50-162e-4823-abe3-a79c6e1918f2","date":"2023-11-15","value":{"option":"medium"}},{"type":"period","id":"eed6a20c-46b8-4d1e-840e-a5223de8a594","date":"2023-12-15","value":{"option":"medium"}},{"type":"period","id":"67237fde-8b62-45a0-8c35-7e3ba32ab146","date":"2023-12-17","value":{"option":"medium"}},{"type":"period","id":"6d5e5bfc-55f4-4b6c-b682-b33d6a9bf183","date":"2023-12-16","value":{"option":"heavy"}},{"type":"period","id":"13945ea9-3647-4d0e-b2e0-b6949e9bd7df","date":"2023-12-18","value":{"option":"light"}},{"type":"period","id":"3d116c3f-ab4b-47ae-8281-4c262278fccb","date":"2024-01-21","value":{"option":"heavy"}},{"type":"period","id":"40b0bec2-5531-4c22-baea-a73d5ff0983f","date":"2024-01-20","value":{"option":"light"}},{"type":"period","id":"b4a96e52-0679-46a3-b93a-217be96f4be1","date":"2024-01-22","value":{"option":"medium"}},{"type":"period","id":"09879547-b639-4070-be3a-34312dfdf0cf","date":"2024-01-23","value":{"option":"light"}},{"type":"period","id":"fd42333d-a3ba-4eca-a899-83c132887724","date":"2024-02-17","value":{"option":"medium"}},{"type":"period","id":"70349d0b-e965-4fa0-8d4c-41c1cb87c825","date":"2024-02-18","value":{"option":"heavy"}},{"type":"period","id":"f705db47-a08d-42ab-b5f8-0e75890330a5","date":"2024-03-16","value":{"option":"medium"}},{"type":"period","id":"49e94494-41e7-4bd6-a3be-0869b994eb6b","date":"2024-04-18","value":{"option":"heavy"}},{"type":"period","id":"99fe0672-3600-4a92-bbf3-58f9a47b1af4","date":"2024-04-17","value":{"option":"medium"}},{"type":"period","id":"70f55a59-dea6-4ae7-9eb6-53766d3a8bb5","date":"2024-04-19","value":{"option":"medium"}},{"type":"period","id":"cea50849-e1a3-481d-a4da-0772c558e2a7","date":"2024-05-23","value":{"option":"light"}},{"type":"period","id":"bf13faff-a810-40ef-b6ac-a66263af7595","date":"2024-06-18","value":{"option":"light"}},{"type":"period","id":"7eb10944-3b27-412f-8238-908286458981","date":"2024-06-20","value":{"option":"medium"}},{"type":"period","id":"63bbd4c6-3993-462c-98d3-721542d14ff5","date":"2024-06-19","value":{"option":"heavy"}},{"type":"period","id":"e2c21fec-5e97-46a7-9bae-9bd1235decaf","date":"2024-06-21","value":{"option":"light"}},{"type":"period","id":"c898a822-10b1-4a71-9c7f-06cd1f146903","date":"2024-07-18","value":{"option":"heavy"}},{"type":"period","id":"f3d3fb6c-10da-4ebe-bef0-1c38744c30eb","date":"2024-08-15","value":{"option":"medium"}},{"type":"period","id":"ac8a8ffb-7808-4787-ae0e-71d7a93e3cd9","date":"2024-08-16","value":{"option":"heavy"}},{"type":"period","id":"7d232bdc-c144-4549-846b-78424dcadeec","date":"2024-09-15","value":{"option":"light"}},{"type":"period","id":"25a3a441-a245-4f1f-9e4d-e7b0286e368d","date":"2024-08-17","value":{"option":"medium"}},{"type":"period","id":"d6130801-a404-4d66-a794-b19bcc95abc5","date":"2024-09-16","value":{"option":"heavy"}},{"type":"period","id":"9e561b0e-affc-4b26-a4cf-d76fc1759407","date":"2024-10-17","value":{"option":"heavy"}},{"type":"period","id":"42dd4439-a346-47ac-aa13-7c0b3be6c17f","date":"2024-10-18","value":{"option":"heavy"}},{"type":"period","id":"4af7e4e3-fb60-42ed-9c38-01bd67e7fc74","date":"2024-10-19","value":{"option":"medium"}},{"type":"period","id":"88906899-5182-47ac-992b-a99492383191","date":"2024-09-17","value":{"option":"medium"}},{"type":"period","id":"2c8a24e1-5ad3-4780-8185-e767c11b0218","date":"2024-11-13","value":{"option":"light"}},{"type":"period","id":"4d3730e6-39ac-4145-944b-c382b0759ebd","date":"2024-11-14","value":{"option":"heavy"}},{"type":"period","id":"3d043344-81bb-4097-b324-e969d502856e","date":"2024-11-15","value":{"option":"medium"}},{"type":"period","id":"648aff3a-6184-41c9-b75c-67f32b469af6","date":"2024-11-16","value":{"option":"light"}},{"type":"period","id":"7d8258d0-8445-4a0e-927f-62ca6f1d8bff","date":"2024-12-16","value":{"option":"medium"}},{"type":"period","id":"986c1030-3d94-4f49-9e21-e77d502f6b5f","date":"2024-12-15","value":{"option":"heavy"}},{"type":"period","id":"850fcc45-f007-4a92-8055-fe1a84d00afb","date":"2024-12-14","value":{"option":"medium"}},{"type":"period","id":"637ebaf2-babf-4a4e-af2c-169eaa611391","date":"2024-12-17","value":{"option":"light"}},{"type":"period","id":"ea7425e6-0851-40b3-9148-65c36f6a2af8","date":"2025-01-15","value":{"option":"light"}},{"type":"period","id":"6263adbe-7718-4857-b446-b75f9450eb8a","date":"2025-01-16","value":{"option":"heavy"}},{"type":"period","id":"770da124-40b8-4d89-b763-16640b56ff61","date":"2025-02-11","value":{"option":"light"}},{"type":"period","id":"333fe8e6-df3c-44a1-b96f-d6ef7a46d367","date":"2025-02-12","value":{"option":"heavy"}},{"type":"period","id":"b6a07494-2104-4ffb-8536-7684b3d297c4","date":"2025-03-10","value":{"option":"light"}},{"type":"period","id":"ae790054-13a8-43a8-8adc-b82e777d4241","date":"2025-04-05","value":{"option":"medium"}},{"type":"period","id":"a5fd84aa-7943-4894-8965-29b2a372675b","date":"2025-04-06","value":{"option":"heavy"}},{"type":"period","id":"3f82852d-c77f-4060-9d4d-4feb6bb06d41","date":"2025-05-03","value":{"option":"medium"}},{"type":"period","id":"7592e906-f2d7-45b0-ae96-6311a9e1445a","date":"2025-05-04","value":{"option":"heavy"}},{"type":"period","id":"b652c977-081a-4790-9204-0b656c672a53","date":"2025-05-31","value":{"option":"medium"}},{"type":"period","id":"ae840089-5bd5-497b-b56d-a549fea5446e","date":"2025-06-01","value":{"option":"heavy"}},{"type":"period","id":"da30be88-0604-47ad-8816-915ad9d4f466","date":"2025-06-02","value":{"option":"medium"}},{"type":"period","id":"af318539-69d0-4db5-a7bb-2a91a4980eb0","date":"2025-05-05","value":{"option":"medium"}},{"type":"period","id":"ad96b30d-ef43-4820-ae51-bde873ff8e7c","date":"2025-06-29","value":{"option":"light"}},{"type":"period","id":"4ed41223-4a68-4b74-b865-4804881af480","date":"2025-07-01","value":{"option":"medium"}},{"type":"period","id":"e52d4d74-d820-4ee7-bb07-47ac48ff2bfe","date":"2025-06-30","value":{"option":"heavy"}},{"type":"period","id":"cf5627af-9957-42de-8034-fc5368c28552","date":"2025-07-29","value":{"option":"heavy"}},{"type":"period","id":"f432677f-56dc-4bc4-a39d-feebe45adea9","date":"2025-08-22","value":{"option":"light"}},{"type":"period","id":"843049d5-2584-4bbf-b317-9aa83365a3e3","date":"2025-08-25","value":{"option":"light"}},{"type":"period","id":"81ed2b65-39ce-4ec0-a757-80d50d63c46a","date":"2025-08-23","value":{"option":"medium"}},{"type":"period","id":"7cb783e6-62e3-466f-9eae-6e074426fc6b","date":"2025-09-21","value":{"option":"medium"}},{"type":"period","id":"cdec6fdc-e050-4773-8b75-22ca6a9c2df1","date":"2025-09-22","value":{"option":"heavy"}},{"type":"period","id":"ed8599de-3a36-4eb2-b441-122eb4d04096","date":"2025-10-18","value":{"option":"light"}},{"type":"period","id":"f8f335cb-69bb-4a3d-ac02-12ceea1ac2ee","date":"2025-10-19","value":{"option":"heavy"}},{"type":"period","id":"25f151a9-773b-4d66-bc92-45818060fc13","date":"2025-10-20","value":{"option":"heavy"}},{"type":"period","id":"f2e6f7df-34ab-4c55-b228-494660f6ab0b","date":"2025-09-23","value":{"option":"medium"}},{"type":"period","id":"61e96e7d-bced-4641-bcf6-0530b398c7e0","date":"2025-09-24","value":{"option":"light"}},{"type":"period","id":"6ce8313e-4f3f-43b6-8e20-66e4dc2ec973","date":"2025-11-18","value":{"option":"heavy"}},{"type":"period","id":"106bfac2-5ada-40fb-b074-4e3186be9366","date":"2025-11-19","value":{"option":"heavy"}},{"type":"period","id":"9f9e7d19-dc24-47ea-9254-c4be2f296ff3","date":"2025-12-20","value":{"option":"medium"}},{"type":"period","id":"c38bd2c4-4cd3-4aeb-b191-8adeb4482b49","date":"2026-01-18","value":{"option":"light"}},{"type":"period","id":"95bfcea5-1c14-42e0-8435-48c43164af52","date":"2026-01-19","value":{"option":"heavy"}},{"type":"period","id":"6fe656fa-61e9-427a-a253-a89971f45434","date":"2026-02-15","value":{"option":"light"}},{"type":"period","id":"7586df47-c32c-4db4-b404-119e08662f1c","date":"2026-02-16","value":{"option":"heavy"}},{"type":"period","id":"7e9dc184-75b1-4774-b0ef-08a648cec348","date":"2026-02-17","value":{"option":"medium"}},{"type":"period","id":"a70ac04a-7a41-4218-944c-9ab8b8bdfc42","date":"2026-02-18","value":{"option":"light"}},{"type":"period","id":"6ab03f58-3464-4df2-ab43-70b27bd32f4e","date":"2026-03-15","value":{"option":"heavy"}},{"type":"period","id":"e158544b-1a86-4f83-99c1-a4f4f0e3cf69","date":"2026-03-17","value":{"option":"medium"}},{"type":"period","id":"12e33962-b35d-4ce5-9465-0efedeaf6055","date":"2026-03-16","value":{"option":"medium"}},{"type":"period","id":"ea29e7b2-3e22-4f10-a215-0800fa8c4a73","date":"2026-03-18","value":{"option":"light"}},{"type":"pms","id":"cd13a473-30a2-4c67-b07d-1298e7e1fa7c","date":"2017-09-23","value":{"option":"yes"}},{"type":"pms","id":"01ad5d7a-a235-412b-a783-9b64a6908d43","date":"2019-09-11","value":{"option":"yes"}},{"type":"pms","id":"9a59e4d7-f1b9-4d87-99f4-f4f496903943","date":"2019-09-17","value":{"option":"yes"}},{"type":"pms","id":"9319c74e-4015-432d-803e-040154f31519","date":"2016-09-26","value":{"option":"yes"}},{"type":"pms","id":"412df800-546c-4b1b-b633-36be2b0e5018","date":"2017-09-22","value":{"option":"yes"}},{"type":"pms","id":"09027f3a-2263-429b-b9d3-e0f9ddc5a1d8","date":"2019-09-15","value":{"option":"yes"}},{"type":"pms","id":"3d85787a-5d35-45a6-818f-8f7f7831c0ba","date":"2016-09-28","value":{"option":"yes"}},{"type":"pms","id":"bc2e2be8-7a35-45bf-990e-cf2a437e6352","date":"2016-09-27","value":{"option":"yes"}},{"type":"pms","id":"b4822c00-388f-49f0-92a0-72c17592e3ec","date":"2017-08-24","value":{"option":"yes"}},{"type":"pms","id":"b50ad53e-e022-4043-9980-9ce6c136fe93","date":"2017-11-20","value":{"option":"yes"}},{"type":"pms","id":"bc8611d0-f2d8-40ed-a943-7f35b431d37d","date":"2017-08-23","value":{"option":"yes"}},{"type":"pms","id":"701f0bbb-47dd-4e0f-a441-5cad31a484f7","date":"2019-09-16","value":{"option":"yes"}},{"type":"pms","id":"af75d761-4ed8-4690-adc7-741f3afb780c","date":"2019-02-05","value":{"option":"yes"}},{"type":"pms","id":"40b3838b-21d7-405c-989c-f0f37e464ec3","date":"2017-08-25","value":{"option":"yes"}},{"type":"pms","id":"bae67581-5237-4de4-86f3-4eea2fce5933","date":"2019-03-07","value":{"option":"yes"}},{"type":"pms","id":"e8b4c6ce-d82d-4511-a6ab-610da88713bd","date":"2019-02-06","value":{"option":"yes"}},{"type":"pms","id":"7f969d38-1ed0-4d5c-ad53-44dc247c48ac","date":"2017-11-21","value":{"option":"yes"}},{"type":"sex_life","id":"2ce18739-3a66-47f5-b9e8-9e510b63695a","date":"2017-09-02","value":[{"option":"withdrawal"}]},{"type":"sex_life","id":"315ac0d6-799f-4278-9015-668ed8853242","date":"2018-03-24","value":[{"option":"high_sex_drive"}]},{"type":"sex_life","id":"8bbbccb9-e9b0-4a05-bf69-2b319a42b5fc","date":"2017-09-03","value":[{"option":"withdrawal"}]},{"type":"sex_life","id":"e4b790f4-91c0-4436-9ab7-293398c881d3","date":"2017-09-01","value":[{"option":"withdrawal"}]},{"type":"sex_life","id":"f2108667-da63-430c-8ed3-3bc8b86d9758","date":"2018-03-19","value":[{"option":"high_sex_drive"}]},{"type":"sex_life","id":"aecee739-7966-4ee9-8c7a-619932296cc8","date":"2018-03-26","value":[{"option":"high_sex_drive"}]},{"type":"sex_life","id":"6c48ecf4-3950-4474-8b99-7e7ec79c71f2","date":"2018-03-25","value":[{"option":"high_sex_drive"}]},{"type":"sex_life","id":"c341cde4-5cdc-41c9-bdde-bac295bacd05","date":"2017-11-19","value":[{"option":"high_sex_drive"}]},{"type":"sex_life","id":"ad0f7ac3-cc75-4db1-8090-6a5c0f16a0be","date":"2025-05-17","value":[{"option":"withdrawal"}]},{"type":"sleep_duration","id":"8f695bbe-ebad-4ef4-bc54-8f7b13479477","date":"2017-10-28","value":{"minutes":450}},{"type":"sleep_duration","id":"c7ebcacd-851a-4507-b7a8-837ac2539b74","date":"2017-10-02","value":{"minutes":450}},{"type":"sleep_duration","id":"6cd0a657-0d2b-4ef0-bd28-1e5cad0c3c32","date":"2017-08-25","value":{"minutes":450}},{"type":"sleep_duration","id":"f1f29b28-b22d-43e0-8af1-9ad0cb7a1b4c","date":"2018-01-05","value":{"minutes":450}},{"type":"sleep_duration","id":"8bca17c2-bc24-4cd8-af75-8ecb088acc46","date":"2017-11-23","value":{"minutes":450}},{"type":"sleep_duration","id":"3fd1d8ef-f086-48d1-bde2-86890aea5eb9","date":"2017-11-24","value":{"minutes":450}},{"type":"sleep_duration","id":"25b02cdc-cc86-475f-839d-9536306fe327","date":"2019-02-07","value":{"minutes":270}},{"type":"sleep_duration","id":"a2d1b7f5-34ee-4863-9ee4-6b594cff86db","date":"2019-07-22","value":{"minutes":450}},{"type":"sleep_duration","id":"077df3f8-a96b-412c-b18e-550a98ac8f28","date":"2017-08-05","value":{"minutes":450}},{"type":"sleep_duration","id":"1211fe23-83e9-4742-a008-ed2c3ed7349a","date":"2017-09-02","value":{"minutes":450}},{"type":"sleep_duration","id":"2c56dd36-2711-46ab-9504-68d9db915ed5","date":"2017-09-03","value":{"minutes":450}},{"type":"sleep_duration","id":"bf709039-a949-4131-ab63-c1374a2f9630","date":"2017-09-19","value":{"minutes":450}},{"type":"sleep_duration","id":"33bea7c0-12a3-475c-b1de-f921192206d6","date":"2018-03-19","value":{"minutes":450}},{"type":"sleep_duration","id":"e94000ac-f3b2-419a-bf90-ecc7396f02f6","date":"2017-09-01","value":{"minutes":450}},{"type":"social_life","id":"aec45087-01a7-49ed-a7e4-8cbc56f5ede2","date":"2019-03-06","value":[{"option":"withdrawn"},{"option":"argumentative"}]},{"type":"social_life","id":"c7d257ca-a813-44f3-a148-8c02c98c55d6","date":"2019-11-19","value":[{"option":"withdrawn"}]},{"type":"social_life","id":"23baffc5-9aea-4bcd-8a24-34a5a97b0373","date":"2019-02-05","value":[{"option":"withdrawn"}]},{"type":"social_life","id":"c280d336-cbc2-4d44-9ca2-c2bc93acea80","date":"2019-03-07","value":[{"option":"argumentative"}]},{"type":"social_life","id":"30d44ea1-2c64-48a3-90a8-c814be47304f","date":"2019-11-18","value":[{"option":"withdrawn"}]},{"type":"social_life","id":"00f59046-ed59-43a7-a970-ea61247be0aa","date":"2019-09-17","value":[{"option":"withdrawn"}]},{"type":"social_life","id":"f5a3f518-d3ef-47aa-8584-e37501c73040","date":"2019-09-15","value":[{"option":"withdrawn"},{"option":"argumentative"}]},{"type":"social_life","id":"ec33a3d9-c5cf-41e3-a330-7964b87e1af9","date":"2019-02-04","value":[{"option":"argumentative"}]},{"type":"stool","id":"821eaa75-1d1d-4bdc-afe7-093baa818366","date":"2018-05-10","value":[{"option":"constipation"}]},{"type":"stool","id":"8e67542f-d821-4b4b-bb0e-2bf84538672f","date":"2019-03-07","value":[{"option":"diarrhea"}]},{"type":"stool","id":"8379c06f-9d93-446b-b3be-838908d4be3d","date":"2020-12-26","value":[{"option":"constipation"}]},{"type":"stool","id":"8dc6066e-63d2-42b9-964e-f0eee2c5636a","date":"2018-05-11","value":[{"option":"ok"}]},{"type":"stool","id":"8c02ef05-e987-41b4-91a4-411830847e3c","date":"2018-03-28","value":[{"option":"constipation"}]},{"type":"stool","id":"d9277034-b02b-40e7-b072-1078aedbe504","date":"2016-09-27","value":[{"option":"constipation"}]},{"type":"stool","id":"09917beb-afa7-4630-8d7f-ef7095deaa36","date":"2018-03-25","value":[{"option":"constipation"}]},{"type":"stool","id":"e7f9aa76-4fec-40a3-8ca6-49dc7299d16e","date":"2017-10-28","value":[{"option":"ok"}]},{"type":"stool","id":"77f7f138-8421-4eca-9aac-e69375132ebf","date":"2016-09-26","value":[{"option":"constipation"}]},{"type":"stool","id":"0ddf7632-a9ab-4a1b-989d-d41c8fe342ee","date":"2017-11-20","value":[{"option":"constipation"}]},{"type":"stool","id":"9f5eaf83-a902-4dd8-8e89-e4d83015f6e6","date":"2017-10-02","value":[{"option":"ok"}]},{"type":"stool","id":"400e31e9-01ed-461e-8cd7-2803b8f7cabf","date":"2018-03-08","value":[{"option":"constipation"}]},{"type":"stool","id":"9a0f787d-5490-4118-9db2-cddcff014447","date":"2017-09-03","value":[{"option":"ok"}]},{"type":"stool","id":"f7859719-9efc-4b5b-9f57-a512a5b13520","date":"2017-07-05","value":[{"option":"ok"}]},{"type":"stool","id":"1fb30895-19ca-43da-bf6c-2d491eb1a3c7","date":"2018-04-10","value":[{"option":"diarrhea"}]},{"type":"stool","id":"e35dd707-4472-4dda-b797-51fe88634b24","date":"2018-03-24","value":[{"option":"constipation"}]},{"type":"stool","id":"6038b6bf-952c-4e04-98ba-7028371bc928","date":"2017-11-19","value":[{"option":"constipation"}]},{"type":"stool","id":"0fb2ae0c-7fc9-4a91-b486-0068bcb0781e","date":"2018-03-19","value":[{"option":"constipation"}]},{"type":"stool","id":"8abe718b-8ce0-4866-8cb6-1143b9458db7","date":"2017-11-21","value":[{"option":"constipation"}]},{"type":"stool","id":"321d8706-a911-4794-85cf-e5bf50ecc040","date":"2016-09-29","value":[{"option":"constipation"}]},{"type":"stool","id":"e5099987-4068-4665-9ff8-39ca2dfbb778","date":"2018-05-07","value":[{"option":"constipation"}]},{"type":"stool","id":"94791576-4338-4367-b9a6-149719c875a6","date":"2018-05-09","value":[{"option":"diarrhea"}]},{"type":"stool","id":"1df2e565-d121-49a3-be6a-9f0aea84abc8","date":"2018-05-08","value":[{"option":"constipation"}]},{"type":"stool","id":"a2bf5748-277b-4b63-90e9-b1ad66eb586a","date":"2018-03-29","value":[{"option":"constipation"}]},{"type":"stool","id":"f73614d6-47e4-4a24-bc5e-86beeeb4c57b","date":"2018-03-27","value":[{"option":"constipation"}]},{"type":"stool","id":"a951015e-24ff-48b8-92f2-a4eea3d04912","date":"2017-09-01","value":[{"option":"diarrhea"}]},{"type":"stool","id":"fca53e99-7037-4c72-ae1f-437843704a2d","date":"2020-12-25","value":[{"option":"constipation"}]},{"type":"stool","id":"985f5b45-0cf0-4243-8c2b-f6be5b3cc991","date":"2017-09-19","value":[{"option":"constipation"}]},{"type":"stool","id":"89742b3f-ab5d-4055-9eeb-f3ebef9f79c8","date":"2017-08-24","value":[{"option":"constipation"}]},{"type":"stool","id":"074c6da2-eeb6-4aa9-8bbf-a21be7d04dda","date":"2016-09-30","value":[{"option":"constipation"}]},{"type":"stool","id":"9524e449-04ab-42b2-af2c-5b3da168b8af","date":"2018-01-05","value":[{"option":"ok"}]},{"type":"stool","id":"c377f194-b99e-40b2-b460-27af0fe59ca8","date":"2017-08-25","value":[{"option":"constipation"}]},{"type":"stool","id":"ea9923ce-45fc-42c8-88cf-b7c9f87dcc40","date":"2017-09-02","value":[{"option":"ok"}]},{"type":"stool","id":"85b53a44-32d0-4b0a-a3b6-be9fca3d5da7","date":"2019-03-13","value":[{"option":"diarrhea"}]},{"type":"stool","id":"dab42034-4e88-46a0-b3e3-bb8e4a39b09e","date":"2020-12-24","value":[{"option":"constipation"}]},{"type":"stool","id":"5f0afe7b-773d-4629-940c-a2b2172f05c5","date":"2018-03-26","value":[{"option":"constipation"}]},{"type":"stool","id":"8b6e8529-3204-4662-ae42-b4afb619c57a","date":"2018-03-09","value":[{"option":"diarrhea"}]},{"type":"stool","id":"6c342833-e7ef-41a7-808a-d8a2d9d332de","date":"2019-07-21","value":[{"option":"constipation"}]},{"type":"tags","id":"64a54dcf-50da-4ca2-978c-b89789a93b43","date":"2025-05-26","value":[{"option":"Sleep disturbances"}]},{"type":"tags","id":"9d0cc8ee-f3cf-4ad2-a243-ee0273c218a4","date":"2025-05-27","value":[{"option":"Sleep disturbances"}]},{"type":"tags","id":"cd81d9d1-4e8b-4da6-a445-a39d8b45037f","date":"2025-08-14","value":[{"option":"Sleep disturbances"}]},{"type":"tags","id":"7ac7ac3f-82ae-4cee-9a41-2fdff1899416","date":"2025-08-17","value":[{"option":"Sleep disturbances"}]},{"type":"tags","id":"24ed0d28-68ac-4eb8-95e9-944dca71d1b2","date":"2025-08-15","value":[{"option":"Sleep disturbances"}]},{"type":"tags","id":"f3ed5956-d37f-4882-8db2-eb1ca47fb431","date":"2025-08-21","value":[{"option":"Sleep disturbances"}]}]
+[
+  {
+    "type": "craving",
+    "id": "8fed8f4d-2849-4e47-9998-c2b2183896cd",
+    "date": "2018-05-07",
+    "value": [{ "option": "sweet" }, { "option": "salty" }]
+  },
+  {
+    "type": "craving",
+    "id": "e4bc8155-5d47-4498-b4d0-7011e314d8b5",
+    "date": "2017-11-20",
+    "value": [{ "option": "carbs" }, { "option": "sweet" }]
+  },
+  {
+    "type": "craving",
+    "id": "fff4caa1-5a93-43b3-9d5f-f026ea229f9b",
+    "date": "2018-05-06",
+    "value": [{ "option": "sweet" }]
+  },
+  {
+    "type": "craving",
+    "id": "7cecb66f-08ab-4856-9acf-b70aa429df2a",
+    "date": "2018-05-08",
+    "value": [{ "option": "sweet" }, { "option": "salty" }]
+  },
+  {
+    "type": "craving",
+    "id": "2f89f51c-6290-402b-880e-71014d433768",
+    "date": "2017-11-21",
+    "value": [{ "option": "carbs" }]
+  },
+  {
+    "type": "digestion",
+    "id": "c40d68a9-63f0-4ef1-b1ae-14a84c7f0687",
+    "date": "2019-03-10",
+    "value": [
+      { "option": "nauseous" },
+      { "option": "bloated" },
+      { "option": "gassy" }
+    ]
+  },
+  {
+    "type": "digestion",
+    "id": "c33ee28a-a00c-4506-9bbb-8a31f3b3ec03",
+    "date": "2017-10-28",
+    "value": [{ "option": "bloated" }, { "option": "nauseous" }]
+  },
+  {
+    "type": "digestion",
+    "id": "74279a07-dfc4-4492-a1bb-185143244c3a",
+    "date": "2017-09-03",
+    "value": [{ "option": "ok" }]
+  },
+  {
+    "type": "digestion",
+    "id": "48c389ee-e2b6-423a-afde-b143a547c70d",
+    "date": "2019-08-21",
+    "value": [{ "option": "nauseous" }]
+  },
+  {
+    "type": "digestion",
+    "id": "b99ec5b2-5be7-4366-9a27-2d6144212d57",
+    "date": "2018-04-10",
+    "value": [{ "option": "nauseous" }]
+  },
+  {
+    "type": "digestion",
+    "id": "9c2728cf-f7b5-43d8-89d4-038a97acf6a3",
+    "date": "2017-11-23",
+    "value": [
+      { "option": "gassy" },
+      { "option": "nauseous" },
+      { "option": "bloated" }
+    ]
+  },
+  {
+    "type": "digestion",
+    "id": "8941b3f8-62e7-4652-87a5-298079f06ccf",
+    "date": "2016-09-27",
+    "value": [{ "option": "bloated" }]
+  },
+  {
+    "type": "digestion",
+    "id": "87a9f211-332b-4339-ac6e-aa8d046f1bb1",
+    "date": "2018-05-11",
+    "value": [{ "option": "ok" }]
+  },
+  {
+    "type": "digestion",
+    "id": "b3fefbb6-051f-4c19-960f-131d477cb8e9",
+    "date": "2017-07-05",
+    "value": [{ "option": "gassy" }]
+  },
+  {
+    "type": "digestion",
+    "id": "ce2cc509-f2a0-4ae0-9fea-42168b70e5de",
+    "date": "2019-11-18",
+    "value": [{ "option": "gassy" }]
+  },
+  {
+    "type": "digestion",
+    "id": "a879c684-7875-4dcf-a3e2-c091b8fa3f34",
+    "date": "2016-09-26",
+    "value": [{ "option": "bloated" }]
+  },
+  {
+    "type": "digestion",
+    "id": "dc1ef070-331c-4bce-99cf-efc610dba2a0",
+    "date": "2017-11-21",
+    "value": [{ "option": "bloated" }]
+  },
+  {
+    "type": "digestion",
+    "id": "e0a0793e-fa1a-411e-8919-a1c1a45307fb",
+    "date": "2017-09-22",
+    "value": [{ "option": "gassy" }]
+  },
+  {
+    "type": "digestion",
+    "id": "b0eed941-4da4-4fb4-9531-73c93f4724f3",
+    "date": "2019-11-17",
+    "value": [{ "option": "gassy" }, { "option": "bloated" }]
+  },
+  {
+    "type": "digestion",
+    "id": "737b5a19-3a54-467c-85e6-c4a516d29c4f",
+    "date": "2019-09-17",
+    "value": [{ "option": "gassy" }, { "option": "bloated" }]
+  },
+  {
+    "type": "digestion",
+    "id": "9b3834fc-cf63-4942-b0c0-fb3796e11e17",
+    "date": "2019-03-11",
+    "value": [
+      { "option": "nauseous" },
+      { "option": "bloated" },
+      { "option": "gassy" }
+    ]
+  },
+  {
+    "type": "digestion",
+    "id": "53b0bbc6-1995-4ca8-adfb-6418d01824ed",
+    "date": "2019-07-22",
+    "value": [{ "option": "bloated" }]
+  },
+  {
+    "type": "digestion",
+    "id": "96900721-e161-4fd2-a317-748877741c74",
+    "date": "2018-05-09",
+    "value": [
+      { "option": "nauseous" },
+      { "option": "gassy" },
+      { "option": "bloated" }
+    ]
+  },
+  {
+    "type": "digestion",
+    "id": "1615a4e6-19b1-4b83-bcee-d7f958d6fb6b",
+    "date": "2019-09-18",
+    "value": [{ "option": "gassy" }, { "option": "bloated" }]
+  },
+  {
+    "type": "digestion",
+    "id": "49eb21f7-8ac4-4f6f-964f-a655e152547b",
+    "date": "2019-03-12",
+    "value": [
+      { "option": "bloated" },
+      { "option": "nauseous" },
+      { "option": "gassy" }
+    ]
+  },
+  {
+    "type": "digestion",
+    "id": "39d17bab-eb44-4134-92bd-f3f7cd207fcc",
+    "date": "2017-09-01",
+    "value": [{ "option": "nauseous" }, { "option": "gassy" }]
+  },
+  {
+    "type": "digestion",
+    "id": "2caee454-cb58-45c0-89de-81807af3ab6e",
+    "date": "2017-11-24",
+    "value": [{ "option": "nauseous" }, { "option": "bloated" }]
+  },
+  {
+    "type": "digestion",
+    "id": "2b77edba-cfe7-408e-945e-d6fd1e36e6f2",
+    "date": "2018-03-29",
+    "value": [{ "option": "gassy" }]
+  },
+  {
+    "type": "digestion",
+    "id": "424d0697-75c1-4592-be9c-e575fceec781",
+    "date": "2018-05-10",
+    "value": [{ "option": "bloated" }, { "option": "gassy" }]
+  },
+  {
+    "type": "digestion",
+    "id": "43faa80e-8c7d-48e3-b6d5-96d260ba80b6",
+    "date": "2019-03-09",
+    "value": [{ "option": "nauseous" }]
+  },
+  {
+    "type": "digestion",
+    "id": "e2982175-63f3-45c9-b666-ac0bfc69d514",
+    "date": "2017-09-02",
+    "value": [{ "option": "gassy" }]
+  },
+  {
+    "type": "digestion",
+    "id": "08fc142f-6c43-4104-9289-a2f11ef9fd89",
+    "date": "2018-03-28",
+    "value": [{ "option": "gassy" }]
+  },
+  {
+    "type": "digestion",
+    "id": "8dd1fba8-ce67-4276-bc9a-98cff2e51e46",
+    "date": "2019-11-19",
+    "value": [{ "option": "gassy" }]
+  },
+  {
+    "type": "digestion",
+    "id": "5776bcaa-620a-4f8d-9620-c35be1a2fc4a",
+    "date": "2017-10-02",
+    "value": [{ "option": "gassy" }]
+  },
+  {
+    "type": "discharge",
+    "id": "c7247ef1-0951-4340-8bb8-ea00b218f06a",
+    "date": "2019-03-06",
+    "value": [{ "option": "creamy" }]
+  },
+  {
+    "type": "discharge",
+    "id": "92b42eb4-40a1-42ae-a456-82f25bf0fbb4",
+    "date": "2019-03-04",
+    "value": [{ "option": "creamy" }]
+  },
+  {
+    "type": "discharge",
+    "id": "3d664bae-a7ca-400e-98cd-c4ed0da2e6cd",
+    "date": "2019-03-05",
+    "value": [{ "option": "creamy" }]
+  },
+  {
+    "type": "energy",
+    "id": "6bb99ff1-3329-4b74-9063-162ed819f336",
+    "date": "2017-11-21",
+    "value": [{ "option": "tired" }]
+  },
+  {
+    "type": "energy",
+    "id": "933dd21b-a0bf-4199-8d39-b50c149ddec6",
+    "date": "2017-07-05",
+    "value": [{ "option": "exhausted" }]
+  },
+  {
+    "type": "energy",
+    "id": "aff29ee2-e614-48a4-9219-762114f5dee3",
+    "date": "2017-10-28",
+    "value": [{ "option": "tired" }]
+  },
+  {
+    "type": "energy",
+    "id": "a4240bd7-3f56-4283-8a13-6aec555dc166",
+    "date": "2019-09-16",
+    "value": [{ "option": "tired" }]
+  },
+  {
+    "type": "energy",
+    "id": "19b8dfc7-d06e-44c0-9a4f-1314f1d66478",
+    "date": "2018-03-19",
+    "value": [{ "option": "fully_energized" }]
+  },
+  {
+    "type": "energy",
+    "id": "4a62fcb4-abd4-4263-8b23-26cccd58a2b7",
+    "date": "2017-10-02",
+    "value": [{ "option": "tired" }]
+  },
+  {
+    "type": "energy",
+    "id": "b9c4da87-5946-4d59-afb3-023be9a95d17",
+    "date": "2017-09-01",
+    "value": [{ "option": "exhausted" }]
+  },
+  {
+    "type": "energy",
+    "id": "d5f9fc74-3eba-4f6d-b84f-f6f6bc32265d",
+    "date": "2017-09-02",
+    "value": [{ "option": "energetic" }]
+  },
+  {
+    "type": "energy",
+    "id": "5485bc7d-5107-44cd-b852-f7f85145b1db",
+    "date": "2017-09-03",
+    "value": [{ "option": "energetic" }]
+  },
+  {
+    "type": "energy",
+    "id": "9d1abe50-b06a-45f3-8ca3-d24ce1a5d6a9",
+    "date": "2018-03-09",
+    "value": [{ "option": "exhausted" }]
+  },
+  {
+    "type": "energy",
+    "id": "131c0cee-aa0e-490a-95b6-0e8db3d1a25c",
+    "date": "2017-11-23",
+    "value": [{ "option": "tired" }]
+  },
+  {
+    "type": "energy",
+    "id": "ed13a7b8-a51d-4ab0-b584-b6981690eab8",
+    "date": "2017-08-05",
+    "value": [{ "option": "exhausted" }]
+  },
+  {
+    "type": "energy",
+    "id": "18f32159-cb91-4019-8668-37bd44597e55",
+    "date": "2019-07-22",
+    "value": [{ "option": "tired" }]
+  },
+  {
+    "type": "energy",
+    "id": "524c81a4-c2ea-479c-9692-36391854207c",
+    "date": "2019-09-18",
+    "value": [{ "option": "tired" }]
+  },
+  {
+    "type": "energy",
+    "id": "d39f942f-4045-4f01-8293-4a5e9dda9628",
+    "date": "2018-04-11",
+    "value": [{ "option": "tired" }]
+  },
+  {
+    "type": "energy",
+    "id": "48a0f617-d484-426e-a78f-15e9ddf229c4",
+    "date": "2018-01-05",
+    "value": [{ "option": "tired" }]
+  },
+  {
+    "type": "energy",
+    "id": "d5452987-8ad3-4507-afc7-22bd594e0b75",
+    "date": "2017-10-01",
+    "value": [{ "option": "exhausted" }]
+  },
+  {
+    "type": "energy",
+    "id": "658f3403-0391-462d-b9d9-8bd52dedcfbe",
+    "date": "2019-09-17",
+    "value": [{ "option": "tired" }]
+  },
+  {
+    "type": "energy",
+    "id": "e7f5265f-a9cc-4678-9087-ffea047a2c08",
+    "date": "2018-04-10",
+    "value": [{ "option": "exhausted" }]
+  },
+  {
+    "type": "energy",
+    "id": "c0a91b24-f665-4d1a-975c-b19a6a081fb6",
+    "date": "2025-05-28",
+    "value": [{ "option": "tired" }]
+  },
+  {
+    "type": "energy",
+    "id": "b4ee587a-267b-4de0-9248-478ce6991fb3",
+    "date": "2025-05-27",
+    "value": [{ "option": "tired" }]
+  },
+  {
+    "type": "energy",
+    "id": "2479819f-e579-4cd2-b10b-12a465957e7f",
+    "date": "2025-05-26",
+    "value": [{ "option": "tired" }]
+  },
+  {
+    "type": "exercise",
+    "id": "b7832799-fa95-4a22-972f-e71bc27f5819",
+    "date": "2019-07-21",
+    "value": [{ "option": "running" }]
+  },
+  {
+    "type": "exercise",
+    "id": "83f37232-19d4-4d49-b211-bc6dd6688d16",
+    "date": "2017-09-23",
+    "value": [{ "option": "cycling" }]
+  },
+  {
+    "type": "exercise",
+    "id": "c038e5da-da33-43ab-93a8-c9e4b3aa6d58",
+    "date": "2017-09-03",
+    "value": [{ "option": "yoga" }]
+  },
+  {
+    "type": "exercise",
+    "id": "fd03f025-8381-4cae-956f-b34e8b8acf38",
+    "date": "2017-09-22",
+    "value": [{ "option": "cycling" }]
+  },
+  {
+    "type": "exercise",
+    "id": "d4a9c0d4-fe1f-42c5-b883-fb88e4b1681c",
+    "date": "2017-09-01",
+    "value": [{ "option": "yoga" }]
+  },
+  {
+    "type": "exercise",
+    "id": "698196cf-64c1-4db0-a0c6-c904540e3339",
+    "date": "2018-03-26",
+    "value": [{ "option": "yoga" }]
+  },
+  {
+    "type": "exercise",
+    "id": "f852ebf8-be2d-4a6b-9f01-3040b491df58",
+    "date": "2017-11-19",
+    "value": [{ "option": "yoga" }]
+  },
+  {
+    "type": "exercise",
+    "id": "3bfc9a44-1d0f-4d80-a5c9-b10d655112b2",
+    "date": "2018-03-19",
+    "value": [{ "option": "yoga" }]
+  },
+  {
+    "type": "exercise",
+    "id": "00b438ad-b278-4856-baee-639ccc690ae5",
+    "date": "2017-09-02",
+    "value": [{ "option": "cycling" }]
+  },
+  {
+    "type": "feelings",
+    "id": "d243eefa-0c13-49a5-b1f5-4327b89a8138",
+    "date": "2017-08-24",
+    "value": [{ "option": "sad" }]
+  },
+  {
+    "type": "feelings",
+    "id": "e6079bc6-ea2a-4586-9088-606e62d7c2ff",
+    "date": "2019-09-15",
+    "value": [{ "option": "sensitive" }]
+  },
+  {
+    "type": "feelings",
+    "id": "9a85c338-30c3-4eea-a195-db9451a7f9e8",
+    "date": "2019-02-06",
+    "value": [{ "option": "sad" }]
+  },
+  {
+    "type": "feelings",
+    "id": "7d50656a-2250-4ff3-ba33-44a84e459cf6",
+    "date": "2017-09-01",
+    "value": [{ "option": "sensitive" }]
+  },
+  {
+    "type": "feelings",
+    "id": "057ba126-8cc5-4a8c-a3cf-f1cfdca853b7",
+    "date": "2017-09-19",
+    "value": [{ "option": "sad" }]
+  },
+  {
+    "type": "feelings",
+    "id": "3d9249e5-5193-4349-b336-47948e4cee23",
+    "date": "2019-09-11",
+    "value": [{ "option": "sensitive" }]
+  },
+  {
+    "type": "feelings",
+    "id": "bddfb712-1cbd-4fe4-9211-5c5b6089b957",
+    "date": "2017-08-25",
+    "value": [{ "option": "sad" }, { "option": "sensitive" }]
+  },
+  {
+    "type": "feelings",
+    "id": "9616d22e-3ff2-4f00-9d85-a95b50f7dbac",
+    "date": "2019-09-16",
+    "value": [{ "option": "sensitive" }]
+  },
+  {
+    "type": "feelings",
+    "id": "c49aaf99-125e-4a1e-86d1-1a15507b65d1",
+    "date": "2017-09-22",
+    "value": [{ "option": "sensitive" }]
+  },
+  {
+    "type": "feelings",
+    "id": "012bf4cc-5b80-4e84-ae8c-dfc0f19d4cae",
+    "date": "2017-10-28",
+    "value": [{ "option": "sensitive" }]
+  },
+  {
+    "type": "feelings",
+    "id": "cff21baa-ab80-440b-a3a1-cee033eedd55",
+    "date": "2018-03-04",
+    "value": [{ "option": "sensitive" }, { "option": "sad" }]
+  },
+  {
+    "type": "feelings",
+    "id": "0c0891e9-357c-4482-9a47-dc53e4cf1fef",
+    "date": "2019-11-18",
+    "value": [{ "option": "sensitive" }]
+  },
+  {
+    "type": "feelings",
+    "id": "f5dc1aeb-edd1-49a4-9b86-7768c3f1d66e",
+    "date": "2017-09-03",
+    "value": [{ "option": "happy" }]
+  },
+  {
+    "type": "feelings",
+    "id": "36aca4cb-9d58-4054-a39b-3c1cefbe8f12",
+    "date": "2018-03-05",
+    "value": [{ "option": "sensitive" }]
+  },
+  {
+    "type": "feelings",
+    "id": "218bdb01-60d6-4d10-a796-973024e38c19",
+    "date": "2018-03-07",
+    "value": [{ "option": "sensitive" }, { "option": "sad" }]
+  },
+  {
+    "type": "feelings",
+    "id": "90369b97-f442-41ec-8731-6f3efdb5eb62",
+    "date": "2017-09-02",
+    "value": [{ "option": "happy" }]
+  },
+  {
+    "type": "feelings",
+    "id": "4a2c4084-42ea-4220-8976-edca3fc44f3e",
+    "date": "2017-11-24",
+    "value": [{ "option": "sad" }]
+  },
+  {
+    "type": "feelings",
+    "id": "1dd4ac91-1674-4dd0-b0da-2d21cec6a03b",
+    "date": "2017-08-23",
+    "value": [{ "option": "sad" }]
+  },
+  {
+    "type": "feelings",
+    "id": "c7bb283f-8ba9-4775-9e9b-76afe4b5c848",
+    "date": "2019-02-05",
+    "value": [{ "option": "sad" }]
+  },
+  {
+    "type": "medication",
+    "id": "f904897f-f5f5-4c58-a93c-a10c057256bd",
+    "date": "2017-09-01",
+    "value": [{ "option": "painkillers" }]
+  },
+  {
+    "type": "mind",
+    "id": "6230a4f1-ded6-4cc0-a004-76c6427f7dc8",
+    "date": "2019-02-06",
+    "value": [{ "option": "stressed" }]
+  },
+  {
+    "type": "mind",
+    "id": "ea4fa038-58cf-4852-b63c-6d832fd79863",
+    "date": "2019-03-06",
+    "value": [
+      { "option": "distracted" },
+      { "option": "unproductive" },
+      { "option": "unmotivated" }
+    ]
+  },
+  {
+    "type": "mind",
+    "id": "08ebcfdb-8609-48da-8b24-43f0a58d4d63",
+    "date": "2017-11-21",
+    "value": [
+      { "option": "stressed" },
+      { "option": "distracted" },
+      { "option": "unproductive" },
+      { "option": "unmotivated" }
+    ]
+  },
+  {
+    "type": "mind",
+    "id": "ce71171e-9734-4cd4-b1bb-c2b7b3deccad",
+    "date": "2019-09-17",
+    "value": [{ "option": "unmotivated" }]
+  },
+  {
+    "type": "mind",
+    "id": "dca86fd9-594b-450c-9524-ebdaf7adf6b6",
+    "date": "2017-11-19",
+    "value": [
+      { "option": "distracted" },
+      { "option": "stressed" },
+      { "option": "unproductive" }
+    ]
+  },
+  {
+    "type": "mind",
+    "id": "ad0f808e-77d9-476e-b8fa-305c2b8ee0d1",
+    "date": "2019-02-07",
+    "value": [{ "option": "stressed" }]
+  },
+  {
+    "type": "mind",
+    "id": "90d506aa-92f6-4b59-b1e6-849266c7403c",
+    "date": "2019-02-05",
+    "value": [{ "option": "stressed" }, { "option": "unmotivated" }]
+  },
+  {
+    "type": "mind",
+    "id": "d9bcadd2-c38f-4bc3-b4a1-ceb69bda2265",
+    "date": "2018-03-06",
+    "value": [{ "option": "unproductive" }, { "option": "unmotivated" }]
+  },
+  {
+    "type": "mind",
+    "id": "d365cbe8-e165-4950-904d-b461fe523713",
+    "date": "2019-02-04",
+    "value": [{ "option": "stressed" }]
+  },
+  {
+    "type": "mind",
+    "id": "6c80c069-498d-485b-9cf8-a3137d2e1caf",
+    "date": "2018-03-07",
+    "value": [{ "option": "unmotivated" }, { "option": "unproductive" }]
+  },
+  {
+    "type": "mind",
+    "id": "5441c5a6-f704-49ec-a0fa-e0466206e81a",
+    "date": "2017-11-20",
+    "value": [
+      { "option": "distracted" },
+      { "option": "stressed" },
+      { "option": "unmotivated" },
+      { "option": "unproductive" }
+    ]
+  },
+  {
+    "type": "mind",
+    "id": "808a6412-bfdf-48ae-9fc5-473c8821b90c",
+    "date": "2018-03-05",
+    "value": [{ "option": "unproductive" }, { "option": "unmotivated" }]
+  },
+  {
+    "type": "mind",
+    "id": "bfdb8ee5-f915-44a5-a36f-66d52da7f8bc",
+    "date": "2018-03-26",
+    "value": [{ "option": "calm" }, { "option": "productive" }]
+  },
+  {
+    "type": "mind",
+    "id": "dfef5c13-26ef-4caa-9c8e-c17c94b10237",
+    "date": "2018-01-05",
+    "value": [{ "option": "unmotivated" }]
+  },
+  {
+    "type": "mind",
+    "id": "2bedf750-9f9e-4ace-af2b-93d763e17a64",
+    "date": "2019-09-16",
+    "value": [{ "option": "stressed" }, { "option": "distracted" }]
+  },
+  {
+    "type": "mind",
+    "id": "745701d5-df55-42ac-963b-84f23cafdc06",
+    "date": "2017-11-24",
+    "value": [{ "option": "unproductive" }, { "option": "unmotivated" }]
+  },
+  {
+    "type": "mind",
+    "id": "dfadecdd-facc-4c2c-b7c3-41fc2511adcd",
+    "date": "2017-11-23",
+    "value": [
+      { "option": "distracted" },
+      { "option": "unproductive" },
+      { "option": "unmotivated" }
+    ]
+  },
+  {
+    "type": "mind",
+    "id": "b04b6cf0-dc00-4f66-8219-21ec96b92fea",
+    "date": "2019-03-07",
+    "value": [
+      { "option": "distracted" },
+      { "option": "unproductive" },
+      { "option": "unmotivated" }
+    ]
+  },
+  {
+    "type": "pain",
+    "id": "77edf05e-5ca1-496b-97ea-b452eac2b35a",
+    "date": "2016-09-28",
+    "value": [{ "option": "breast_tenderness" }]
+  },
+  {
+    "type": "pain",
+    "id": "baa3adc3-ab0c-4b53-97db-6259c28f2e17",
+    "date": "2019-09-12",
+    "value": [{ "option": "breast_tenderness" }]
+  },
+  {
+    "type": "pain",
+    "id": "bd7f651f-b997-494c-8f5b-ffd1d88f45f3",
+    "date": "2020-12-28",
+    "value": [{ "option": "headache" }]
+  },
+  {
+    "type": "pain",
+    "id": "964b8cfe-7ba2-465b-b40b-85ba19613978",
+    "date": "2016-12-01",
+    "value": [{ "option": "period_cramps" }]
+  },
+  {
+    "type": "pain",
+    "id": "7438c7de-537b-4061-8963-128346dade62",
+    "date": "2016-09-30",
+    "value": [{ "option": "breast_tenderness" }]
+  },
+  {
+    "type": "pain",
+    "id": "e5d6540f-c731-42a3-8b2f-ece9b994dc83",
+    "date": "2016-09-29",
+    "value": [{ "option": "breast_tenderness" }]
+  },
+  {
+    "type": "pain",
+    "id": "0ae36825-4c8a-4a92-b93d-71f323359e01",
+    "date": "2019-03-04",
+    "value": [{ "option": "period_cramps" }]
+  },
+  {
+    "type": "pain",
+    "id": "9e8900a0-4f48-445f-b31d-932833d18274",
+    "date": "2019-09-11",
+    "value": [{ "option": "breast_tenderness" }]
+  },
+  {
+    "type": "pain",
+    "id": "f622ed87-9f01-47d1-886c-9fcfe9b074c0",
+    "date": "2017-08-23",
+    "value": [{ "option": "breast_tenderness" }]
+  },
+  {
+    "type": "pain",
+    "id": "afb776cb-a9c3-483e-8779-19dc875dbb87",
+    "date": "2018-08-18",
+    "value": [{ "option": "headache" }, { "option": "period_cramps" }]
+  },
+  {
+    "type": "pain",
+    "id": "0e69dd71-1e16-4fee-b387-34df05ef258a",
+    "date": "2018-04-10",
+    "value": [{ "option": "period_cramps" }]
+  },
+  {
+    "type": "pain",
+    "id": "ef842253-8a88-4f5c-b2c6-5de9855b2f4e",
+    "date": "2018-02-06",
+    "value": [{ "option": "period_cramps" }]
+  },
+  {
+    "type": "pain",
+    "id": "4b365827-b3b9-4d5c-8d56-2cdacb036ec4",
+    "date": "2016-09-27",
+    "value": [{ "option": "breast_tenderness" }]
+  },
+  {
+    "type": "pain",
+    "id": "ed799622-34db-4d5b-834c-510f1ed10e61",
+    "date": "2020-12-26",
+    "value": [{ "option": "breast_tenderness" }]
+  },
+  {
+    "type": "pain",
+    "id": "e4e55fb4-919a-48c9-b2dc-a722034ca2a6",
+    "date": "2017-01-02",
+    "value": [{ "option": "period_cramps" }]
+  },
+  {
+    "type": "pain",
+    "id": "e4343b09-da92-4a95-b460-b4847b54a2fc",
+    "date": "2019-03-13",
+    "value": [{ "option": "period_cramps" }]
+  },
+  {
+    "type": "pain",
+    "id": "144eca28-dc5d-4b27-a649-2e3fc9926f4c",
+    "date": "2020-12-24",
+    "value": [{ "option": "breast_tenderness" }]
+  },
+  {
+    "type": "pain",
+    "id": "9eaf98cf-89fd-492b-8302-953669dbe67b",
+    "date": "2017-09-01",
+    "value": [{ "option": "breast_tenderness" }, { "option": "period_cramps" }]
+  },
+  {
+    "type": "pain",
+    "id": "6e93cb84-0470-4f54-88fc-02c04fb90662",
+    "date": "2016-09-26",
+    "value": [{ "option": "breast_tenderness" }]
+  },
+  {
+    "type": "pain",
+    "id": "04af086d-c974-481e-9df1-a740954b1716",
+    "date": "2017-08-27",
+    "value": [{ "option": "breast_tenderness" }]
+  },
+  {
+    "type": "pain",
+    "id": "33e62c88-f513-4966-b352-81d55cc34a56",
+    "date": "2019-11-17",
+    "value": [{ "option": "breast_tenderness" }]
+  },
+  {
+    "type": "pain",
+    "id": "4ed3569f-b708-4bbc-9ee9-dc4e6cc732cf",
+    "date": "2018-03-07",
+    "value": [{ "option": "breast_tenderness" }]
+  },
+  {
+    "type": "pain",
+    "id": "5a5b7274-76db-4db1-85f5-eb7d4a372090",
+    "date": "2018-05-09",
+    "value": [{ "option": "period_cramps" }]
+  },
+  {
+    "type": "pain",
+    "id": "e095c212-4154-4e22-adfc-c0fa349e60c6",
+    "date": "2017-12-08",
+    "value": [{ "option": "period_cramps" }, { "option": "headache" }]
+  },
+  {
+    "type": "pain",
+    "id": "3cd406b9-d817-43ba-a284-4433c0d62ae6",
+    "date": "2016-11-02",
+    "value": [{ "option": "period_cramps" }]
+  },
+  {
+    "type": "pain",
+    "id": "d5aecd4c-6e3f-4a96-b4fd-a3ee94476710",
+    "date": "2018-03-09",
+    "value": [{ "option": "period_cramps" }]
+  },
+  {
+    "type": "pain",
+    "id": "525e76f4-4ef8-4951-8838-05232fc369d6",
+    "date": "2019-09-13",
+    "value": [{ "option": "breast_tenderness" }]
+  },
+  {
+    "type": "pain",
+    "id": "faa5ee59-9a37-4981-9aff-570e739434b4",
+    "date": "2017-10-28",
+    "value": [{ "option": "period_cramps" }, { "option": "breast_tenderness" }]
+  },
+  {
+    "type": "pain",
+    "id": "2f8a347d-5bef-411e-97f5-125841fbb4da",
+    "date": "2019-11-18",
+    "value": [{ "option": "breast_tenderness" }]
+  },
+  {
+    "type": "pain",
+    "id": "2564dbb2-e98a-4f97-a239-b81949428dcd",
+    "date": "2020-12-25",
+    "value": [{ "option": "breast_tenderness" }]
+  },
+  {
+    "type": "pain",
+    "id": "3f0bedfe-d94f-4afd-a3c9-7dbd29f941ec",
+    "date": "2017-08-25",
+    "value": [{ "option": "breast_tenderness" }]
+  },
+  {
+    "type": "pain",
+    "id": "26ef609f-3d17-47f0-b43e-4576c2e7e683",
+    "date": "2017-08-05",
+    "value": [{ "option": "period_cramps" }]
+  },
+  {
+    "type": "pain",
+    "id": "b3a7b5bc-6810-48b6-9fad-b2bfece26bfa",
+    "date": "2018-07-16",
+    "value": [{ "option": "period_cramps" }]
+  },
+  {
+    "type": "pain",
+    "id": "d0dc8e43-e0b5-49e0-93cf-92a420e3a859",
+    "date": "2019-07-22",
+    "value": [{ "option": "period_cramps" }]
+  },
+  {
+    "type": "pain",
+    "id": "a145372d-6d9e-4954-991b-b4c42b698ef0",
+    "date": "2017-12-07",
+    "value": [{ "option": "headache" }, { "option": "period_cramps" }]
+  },
+  {
+    "type": "pain",
+    "id": "bf2519ec-9d50-4271-9ed6-d60f19a1a8dc",
+    "date": "2018-03-05",
+    "value": [{ "option": "breast_tenderness" }]
+  },
+  {
+    "type": "pain",
+    "id": "7867916a-57dc-43c7-a89a-4622b199473a",
+    "date": "2018-03-04",
+    "value": [{ "option": "breast_tenderness" }]
+  },
+  {
+    "type": "pain",
+    "id": "870829fb-3241-4f26-a3aa-4bae3c0ca7aa",
+    "date": "2017-06-04",
+    "value": [{ "option": "period_cramps" }]
+  },
+  {
+    "type": "pain",
+    "id": "b3c0f25a-628c-46d7-ba1d-c6c495b0a670",
+    "date": "2018-04-11",
+    "value": [{ "option": "period_cramps" }]
+  },
+  {
+    "type": "pain",
+    "id": "51e1c1c7-7dcb-4f69-85ca-51780133ef3f",
+    "date": "2017-08-28",
+    "value": [{ "option": "breast_tenderness" }]
+  },
+  {
+    "type": "pain",
+    "id": "8efc25a4-5c55-484d-9dd1-35120edd46ca",
+    "date": "2017-03-02",
+    "value": [{ "option": "period_cramps" }]
+  },
+  {
+    "type": "pain",
+    "id": "cbf77430-43fd-453a-b957-d828ae9938e7",
+    "date": "2016-09-06",
+    "value": [{ "option": "breast_tenderness" }]
+  },
+  {
+    "type": "pain",
+    "id": "95c5ed95-b624-4179-b73f-5bc8340c49a7",
+    "date": "2017-05-05",
+    "value": [{ "option": "period_cramps" }]
+  },
+  {
+    "type": "pain",
+    "id": "e735d86d-f4b2-46c6-9bc8-9af320fa5f54",
+    "date": "2017-08-24",
+    "value": [{ "option": "breast_tenderness" }]
+  },
+  {
+    "type": "pain",
+    "id": "d3dc45e0-0c29-4a9d-ac76-867c571af4ca",
+    "date": "2018-03-06",
+    "value": [{ "option": "breast_tenderness" }]
+  },
+  {
+    "type": "pain",
+    "id": "741e2567-7066-4995-b506-840e06451a1e",
+    "date": "2016-10-05",
+    "value": [{ "option": "period_cramps" }]
+  },
+  {
+    "type": "pain",
+    "id": "50f99594-cc7c-4daf-9b81-15b2c6940d25",
+    "date": "2017-08-26",
+    "value": [{ "option": "breast_tenderness" }]
+  },
+  {
+    "type": "pain",
+    "id": "48484ad9-2d47-451c-b876-7dc5ed0b7b1b",
+    "date": "2018-01-05",
+    "value": [{ "option": "period_cramps" }]
+  },
+  {
+    "type": "pain",
+    "id": "79c80fc4-58e3-4602-a96b-895d3ef5f64d",
+    "date": "2019-09-14",
+    "value": [{ "option": "breast_tenderness" }]
+  },
+  {
+    "type": "pain",
+    "id": "491326b2-1de8-4da9-9e12-a8f1ddf354e5",
+    "date": "2017-01-30",
+    "value": [{ "option": "period_cramps" }]
+  },
+  {
+    "type": "pain",
+    "id": "d66dfe8e-d71e-4009-b854-0da6eb256b30",
+    "date": "2019-08-21",
+    "value": [{ "option": "period_cramps" }]
+  },
+  {
+    "type": "pain",
+    "id": "b6e0a8de-dbe2-449b-a278-27ad09ad8096",
+    "date": "2019-03-05",
+    "value": [{ "option": "period_cramps" }]
+  },
+  {
+    "type": "pain",
+    "id": "fee7d244-6f3b-49d7-8d52-293b59738082",
+    "date": "2017-07-05",
+    "value": [{ "option": "period_cramps" }]
+  },
+  {
+    "type": "pain",
+    "id": "79cafda0-d756-4c38-b29f-577bb1e8e922",
+    "date": "2017-04-01",
+    "value": [{ "option": "period_cramps" }]
+  },
+  {
+    "type": "period",
+    "id": "69469766-9e8f-4c8e-adbc-f4db9d24a84e",
+    "date": "2018-05-13",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "1cd704cb-4f4a-4c4a-8161-64e5e9c108aa",
+    "date": "2019-12-23",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "bc4ece99-977f-407b-a24a-7625ab6e1c89",
+    "date": "2017-09-03",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "4bfbc5d5-3f4e-4f75-915e-759a206fea13",
+    "date": "2019-03-13",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "bf3da72b-fa30-4f0d-afa1-e96d03f18219",
+    "date": "2021-01-31",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "666f3d5c-37a5-41ea-98d4-0fa6e458dd37",
+    "date": "2019-04-16",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "317da7c7-0343-4100-8e39-eb7aad4a3f87",
+    "date": "2021-01-01",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "1cf16093-f12c-40c1-a70c-4d4332603db1",
+    "date": "2018-04-12",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "815e6296-cbc7-40f7-8b68-18f2262f485d",
+    "date": "2020-12-01",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "40513a1b-073c-4149-be29-44c0d448e3c6",
+    "date": "2018-09-19",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "98812472-213c-4987-9015-47b769aa5247",
+    "date": "2019-05-17",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "273f2969-33ae-49c0-98fb-4fc95459ad8d",
+    "date": "2016-12-01",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "4851249c-20fe-4c33-9c06-07b7ab25f695",
+    "date": "2022-01-17",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "50af284d-d74b-4617-a11a-2e47e98d78db",
+    "date": "2017-02-02",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "766c5419-80bd-4ce2-a723-dc61d919aaa0",
+    "date": "2020-12-02",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "09508171-26d4-4fc7-ab45-4074f86ce225",
+    "date": "2020-10-03",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "bbce908e-dba2-48f1-ad75-e01cb1ee61df",
+    "date": "2018-03-11",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "4bed106b-aaac-4f9c-b6f4-a95a33b6ee1e",
+    "date": "2017-10-31",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "ffff8b45-467f-4bdc-b769-66d19b7721c5",
+    "date": "2018-04-11",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "a4c468ba-5809-4a6f-8108-9d154abaa41f",
+    "date": "2020-12-03",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "93648077-147b-42d2-a296-8ea309121fba",
+    "date": "2018-02-07",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "89cc94e1-640e-4818-9fd8-88a08f274a1f",
+    "date": "2020-04-07",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "c623f1de-2c08-41ab-9527-e4af608d9273",
+    "date": "2021-02-01",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "5e8e5660-e3fe-4bc2-b616-c009e633210c",
+    "date": "2018-12-12",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "3152cabc-b827-4a28-a7ff-4f4927c056cb",
+    "date": "2018-09-18",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "c9561138-c005-47f1-a0fc-50d0dd11ef9f",
+    "date": "2017-06-04",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "3d7ffb57-19dc-4c15-868a-85fdcaacf12d",
+    "date": "2020-02-28",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "ebb741b3-8492-48cf-8a08-4cd6cf64bd11",
+    "date": "2018-03-13",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "2de5d7de-d832-46ee-955e-aee456ba3b9e",
+    "date": "2017-03-04",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "035caa8b-bd3f-4f0e-91f1-e7321ca3572d",
+    "date": "2017-07-09",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "09fde256-2a8b-465f-958a-718f8c491043",
+    "date": "2018-03-12",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "311dee5d-d6d2-4f06-8b49-ebc0820fe604",
+    "date": "2018-02-09",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "62b08098-3e98-4c74-9aa9-75f282fb5119",
+    "date": "2020-09-03",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "8ce63844-06c1-4e62-859d-9467cde66afd",
+    "date": "2020-09-05",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "8dbfea57-b46f-48db-86bc-3c935c754b97",
+    "date": "2021-08-28",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "b4e9d1ab-2d86-4f05-a16b-4c9460d485f3",
+    "date": "2020-08-06",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "d2b3651e-b126-46ad-9c46-786ffd059903",
+    "date": "2017-07-06",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "b0718188-a018-4cf6-b9de-b08d488c6c7e",
+    "date": "2021-08-27",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "55cdc11b-9de2-486b-b1b1-ac9a0d28ad13",
+    "date": "2017-03-05",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "3838585e-4d0b-4a3f-8dda-3045364b3160",
+    "date": "2019-06-20",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "3ab8ae04-65fa-4b41-a961-59569f7a4a02",
+    "date": "2020-07-07",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "1409d870-13a3-4156-a9b8-d3b8392713be",
+    "date": "2020-02-27",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "0107a758-8753-4ed9-9cdf-8ca1dd54ecf7",
+    "date": "2019-08-23",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "4755f1bb-8119-48a2-9975-cf2c75ba44fc",
+    "date": "2019-10-20",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "0190f2ae-4f08-4cac-ab48-4a9979acfd29",
+    "date": "2019-06-22",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "cccaf69f-38eb-46d8-ab67-0e0c61ce71eb",
+    "date": "2020-10-05",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "b0fad43f-35e6-4219-9230-98b9cf30e992",
+    "date": "2019-04-15",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "368f2be9-2454-4e74-9203-c12dba76619a",
+    "date": "2019-12-22",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "a36ba4ba-e030-4305-a104-bb8f8fa7b015",
+    "date": "2018-01-09",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "22343e79-da63-4b3a-bc3e-b12f1bf37d27",
+    "date": "2017-01-30",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "23315ac1-a2ca-4da1-9566-cde76d0c862b",
+    "date": "2016-09-08",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "3ff5326c-194f-4517-9e75-0c8e3d4f99f0",
+    "date": "2021-04-30",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "46cdc1ed-c805-493b-9fbe-03a96a24817d",
+    "date": "2020-07-06",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "35589afc-9e83-4a0a-8c69-12a50192cc8a",
+    "date": "2018-11-14",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "217636d2-1726-425d-b151-ce0b45717b93",
+    "date": "2016-09-06",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "a63c491d-a485-4561-9389-d4b177cc507b",
+    "date": "2020-12-31",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "063f84f9-d4cd-4f30-8700-9ae32b004c84",
+    "date": "2018-01-08",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "4709f9ea-62e8-4b2d-a32c-8391acc6aba1",
+    "date": "2021-05-01",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "6fd6036e-81c8-4f17-8505-33c0bd7111e3",
+    "date": "2021-01-30",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "69effb6d-f4c5-49dc-b76b-1839346afcc0",
+    "date": "2020-08-07",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "d31dd1ef-13f6-489a-b723-dff650589dcb",
+    "date": "2022-01-16",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "d919eeeb-a968-4a75-ada7-0f284573a3e7",
+    "date": "2021-08-25",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "f8de42f6-7010-4d85-a470-51ab0a060c1b",
+    "date": "2020-11-30",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "09bcec85-abc7-4c91-bb74-450857586d52",
+    "date": "2020-12-30",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "f33e60ff-1945-4961-8aea-d2e30b96abbb",
+    "date": "2017-03-02",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "3e27c586-19fe-4616-9c67-28571b871f62",
+    "date": "2018-04-14",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "5863654f-4a0e-461b-ac45-6384580b6c2f",
+    "date": "2018-06-11",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "ae08a937-72a7-46c4-a667-1e36df7fc3c5",
+    "date": "2020-02-24",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "f4d023a2-526c-4e53-9d07-2119a56bf9e5",
+    "date": "2020-09-04",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "7625401b-a3bf-4912-93eb-a8f1948e1b7a",
+    "date": "2019-12-21",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "924c5fb6-cc48-46dd-89df-7b8809a1f815",
+    "date": "2021-09-26",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "5e6f9393-32da-4c5a-97b0-afc48fe6ef21",
+    "date": "2018-05-12",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "2684da09-ec01-4a57-867c-a485445adc1b",
+    "date": "2018-02-06",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "ca2bbf7e-c957-495a-9357-2bdc815cdd18",
+    "date": "2018-05-11",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "ba7d4966-ae95-4ae3-a729-7e3228db7735",
+    "date": "2021-10-25",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "0f34e1e9-d9d7-4068-a1cb-276a4b6d3e80",
+    "date": "2019-08-22",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "636f8510-49d0-4f08-92df-87e1104a5708",
+    "date": "2017-09-04",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "9095725c-43ec-4074-8f01-62b53e7aa719",
+    "date": "2020-06-10",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "19c3db7d-a9b9-49ae-b91d-8943c368f6d6",
+    "date": "2021-10-23",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "dcc57ad7-b376-461b-aeb3-ddcd7c91ca80",
+    "date": "2017-12-06",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "3ee97ba9-aaca-4b66-8019-f80801f8c477",
+    "date": "2017-10-01",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "4957af90-e96b-47c4-89b4-c365fdfb1e36",
+    "date": "2020-11-05",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "9e83fb72-67e0-48ba-9d57-d0f98da8ce49",
+    "date": "2016-11-05",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "3b400b4d-f9ac-45ee-a594-e252850fe38e",
+    "date": "2017-08-09",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "35b3bc81-91ee-45ce-9b5b-86be8250aea7",
+    "date": "2022-02-11",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "6edc2e96-6ca8-44bd-b16d-cd727cc831ff",
+    "date": "2017-12-10",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "d446de82-74ee-4949-9ed0-21a5a6ccfe22",
+    "date": "2017-03-06",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "ff993f8d-2b89-442a-8da4-af9b7739cc1d",
+    "date": "2020-10-04",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "d43ef019-7995-4385-8ae9-a7d919be2fe1",
+    "date": "2018-07-16",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "3b373849-bfa7-4c06-a42e-699fc1f55a4f",
+    "date": "2019-07-25",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "cea27919-51a6-4070-add8-b5d696807cba",
+    "date": "2020-04-09",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "3ab9040a-e8d6-4463-a0ea-1bfa430a6748",
+    "date": "2018-11-15",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "cf9f31de-2576-4c60-b791-b45572c2392e",
+    "date": "2020-09-06",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "89b1b43e-e417-4076-a751-c274c588f26f",
+    "date": "2016-12-04",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "b7578147-24e1-448d-a92f-ceb9bd5cffb6",
+    "date": "2021-04-29",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "82a576a2-4106-4e50-acea-d41da28a1751",
+    "date": "2019-08-24",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "ce4d707c-359e-40b2-aa53-e720e559706c",
+    "date": "2019-10-19",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "b2e3ee4d-b3ea-4a9f-8a8c-953f4fcccc47",
+    "date": "2020-12-29",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "97d23afc-3d00-4c44-bab8-cd6589a3908b",
+    "date": "2016-11-02",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "4f7ad174-29bd-499c-b6b9-135d6f9740c0",
+    "date": "2019-02-12",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "b7a2448d-6650-4c8e-9177-62dd3f05254b",
+    "date": "2021-09-27",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "8971280b-b4b0-4a79-b43c-659cd63fc1d9",
+    "date": "2019-10-17",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "94a113a2-9ef7-437a-90f9-17605c6ebe1e",
+    "date": "2018-07-18",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "c61bd4cf-2546-43fc-b084-5c9d84c0b49e",
+    "date": "2016-10-05",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "21aa89dd-01a6-4b0e-8aa5-82ce0d6405a5",
+    "date": "2019-05-15",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "148df71b-e15b-4d9a-ba9d-4e4e34ebe5d0",
+    "date": "2018-10-17",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "d4714fda-3156-4a34-aa94-c5a42e41d83a",
+    "date": "2017-09-05",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "ed4e89ed-a643-4fa7-92d6-d0ee20ad0a29",
+    "date": "2018-10-16",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "6087d84a-8978-489a-9116-0e030472bc01",
+    "date": "2017-05-08",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "9fc01aa3-f960-42be-ba52-0fcc2a442ba4",
+    "date": "2018-10-15",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "b083262d-612c-4c23-bae4-ab5f93e78af1",
+    "date": "2017-06-05",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "022441f6-0c19-433a-9804-ee258aef30d9",
+    "date": "2016-10-07",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "f39bad13-c599-4450-93d1-4f811399817c",
+    "date": "2017-06-07",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "f9143236-ccef-4e03-b684-d514fcd487b7",
+    "date": "2020-08-05",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "7395b334-932f-45b3-9bb4-ca8538da68ba",
+    "date": "2019-06-19",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "4726eed6-fa4d-411c-8d8a-c867afd0ced6",
+    "date": "2017-04-03",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "ecfd1da1-f56e-4232-aac2-011fe3c369e1",
+    "date": "2017-02-03",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "107817fd-0026-4730-9f39-8f8682125501",
+    "date": "2018-08-21",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "117b721f-d007-4b44-a12a-07136044c154",
+    "date": "2021-05-02",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "029d2c74-c4a5-46e7-90a0-44a6ece5a81d",
+    "date": "2019-06-21",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "a0a884d7-48b0-45e9-a637-114307035cde",
+    "date": "2016-11-03",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "aa893b9d-2af7-41d5-a3c0-918dede7db4a",
+    "date": "2017-07-05",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "b65bf437-18bc-44c7-836d-aa6b3c536e11",
+    "date": "2019-11-22",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "7f1a52d6-a5f4-4b12-adae-9cb7b149be6a",
+    "date": "2019-10-21",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "37aee742-cdf1-494b-ba18-5f609d009e09",
+    "date": "2019-04-18",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "75af9c95-b5dd-418e-884c-e41731ece417",
+    "date": "2018-06-13",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "84b1dd58-afe4-48b5-9c69-6f707e42269b",
+    "date": "2020-02-26",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "306e8eb1-6a25-46dd-8483-38b58ae5d24e",
+    "date": "2017-12-09",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "5ddc428c-c2b5-4e08-9d86-0a557a6c8472",
+    "date": "2017-01-04",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "47b24f09-3b26-4500-9485-b0e69e616017",
+    "date": "2020-09-02",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "5a582965-8720-408d-bb5d-7376e0a96fcb",
+    "date": "2020-08-08",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "af3e8d58-33dc-4809-80cd-bf5673fba6da",
+    "date": "2017-10-04",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "239c9671-3ad7-44c6-8348-9cf33b27634c",
+    "date": "2018-04-10",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "40ca8ce0-8c90-46e4-a7f2-b4c42e49a8eb",
+    "date": "2019-09-21",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "1b0e5242-b5f5-41ef-96e4-82caa3c71a42",
+    "date": "2019-01-12",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "dcf2a023-7700-4601-bb8e-cafb83ab93aa",
+    "date": "2018-10-18",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "ec971093-aac8-42b6-b946-0ca10fafc17d",
+    "date": "2018-03-09",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "afc5a2ee-0c29-472d-8035-ca76cb326acb",
+    "date": "2019-09-18",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "b6d92183-c9b7-4c8b-8837-0820264a0e5c",
+    "date": "2019-01-10",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "3709bacd-58ee-4927-9d65-7fa441b1c18c",
+    "date": "2016-09-10",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "08ae98f9-fbc4-4c83-aff2-18881794e490",
+    "date": "2020-07-08",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "befbdc65-252a-45fa-8937-6cd28d4c12c1",
+    "date": "2019-04-14",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "d6981fce-64d4-4bb3-9203-a7c72127dcff",
+    "date": "2020-06-08",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "5be1add7-f02c-4e10-8a56-ccbc8b3fe93e",
+    "date": "2021-05-30",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "396746da-eaa5-49b3-81f7-ae20b5b2decf",
+    "date": "2016-12-05",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "a56e8c88-5832-4a0a-98b9-5cc87756d0cf",
+    "date": "2018-12-14",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "d9b837fe-a308-4f7e-a2fd-b4aa53169f8b",
+    "date": "2019-12-24",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "b13a9514-68c5-4258-af28-d5312855441d",
+    "date": "2022-03-14",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "85c90c28-7d93-4139-a272-8d607005803e",
+    "date": "2021-11-19",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "ab18648a-a1ae-48c0-b70a-6b2ac51c4491",
+    "date": "2017-08-08",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "23a71194-6885-40f2-a2f8-41a9614e461e",
+    "date": "2020-04-06",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "e538609a-a509-4511-9ab7-6ba119a803e8",
+    "date": "2017-04-04",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "67677212-bfca-470c-bd89-c1d163febe73",
+    "date": "2018-12-11",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "ba371d70-0929-44eb-9a04-a31943a4a4de",
+    "date": "2018-09-17",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "5a82abf7-535c-4766-bc5a-1341108d3977",
+    "date": "2021-08-26",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "4d46032e-7762-47ec-81e1-31e3fe89ae9c",
+    "date": "2020-05-09",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "767bae21-0f74-4173-b278-c41b10328057",
+    "date": "2019-11-20",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "91cad463-8151-4bd3-a4ff-e5acc34f9db6",
+    "date": "2017-03-03",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "a1d6833c-021c-456c-bc09-e14ecd22383f",
+    "date": "2019-07-22",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "9de0d19c-6fad-430c-9c5d-d5937c2bf9a5",
+    "date": "2018-06-12",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "b5a5a740-ee98-45b4-81a6-213c678a56d3",
+    "date": "2020-02-25",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "689e3fc1-4272-4f57-8a56-40c021313ec2",
+    "date": "2021-07-29",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "4d0a7e3c-0642-4c37-8e28-370f0e94acce",
+    "date": "2019-10-18",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "0fc9913e-304f-40fd-8931-51fa0cccc8c7",
+    "date": "2020-11-03",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "98c7fb3c-a930-4165-9e85-a40581cd67db",
+    "date": "2021-07-28",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "3df3171b-f9b0-447d-8852-bf3575bc402d",
+    "date": "2019-03-16",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "6fc33ebd-ca05-4c3b-88ff-1a654831fe00",
+    "date": "2019-09-19",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "6498c8f7-c30a-4073-b380-879b3533214b",
+    "date": "2019-01-11",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "0c301711-4db9-4850-a6ba-56904c2d3979",
+    "date": "2021-03-02",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "482052bf-442b-424c-9fee-2602588b50db",
+    "date": "2020-08-09",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "7e8a7fb7-414a-4550-bd13-3681d346e560",
+    "date": "2019-03-17",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "5bf52ccc-f3d7-442f-aada-d66ef1429eb0",
+    "date": "2019-01-09",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "5536b6a4-5c6a-4b1a-a700-d364f7008170",
+    "date": "2021-02-28",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "96772dcb-a012-445f-8824-64745466db81",
+    "date": "2020-05-07",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "1efc9a14-d816-4366-9afb-6d1551d0933d",
+    "date": "2017-10-29",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "67e71afc-3a49-4227-a106-c0a1d634bc66",
+    "date": "2019-05-18",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "087ac59e-246d-4959-83bd-9c7e8076fc81",
+    "date": "2021-05-29",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "849bb7f1-d176-4d28-8bbe-c8efd7ca252e",
+    "date": "2020-10-06",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "8f68b09b-b53a-4bfa-a59c-45e46ebf232a",
+    "date": "2018-12-13",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "ec9e24e0-1213-4bec-925a-8b6a2e64624f",
+    "date": "2022-04-12",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "5574d286-55e4-41e5-84c3-8a95e1815689",
+    "date": "2022-05-11",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "cd562a65-479b-42a8-9ced-6df3e447c950",
+    "date": "2020-05-10",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "a9ef657d-820b-4653-9d86-f9d4e627a511",
+    "date": "2020-06-09",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "a2b1b946-3163-492c-9123-4c4e96df2375",
+    "date": "2018-02-10",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "0cd1e5be-a6b3-40c2-990f-f6e5db344dcc",
+    "date": "2018-05-14",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "2a6f060f-67cf-48ae-ba6c-2878b833d6ac",
+    "date": "2020-11-04",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "9c955184-36d2-4097-a80c-3e652396ef84",
+    "date": "2022-01-15",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "8805f42a-3109-4cf1-ae65-1cd260c3940b",
+    "date": "2017-02-01",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "9872bd9a-96ce-45a1-823e-d62a5fd15009",
+    "date": "2020-12-04",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "80a0f5ed-ef5f-400e-be03-dbdb5b39cb01",
+    "date": "2018-09-16",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "aa1d6f19-1883-4864-9434-dac66c391ec6",
+    "date": "2017-05-06",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "5d9afc1b-dd95-406c-98c6-fda0204f10d6",
+    "date": "2017-08-06",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "13542a2b-7e06-49bb-adfd-83b24f6b0f77",
+    "date": "2020-07-04",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "adf39739-3762-4ac5-90bc-643333786688",
+    "date": "2018-11-13",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "20a4f594-2ab8-4e43-aae4-d370026fec14",
+    "date": "2019-06-18",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "29438216-bf08-42da-afe5-df9561ce555c",
+    "date": "2019-11-24",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "28ca7062-788c-4ea4-b02c-ab053160760c",
+    "date": "2016-10-08",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "378016ac-9bbd-40a3-b620-157477f51079",
+    "date": "2017-10-30",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "81a765be-8d67-4810-8463-87b597b89502",
+    "date": "2018-11-11",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "ae0dfcec-ba5c-469a-94c3-80402577c382",
+    "date": "2018-03-10",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "00c02055-8fb6-4acf-8bae-5bc208eaf021",
+    "date": "2021-06-27",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "e0f79e3c-f9b5-4ec5-b782-45c114e432e2",
+    "date": "2020-01-24",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "5da14d7a-d11d-4727-b199-ae3b2f80d9f6",
+    "date": "2021-06-26",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "de31fe96-8b6d-45f4-b799-1b9d1c094b62",
+    "date": "2019-05-16",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "f8949d0f-2ef9-46fb-b59a-3a3955f15f8d",
+    "date": "2019-03-15",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "8e046b74-a54e-481d-92af-5a6bc4d04a24",
+    "date": "2022-02-13",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "4726f3ba-f7ae-4075-bc28-5e8014ee1d70",
+    "date": "2019-12-25",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "170e97e8-c455-4d55-b470-c542d7e0e298",
+    "date": "2022-02-12",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "e67b1fb8-538c-47fc-b2ab-5d445d4442b7",
+    "date": "2018-01-05",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "e71416a7-9aab-4a05-9736-7bcd07fb7857",
+    "date": "2019-11-23",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "4ea8916c-9d79-4eec-b0f9-01e07442f1ae",
+    "date": "2022-04-13",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "6c7bdd0a-ab13-4cf5-b70b-73f4c2199129",
+    "date": "2022-06-05",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "d3cc75b9-e1f8-4d0c-a660-1febd5af475f",
+    "date": "2022-08-29",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "8a317b78-981f-42e1-aa69-34c0ba518602",
+    "date": "2022-11-27",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "d9b372cd-01ed-455d-800c-19bf809c1631",
+    "date": "2021-01-29",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "ebd7d514-328c-4e85-b394-1cbbd3131df2",
+    "date": "2020-05-08",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "5dae1a2a-1a71-4103-a612-e4694d15418d",
+    "date": "2022-01-14",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "e98e08ad-d509-4a1c-a2a6-8f2a11e37192",
+    "date": "2021-07-30",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "159c0c6c-30f6-4c67-a2c9-e306fb6313c7",
+    "date": "2021-03-28",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "367fdf99-4c26-4ec2-9054-111f7883cb71",
+    "date": "2019-07-24",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "d22b553d-e096-4eab-9fe2-54d8c2da1b04",
+    "date": "2018-11-12",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "dddd07f4-b559-43b2-ace1-521278edee45",
+    "date": "2021-10-26",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "6a9019c0-c2e9-4b39-977e-c711ae075d11",
+    "date": "2019-07-23",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "92869d53-f508-4a1f-a21f-684856ca0fb7",
+    "date": "2021-03-26",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "070ca6c5-a4a3-4c08-b52c-579d21dd91ce",
+    "date": "2016-11-04",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "03a36c67-4854-4aa9-be1f-d4ca10b96505",
+    "date": "2017-10-02",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "eacab8c0-1a11-4748-a401-af6b65236da3",
+    "date": "2017-01-02",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "fd4b1454-4604-429e-a360-fada67ca887f",
+    "date": "2019-02-11",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "0ca5582d-66db-4833-a75c-7d8fd79f220b",
+    "date": "2017-11-01",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "1298c8d1-53b2-45cb-a278-589181659c3e",
+    "date": "2021-03-01",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "0d0ed03a-dc08-4c37-9589-adb32a0a73ad",
+    "date": "2016-09-07",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "081a93c5-b64e-4931-90ca-df51c0fd7686",
+    "date": "2017-06-06",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "8ad376c0-cd8b-4258-8ddf-8cb6ba11f235",
+    "date": "2018-07-17",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "ed169104-c4ad-400f-b9c9-9d63a9ebad7a",
+    "date": "2018-05-10",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "af572e0e-a9d6-49f1-9786-d26707738379",
+    "date": "2021-02-27",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "c2b80672-0846-44db-99ba-669a817ec385",
+    "date": "2017-04-01",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "810bfbf0-87c0-4474-8ecc-acd35f9bb6d4",
+    "date": "2019-04-17",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "d6974068-2602-4579-a826-a8ecf14e71e3",
+    "date": "2022-04-11",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "99c9422e-7595-463f-a0c2-c269456c3b1e",
+    "date": "2022-05-10",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "5bb5644f-d88b-4122-b287-1ea854a1b9ee",
+    "date": "2022-08-06",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "4f21b0f5-706a-4a80-b432-acda0d3da15e",
+    "date": "2022-10-28",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "07ea411d-e174-4773-a4ff-131c8ae9bb92",
+    "date": "2018-08-19",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "8af56112-8f79-4149-a49b-98a65d5c6ab2",
+    "date": "2019-09-22",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "600d64e0-cae0-4f1a-980f-bb56383c9e33",
+    "date": "2021-12-16",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "e364cf4b-ae19-47ef-907a-bfe6e1db85a4",
+    "date": "2017-07-07",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "7e22b911-cc95-429b-824c-fda824a549f2",
+    "date": "2018-07-20",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "5cc06f26-67e6-4aac-b346-fc9c04184592",
+    "date": "2018-03-14",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "ccdeadc7-44e7-4223-875f-61ba0a10beb0",
+    "date": "2016-09-09",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "f82cde8a-0a77-48cd-8926-2743d33ebca4",
+    "date": "2020-06-11",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "3cc98ade-a5f6-49a1-8972-867c7948a418",
+    "date": "2021-03-25",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "13761f44-dc8d-417a-9759-c354919f5102",
+    "date": "2017-04-02",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "94027a7f-3b77-46a1-92ec-9f3a6db0d8a7",
+    "date": "2020-01-25",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "1655fe13-7c2b-4179-811c-a85d26f415e7",
+    "date": "2018-06-09",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "0e45ff1c-3f9b-468e-9717-b9a797159d6c",
+    "date": "2018-07-19",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "232248fd-c33c-4734-9ace-c796f58f763c",
+    "date": "2019-08-21",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "b0c7c52a-9553-4eaf-8445-a280940fa5ab",
+    "date": "2017-10-05",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "0da8abf5-eb0a-48b3-80f0-3e3f7fc986be",
+    "date": "2018-12-15",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "f7f342c2-747b-4e50-9b2e-8e8bfae375fc",
+    "date": "2020-04-08",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "9e1df118-e24b-4057-9fa8-5eca9268f3cc",
+    "date": "2019-07-21",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "4ab77f89-d349-486b-ba1d-577c3b2c6b2d",
+    "date": "2018-09-20",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "16560dea-4c8f-418f-94ef-0a1dabf8c085",
+    "date": "2021-08-29",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "bc003b30-fe9d-4a8a-8d5a-9ad6e26da6ab",
+    "date": "2021-01-02",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "a3ce3d3c-bdb9-4f0d-9187-5ca2a4d3a6fe",
+    "date": "2022-04-14",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "61c3be45-b3a6-4759-9a73-d0060b50fe74",
+    "date": "2022-06-07",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "bdc3f75f-5c78-4ec1-96f3-54eec6c4b321",
+    "date": "2022-08-31",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "f80de9e9-9b6d-493c-86ed-8e900ac60d1b",
+    "date": "2022-11-29",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "ba68e4eb-d18c-4e9b-a173-0532d18df79d",
+    "date": "2017-01-03",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "d7391253-7316-4473-b885-78eef7008a49",
+    "date": "2016-12-03",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "b58c783e-da71-4a59-954f-66a28f6b6edb",
+    "date": "2020-07-05",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "e6780066-5db5-4cfc-a713-b79056db8e7c",
+    "date": "2017-01-05",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "7a238978-775e-4b3c-9006-c3e29e15c56b",
+    "date": "2021-03-27",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "d843eb02-8bf6-4a64-918d-401fbd5b32e2",
+    "date": "2017-09-01",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "043ce24a-25fb-4c93-a918-5be8b92908cf",
+    "date": "2018-06-10",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "b0208155-b776-471e-8850-13c5c80117a8",
+    "date": "2021-11-20",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "dccb0998-3ecc-408a-aa9b-c653dea8b0ea",
+    "date": "2021-07-27",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "d78606fb-7c77-4d3a-86af-5f682af70300",
+    "date": "2020-01-26",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "cca13f05-aaa6-4710-81e1-8440c9222ee0",
+    "date": "2021-07-26",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "38ab9610-78af-46e2-859b-0b6b25739ff1",
+    "date": "2018-01-07",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "3ac88b39-0e73-4656-8e3b-fb31b82efdfb",
+    "date": "2021-10-24",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "e6d8d1b5-724a-4c70-a462-9eb94edb5865",
+    "date": "2017-08-07",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "d28d09d3-fb0d-49bd-8c18-df95ae8e1cbf",
+    "date": "2020-11-01",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "ee13da90-5f4a-4167-87e5-3eec6fdf3d10",
+    "date": "2017-10-28",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "8517f55e-ad0b-4a81-a88f-cc2867b2f604",
+    "date": "2018-10-14",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "9cd886e2-96b9-4c8e-8d5d-9ae41faf8292",
+    "date": "2021-09-24",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "845735ec-7225-474f-89d4-fd2db157f8cf",
+    "date": "2017-06-08",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "78a09ffc-d8bc-4a8c-a0da-9865263acd23",
+    "date": "2018-08-20",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "fd1029aa-f07b-4b4a-ab06-d2528652e65f",
+    "date": "2021-05-28",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "ad462910-834b-4f81-92f6-d01128b8fdae",
+    "date": "2022-03-15",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "21cc419e-e214-4275-aa3d-0379e4fae070",
+    "date": "2022-06-08",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "07ab7885-b3bb-485a-8753-75b535af8352",
+    "date": "2022-09-01",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "3adeaf9c-4886-4f88-9147-df7f6c7c6f68",
+    "date": "2022-11-30",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "a574ee80-54c9-401b-b35d-2a41d34bcb7b",
+    "date": "2017-10-03",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "6394587d-5f2f-4bbb-928b-c29538dc002b",
+    "date": "2020-06-07",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "1982daa9-a3cb-4fd2-b880-a23ccda0aa3c",
+    "date": "2017-12-08",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "2395e823-485e-4581-85f2-25069d302b2f",
+    "date": "2019-09-20",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "fbb0fbd4-ce7f-4585-a145-77ef1834ed51",
+    "date": "2018-08-22",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "4db3f311-a53f-4545-9c05-93df31df457d",
+    "date": "2017-07-08",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "95472fd7-2a6b-42c3-8e6e-d014249cd141",
+    "date": "2020-01-27",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "5ab72d01-2a11-41e1-b066-ba26a26b0d20",
+    "date": "2017-05-05",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "5d62216d-9176-4bc2-8a45-6af82c382526",
+    "date": "2019-11-21",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "8d9f6209-33aa-4b4b-a532-a92915e72ebb",
+    "date": "2017-12-07",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "64fc484c-6d19-4dec-b08c-d2a75995ab2d",
+    "date": "2019-02-08",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "b6545182-44d6-458d-af00-179076ea52f4",
+    "date": "2019-02-09",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "20678afe-e791-4c24-9023-cb0070ed512f",
+    "date": "2020-11-02",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "fc17f283-6423-4625-aaba-c8329f210d21",
+    "date": "2022-02-14",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "b2273781-3978-4873-800e-5761c08cd68e",
+    "date": "2020-01-23",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "267c27fd-bca1-46d5-a36c-6ba9a93c7778",
+    "date": "2017-05-09",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "c14299e8-76ea-4a6d-ba47-9e269133cd31",
+    "date": "2019-08-25",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "f7e4a9a5-8f48-469f-9c1b-d205980070c4",
+    "date": "2020-10-07",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "8e326491-21d1-47b1-ae89-0a81f4617f6f",
+    "date": "2020-04-10",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "1c7da178-e136-483e-9c2f-d067ee5bf457",
+    "date": "2017-01-06",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "7ac7bc6a-5513-4614-a9f9-36605ea6991b",
+    "date": "2022-06-06",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "7170d5b1-e62f-4063-952d-bca338e089bb",
+    "date": "2022-08-30",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "c08e00dd-c56f-4aba-ab6b-f5df99c986a1",
+    "date": "2022-11-28",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "aa33d21d-23b4-4282-9fcb-6a5a35b7c255",
+    "date": "2019-02-10",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "88877792-49d7-4707-822b-8766c5b0ca0c",
+    "date": "2018-08-18",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "739d988e-7bc1-4b67-a366-9dc3d558f06c",
+    "date": "2021-11-18",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "ca1affd3-89c4-4760-a35c-a87d2c8c8f88",
+    "date": "2021-11-21",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "00b7ba2e-414f-4041-b170-adad5cb929f9",
+    "date": "2019-01-13",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "7b02e11a-ca49-46b1-937a-c9e8e211f522",
+    "date": "2016-10-06",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "41c7c6cd-7930-42da-990e-ee5f3e065753",
+    "date": "2019-05-14",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "dd008715-9ef6-451c-b95c-28c0c7681536",
+    "date": "2017-09-02",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "b14c0c1d-2547-431c-88c8-a8848298e526",
+    "date": "2021-09-25",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "161ed4d7-ac0b-4eb3-b5db-848972dce7ca",
+    "date": "2017-08-05",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "0aa65318-4299-4e06-9e0a-e525d2a0a985",
+    "date": "2020-05-06",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "84ce3607-0b08-4030-805f-59434cb7c7d9",
+    "date": "2016-12-02",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "6e4c9410-cae9-435f-94f3-e8df6e32859a",
+    "date": "2019-03-14",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "f295bc3f-c004-47f8-b43a-035a2224a0d1",
+    "date": "2018-04-13",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "a5d90793-dbef-41bd-a0d2-0e9fac459da4",
+    "date": "2017-05-07",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "a644303c-7ca8-468f-a583-145bd302b475",
+    "date": "2017-01-31",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "e56f197c-6303-4a5d-acef-f670d287caa3",
+    "date": "2018-02-08",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "fa2db78b-dcf4-489a-8c56-f26dcd1506b0",
+    "date": "2021-02-26",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "ccc8829b-54db-45a1-bc6a-236f099766f5",
+    "date": "2018-01-06",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "2b51ba39-f4f8-4192-959d-8a7cb73608ae",
+    "date": "2022-03-13",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "99d3ee6c-f050-4df4-8259-5654799f44a2",
+    "date": "2022-05-08",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "fc186a73-9a89-47bd-9764-0d57b7c04760",
+    "date": "2022-07-08",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "0717add5-27ee-42f7-b0ca-b29cf90d0004",
+    "date": "2022-10-02",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "5fe0d76d-18b2-4432-9c3b-1ec56b68042b",
+    "date": "2022-03-12",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "be9d87ce-be0f-41c0-a7fb-ea00661e60db",
+    "date": "2022-05-07",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "28043f7d-3c05-4ea1-9990-128b74f48366",
+    "date": "2022-06-09",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "13a5bc8b-75ed-4faf-beda-64a6e3c9d949",
+    "date": "2022-10-01",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "28fc5cb5-bb57-4d27-8507-9412fd39c188",
+    "date": "2022-04-10",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "e47179b3-e302-493c-bef1-ff3a35e07e36",
+    "date": "2022-05-09",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "d5e6763d-e542-4e15-8aba-80c38776ebde",
+    "date": "2022-08-05",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "45cc3c29-3fdf-4db4-b760-74e15465b354",
+    "date": "2022-10-04",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "4e99d640-1926-439d-abc5-1f0bdf16b589",
+    "date": "2022-08-04",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "e4140199-e665-482e-9580-2f9a595a3beb",
+    "date": "2022-10-03",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "dc1ca905-4e6d-4e57-9f27-0517a00411db",
+    "date": "2022-08-07",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "eabda161-07f5-45fb-af25-8045d8e78bae",
+    "date": "2022-11-26",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "05dcf0ac-6979-4a65-83fe-5061dd14a50e",
+    "date": "2022-12-25",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "8d773e10-1761-4c79-bd3a-f20ebe9c6254",
+    "date": "2022-12-26",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "548508d0-2f19-4c1d-bc8b-c6705b289ef4",
+    "date": "2022-12-27",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "892aa26c-3460-4f68-b526-415a2c7942e6",
+    "date": "2022-12-28",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "18d2cfa5-4262-4cf0-91dc-4c41f07fe83c",
+    "date": "2023-01-24",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "80b28a2f-d65b-4c7e-8fcf-c69f7f32c685",
+    "date": "2023-01-25",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "b0d5a43b-023c-43ad-830b-2491c4a20a6a",
+    "date": "2023-01-27",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "908a6222-549a-478a-af8d-cd7daf9836c8",
+    "date": "2023-01-26",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "1b084e8e-aca1-4969-a38c-f4fc474bb830",
+    "date": "2023-02-23",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "58dda059-950e-48fd-ac86-eb002673b09d",
+    "date": "2023-03-28",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "75833a35-b804-4c18-a55a-18717cc8963a",
+    "date": "2023-04-26",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "db063d3f-f4de-4839-8848-548a972cfb6f",
+    "date": "2023-05-27",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "f51403ca-3f04-4d18-9e83-f7a8e867af9a",
+    "date": "2023-05-26",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "160a860b-0ccd-4bd2-9e53-6171a6e8d716",
+    "date": "2023-06-20",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "2570ab26-9bdd-4f58-8299-b5c2fb746638",
+    "date": "2023-06-21",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "6cef99b2-c556-400f-acb9-3c1b5c93dc40",
+    "date": "2023-06-23",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "2364d4d7-93f9-456f-868b-a0311c260fcb",
+    "date": "2023-07-16",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "41245918-d494-4f04-b9f9-aba4df720ef9",
+    "date": "2023-08-22",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "7f5653ad-3322-41c1-85fd-261dee1ca3c4",
+    "date": "2023-09-23",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "e2838def-76d0-49df-bee6-0ec00029a81d",
+    "date": "2023-09-25",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "5f8223ac-3c79-4f98-9207-155070b732ae",
+    "date": "2023-09-24",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "576fb65a-b30b-4e25-8c7e-33db8eb9a61f",
+    "date": "2023-10-19",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "655c255f-081d-4b65-b83d-b8001259698f",
+    "date": "2023-10-22",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "d9d20e15-36d7-433e-96dd-e23ce7540a45",
+    "date": "2023-10-21",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "5793e9d3-5377-4e5d-a4c5-9ecacd381d90",
+    "date": "2023-10-20",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "86d27c35-154f-45e3-b1d0-10bd1f706aad",
+    "date": "2023-11-16",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "ee3e8e50-162e-4823-abe3-a79c6e1918f2",
+    "date": "2023-11-15",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "eed6a20c-46b8-4d1e-840e-a5223de8a594",
+    "date": "2023-12-15",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "67237fde-8b62-45a0-8c35-7e3ba32ab146",
+    "date": "2023-12-17",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "6d5e5bfc-55f4-4b6c-b682-b33d6a9bf183",
+    "date": "2023-12-16",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "13945ea9-3647-4d0e-b2e0-b6949e9bd7df",
+    "date": "2023-12-18",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "3d116c3f-ab4b-47ae-8281-4c262278fccb",
+    "date": "2024-01-21",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "40b0bec2-5531-4c22-baea-a73d5ff0983f",
+    "date": "2024-01-20",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "b4a96e52-0679-46a3-b93a-217be96f4be1",
+    "date": "2024-01-22",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "09879547-b639-4070-be3a-34312dfdf0cf",
+    "date": "2024-01-23",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "fd42333d-a3ba-4eca-a899-83c132887724",
+    "date": "2024-02-17",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "70349d0b-e965-4fa0-8d4c-41c1cb87c825",
+    "date": "2024-02-18",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "f705db47-a08d-42ab-b5f8-0e75890330a5",
+    "date": "2024-03-16",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "49e94494-41e7-4bd6-a3be-0869b994eb6b",
+    "date": "2024-04-18",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "99fe0672-3600-4a92-bbf3-58f9a47b1af4",
+    "date": "2024-04-17",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "70f55a59-dea6-4ae7-9eb6-53766d3a8bb5",
+    "date": "2024-04-19",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "cea50849-e1a3-481d-a4da-0772c558e2a7",
+    "date": "2024-05-23",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "bf13faff-a810-40ef-b6ac-a66263af7595",
+    "date": "2024-06-18",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "7eb10944-3b27-412f-8238-908286458981",
+    "date": "2024-06-20",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "63bbd4c6-3993-462c-98d3-721542d14ff5",
+    "date": "2024-06-19",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "e2c21fec-5e97-46a7-9bae-9bd1235decaf",
+    "date": "2024-06-21",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "c898a822-10b1-4a71-9c7f-06cd1f146903",
+    "date": "2024-07-18",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "f3d3fb6c-10da-4ebe-bef0-1c38744c30eb",
+    "date": "2024-08-15",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "ac8a8ffb-7808-4787-ae0e-71d7a93e3cd9",
+    "date": "2024-08-16",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "7d232bdc-c144-4549-846b-78424dcadeec",
+    "date": "2024-09-15",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "25a3a441-a245-4f1f-9e4d-e7b0286e368d",
+    "date": "2024-08-17",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "d6130801-a404-4d66-a794-b19bcc95abc5",
+    "date": "2024-09-16",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "9e561b0e-affc-4b26-a4cf-d76fc1759407",
+    "date": "2024-10-17",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "42dd4439-a346-47ac-aa13-7c0b3be6c17f",
+    "date": "2024-10-18",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "4af7e4e3-fb60-42ed-9c38-01bd67e7fc74",
+    "date": "2024-10-19",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "88906899-5182-47ac-992b-a99492383191",
+    "date": "2024-09-17",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "2c8a24e1-5ad3-4780-8185-e767c11b0218",
+    "date": "2024-11-13",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "4d3730e6-39ac-4145-944b-c382b0759ebd",
+    "date": "2024-11-14",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "3d043344-81bb-4097-b324-e969d502856e",
+    "date": "2024-11-15",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "648aff3a-6184-41c9-b75c-67f32b469af6",
+    "date": "2024-11-16",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "7d8258d0-8445-4a0e-927f-62ca6f1d8bff",
+    "date": "2024-12-16",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "986c1030-3d94-4f49-9e21-e77d502f6b5f",
+    "date": "2024-12-15",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "850fcc45-f007-4a92-8055-fe1a84d00afb",
+    "date": "2024-12-14",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "637ebaf2-babf-4a4e-af2c-169eaa611391",
+    "date": "2024-12-17",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "ea7425e6-0851-40b3-9148-65c36f6a2af8",
+    "date": "2025-01-15",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "6263adbe-7718-4857-b446-b75f9450eb8a",
+    "date": "2025-01-16",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "770da124-40b8-4d89-b763-16640b56ff61",
+    "date": "2025-02-11",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "333fe8e6-df3c-44a1-b96f-d6ef7a46d367",
+    "date": "2025-02-12",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "b6a07494-2104-4ffb-8536-7684b3d297c4",
+    "date": "2025-03-10",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "ae790054-13a8-43a8-8adc-b82e777d4241",
+    "date": "2025-04-05",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "a5fd84aa-7943-4894-8965-29b2a372675b",
+    "date": "2025-04-06",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "3f82852d-c77f-4060-9d4d-4feb6bb06d41",
+    "date": "2025-05-03",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "7592e906-f2d7-45b0-ae96-6311a9e1445a",
+    "date": "2025-05-04",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "b652c977-081a-4790-9204-0b656c672a53",
+    "date": "2025-05-31",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "ae840089-5bd5-497b-b56d-a549fea5446e",
+    "date": "2025-06-01",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "da30be88-0604-47ad-8816-915ad9d4f466",
+    "date": "2025-06-02",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "af318539-69d0-4db5-a7bb-2a91a4980eb0",
+    "date": "2025-05-05",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "ad96b30d-ef43-4820-ae51-bde873ff8e7c",
+    "date": "2025-06-29",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "4ed41223-4a68-4b74-b865-4804881af480",
+    "date": "2025-07-01",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "e52d4d74-d820-4ee7-bb07-47ac48ff2bfe",
+    "date": "2025-06-30",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "cf5627af-9957-42de-8034-fc5368c28552",
+    "date": "2025-07-29",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "f432677f-56dc-4bc4-a39d-feebe45adea9",
+    "date": "2025-08-22",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "843049d5-2584-4bbf-b317-9aa83365a3e3",
+    "date": "2025-08-25",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "81ed2b65-39ce-4ec0-a757-80d50d63c46a",
+    "date": "2025-08-23",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "7cb783e6-62e3-466f-9eae-6e074426fc6b",
+    "date": "2025-09-21",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "cdec6fdc-e050-4773-8b75-22ca6a9c2df1",
+    "date": "2025-09-22",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "ed8599de-3a36-4eb2-b441-122eb4d04096",
+    "date": "2025-10-18",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "f8f335cb-69bb-4a3d-ac02-12ceea1ac2ee",
+    "date": "2025-10-19",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "25f151a9-773b-4d66-bc92-45818060fc13",
+    "date": "2025-10-20",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "f2e6f7df-34ab-4c55-b228-494660f6ab0b",
+    "date": "2025-09-23",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "61e96e7d-bced-4641-bcf6-0530b398c7e0",
+    "date": "2025-09-24",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "6ce8313e-4f3f-43b6-8e20-66e4dc2ec973",
+    "date": "2025-11-18",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "106bfac2-5ada-40fb-b074-4e3186be9366",
+    "date": "2025-11-19",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "9f9e7d19-dc24-47ea-9254-c4be2f296ff3",
+    "date": "2025-12-20",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "c38bd2c4-4cd3-4aeb-b191-8adeb4482b49",
+    "date": "2026-01-18",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "95bfcea5-1c14-42e0-8435-48c43164af52",
+    "date": "2026-01-19",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "6fe656fa-61e9-427a-a253-a89971f45434",
+    "date": "2026-02-15",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "7586df47-c32c-4db4-b404-119e08662f1c",
+    "date": "2026-02-16",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "7e9dc184-75b1-4774-b0ef-08a648cec348",
+    "date": "2026-02-17",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "a70ac04a-7a41-4218-944c-9ab8b8bdfc42",
+    "date": "2026-02-18",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "6ab03f58-3464-4df2-ab43-70b27bd32f4e",
+    "date": "2026-03-15",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "period",
+    "id": "e158544b-1a86-4f83-99c1-a4f4f0e3cf69",
+    "date": "2026-03-17",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "12e33962-b35d-4ce5-9465-0efedeaf6055",
+    "date": "2026-03-16",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "ea29e7b2-3e22-4f10-a215-0800fa8c4a73",
+    "date": "2026-03-18",
+    "value": { "option": "light" }
+  },
+  {
+    "type": "period",
+    "id": "c2a2b83b-1cc2-4937-8996-551b84fe2f12",
+    "date": "2026-04-12",
+    "value": { "option": "medium" }
+  },
+  {
+    "type": "period",
+    "id": "ca925d17-55ae-44c3-8db3-bb72407c725d",
+    "date": "2026-04-13",
+    "value": { "option": "heavy" }
+  },
+  {
+    "type": "pms",
+    "id": "cd13a473-30a2-4c67-b07d-1298e7e1fa7c",
+    "date": "2017-09-23",
+    "value": { "option": "yes" }
+  },
+  {
+    "type": "pms",
+    "id": "01ad5d7a-a235-412b-a783-9b64a6908d43",
+    "date": "2019-09-11",
+    "value": { "option": "yes" }
+  },
+  {
+    "type": "pms",
+    "id": "9a59e4d7-f1b9-4d87-99f4-f4f496903943",
+    "date": "2019-09-17",
+    "value": { "option": "yes" }
+  },
+  {
+    "type": "pms",
+    "id": "9319c74e-4015-432d-803e-040154f31519",
+    "date": "2016-09-26",
+    "value": { "option": "yes" }
+  },
+  {
+    "type": "pms",
+    "id": "412df800-546c-4b1b-b633-36be2b0e5018",
+    "date": "2017-09-22",
+    "value": { "option": "yes" }
+  },
+  {
+    "type": "pms",
+    "id": "09027f3a-2263-429b-b9d3-e0f9ddc5a1d8",
+    "date": "2019-09-15",
+    "value": { "option": "yes" }
+  },
+  {
+    "type": "pms",
+    "id": "3d85787a-5d35-45a6-818f-8f7f7831c0ba",
+    "date": "2016-09-28",
+    "value": { "option": "yes" }
+  },
+  {
+    "type": "pms",
+    "id": "bc2e2be8-7a35-45bf-990e-cf2a437e6352",
+    "date": "2016-09-27",
+    "value": { "option": "yes" }
+  },
+  {
+    "type": "pms",
+    "id": "b4822c00-388f-49f0-92a0-72c17592e3ec",
+    "date": "2017-08-24",
+    "value": { "option": "yes" }
+  },
+  {
+    "type": "pms",
+    "id": "b50ad53e-e022-4043-9980-9ce6c136fe93",
+    "date": "2017-11-20",
+    "value": { "option": "yes" }
+  },
+  {
+    "type": "pms",
+    "id": "bc8611d0-f2d8-40ed-a943-7f35b431d37d",
+    "date": "2017-08-23",
+    "value": { "option": "yes" }
+  },
+  {
+    "type": "pms",
+    "id": "701f0bbb-47dd-4e0f-a441-5cad31a484f7",
+    "date": "2019-09-16",
+    "value": { "option": "yes" }
+  },
+  {
+    "type": "pms",
+    "id": "af75d761-4ed8-4690-adc7-741f3afb780c",
+    "date": "2019-02-05",
+    "value": { "option": "yes" }
+  },
+  {
+    "type": "pms",
+    "id": "40b3838b-21d7-405c-989c-f0f37e464ec3",
+    "date": "2017-08-25",
+    "value": { "option": "yes" }
+  },
+  {
+    "type": "pms",
+    "id": "bae67581-5237-4de4-86f3-4eea2fce5933",
+    "date": "2019-03-07",
+    "value": { "option": "yes" }
+  },
+  {
+    "type": "pms",
+    "id": "e8b4c6ce-d82d-4511-a6ab-610da88713bd",
+    "date": "2019-02-06",
+    "value": { "option": "yes" }
+  },
+  {
+    "type": "pms",
+    "id": "7f969d38-1ed0-4d5c-ad53-44dc247c48ac",
+    "date": "2017-11-21",
+    "value": { "option": "yes" }
+  },
+  {
+    "type": "sex_life",
+    "id": "2ce18739-3a66-47f5-b9e8-9e510b63695a",
+    "date": "2017-09-02",
+    "value": [{ "option": "withdrawal" }]
+  },
+  {
+    "type": "sex_life",
+    "id": "315ac0d6-799f-4278-9015-668ed8853242",
+    "date": "2018-03-24",
+    "value": [{ "option": "high_sex_drive" }]
+  },
+  {
+    "type": "sex_life",
+    "id": "8bbbccb9-e9b0-4a05-bf69-2b319a42b5fc",
+    "date": "2017-09-03",
+    "value": [{ "option": "withdrawal" }]
+  },
+  {
+    "type": "sex_life",
+    "id": "e4b790f4-91c0-4436-9ab7-293398c881d3",
+    "date": "2017-09-01",
+    "value": [{ "option": "withdrawal" }]
+  },
+  {
+    "type": "sex_life",
+    "id": "f2108667-da63-430c-8ed3-3bc8b86d9758",
+    "date": "2018-03-19",
+    "value": [{ "option": "high_sex_drive" }]
+  },
+  {
+    "type": "sex_life",
+    "id": "aecee739-7966-4ee9-8c7a-619932296cc8",
+    "date": "2018-03-26",
+    "value": [{ "option": "high_sex_drive" }]
+  },
+  {
+    "type": "sex_life",
+    "id": "6c48ecf4-3950-4474-8b99-7e7ec79c71f2",
+    "date": "2018-03-25",
+    "value": [{ "option": "high_sex_drive" }]
+  },
+  {
+    "type": "sex_life",
+    "id": "c341cde4-5cdc-41c9-bdde-bac295bacd05",
+    "date": "2017-11-19",
+    "value": [{ "option": "high_sex_drive" }]
+  },
+  {
+    "type": "sex_life",
+    "id": "ad0f7ac3-cc75-4db1-8090-6a5c0f16a0be",
+    "date": "2025-05-17",
+    "value": [{ "option": "withdrawal" }]
+  },
+  {
+    "type": "sleep_duration",
+    "id": "8f695bbe-ebad-4ef4-bc54-8f7b13479477",
+    "date": "2017-10-28",
+    "value": { "minutes": 450 }
+  },
+  {
+    "type": "sleep_duration",
+    "id": "c7ebcacd-851a-4507-b7a8-837ac2539b74",
+    "date": "2017-10-02",
+    "value": { "minutes": 450 }
+  },
+  {
+    "type": "sleep_duration",
+    "id": "6cd0a657-0d2b-4ef0-bd28-1e5cad0c3c32",
+    "date": "2017-08-25",
+    "value": { "minutes": 450 }
+  },
+  {
+    "type": "sleep_duration",
+    "id": "f1f29b28-b22d-43e0-8af1-9ad0cb7a1b4c",
+    "date": "2018-01-05",
+    "value": { "minutes": 450 }
+  },
+  {
+    "type": "sleep_duration",
+    "id": "8bca17c2-bc24-4cd8-af75-8ecb088acc46",
+    "date": "2017-11-23",
+    "value": { "minutes": 450 }
+  },
+  {
+    "type": "sleep_duration",
+    "id": "3fd1d8ef-f086-48d1-bde2-86890aea5eb9",
+    "date": "2017-11-24",
+    "value": { "minutes": 450 }
+  },
+  {
+    "type": "sleep_duration",
+    "id": "25b02cdc-cc86-475f-839d-9536306fe327",
+    "date": "2019-02-07",
+    "value": { "minutes": 270 }
+  },
+  {
+    "type": "sleep_duration",
+    "id": "a2d1b7f5-34ee-4863-9ee4-6b594cff86db",
+    "date": "2019-07-22",
+    "value": { "minutes": 450 }
+  },
+  {
+    "type": "sleep_duration",
+    "id": "077df3f8-a96b-412c-b18e-550a98ac8f28",
+    "date": "2017-08-05",
+    "value": { "minutes": 450 }
+  },
+  {
+    "type": "sleep_duration",
+    "id": "1211fe23-83e9-4742-a008-ed2c3ed7349a",
+    "date": "2017-09-02",
+    "value": { "minutes": 450 }
+  },
+  {
+    "type": "sleep_duration",
+    "id": "2c56dd36-2711-46ab-9504-68d9db915ed5",
+    "date": "2017-09-03",
+    "value": { "minutes": 450 }
+  },
+  {
+    "type": "sleep_duration",
+    "id": "bf709039-a949-4131-ab63-c1374a2f9630",
+    "date": "2017-09-19",
+    "value": { "minutes": 450 }
+  },
+  {
+    "type": "sleep_duration",
+    "id": "33bea7c0-12a3-475c-b1de-f921192206d6",
+    "date": "2018-03-19",
+    "value": { "minutes": 450 }
+  },
+  {
+    "type": "sleep_duration",
+    "id": "e94000ac-f3b2-419a-bf90-ecc7396f02f6",
+    "date": "2017-09-01",
+    "value": { "minutes": 450 }
+  },
+  {
+    "type": "social_life",
+    "id": "aec45087-01a7-49ed-a7e4-8cbc56f5ede2",
+    "date": "2019-03-06",
+    "value": [{ "option": "withdrawn" }, { "option": "argumentative" }]
+  },
+  {
+    "type": "social_life",
+    "id": "c7d257ca-a813-44f3-a148-8c02c98c55d6",
+    "date": "2019-11-19",
+    "value": [{ "option": "withdrawn" }]
+  },
+  {
+    "type": "social_life",
+    "id": "23baffc5-9aea-4bcd-8a24-34a5a97b0373",
+    "date": "2019-02-05",
+    "value": [{ "option": "withdrawn" }]
+  },
+  {
+    "type": "social_life",
+    "id": "c280d336-cbc2-4d44-9ca2-c2bc93acea80",
+    "date": "2019-03-07",
+    "value": [{ "option": "argumentative" }]
+  },
+  {
+    "type": "social_life",
+    "id": "30d44ea1-2c64-48a3-90a8-c814be47304f",
+    "date": "2019-11-18",
+    "value": [{ "option": "withdrawn" }]
+  },
+  {
+    "type": "social_life",
+    "id": "00f59046-ed59-43a7-a970-ea61247be0aa",
+    "date": "2019-09-17",
+    "value": [{ "option": "withdrawn" }]
+  },
+  {
+    "type": "social_life",
+    "id": "f5a3f518-d3ef-47aa-8584-e37501c73040",
+    "date": "2019-09-15",
+    "value": [{ "option": "withdrawn" }, { "option": "argumentative" }]
+  },
+  {
+    "type": "social_life",
+    "id": "ec33a3d9-c5cf-41e3-a330-7964b87e1af9",
+    "date": "2019-02-04",
+    "value": [{ "option": "argumentative" }]
+  },
+  {
+    "type": "stool",
+    "id": "821eaa75-1d1d-4bdc-afe7-093baa818366",
+    "date": "2018-05-10",
+    "value": [{ "option": "constipation" }]
+  },
+  {
+    "type": "stool",
+    "id": "8e67542f-d821-4b4b-bb0e-2bf84538672f",
+    "date": "2019-03-07",
+    "value": [{ "option": "diarrhea" }]
+  },
+  {
+    "type": "stool",
+    "id": "8379c06f-9d93-446b-b3be-838908d4be3d",
+    "date": "2020-12-26",
+    "value": [{ "option": "constipation" }]
+  },
+  {
+    "type": "stool",
+    "id": "8dc6066e-63d2-42b9-964e-f0eee2c5636a",
+    "date": "2018-05-11",
+    "value": [{ "option": "ok" }]
+  },
+  {
+    "type": "stool",
+    "id": "8c02ef05-e987-41b4-91a4-411830847e3c",
+    "date": "2018-03-28",
+    "value": [{ "option": "constipation" }]
+  },
+  {
+    "type": "stool",
+    "id": "d9277034-b02b-40e7-b072-1078aedbe504",
+    "date": "2016-09-27",
+    "value": [{ "option": "constipation" }]
+  },
+  {
+    "type": "stool",
+    "id": "09917beb-afa7-4630-8d7f-ef7095deaa36",
+    "date": "2018-03-25",
+    "value": [{ "option": "constipation" }]
+  },
+  {
+    "type": "stool",
+    "id": "e7f9aa76-4fec-40a3-8ca6-49dc7299d16e",
+    "date": "2017-10-28",
+    "value": [{ "option": "ok" }]
+  },
+  {
+    "type": "stool",
+    "id": "77f7f138-8421-4eca-9aac-e69375132ebf",
+    "date": "2016-09-26",
+    "value": [{ "option": "constipation" }]
+  },
+  {
+    "type": "stool",
+    "id": "0ddf7632-a9ab-4a1b-989d-d41c8fe342ee",
+    "date": "2017-11-20",
+    "value": [{ "option": "constipation" }]
+  },
+  {
+    "type": "stool",
+    "id": "9f5eaf83-a902-4dd8-8e89-e4d83015f6e6",
+    "date": "2017-10-02",
+    "value": [{ "option": "ok" }]
+  },
+  {
+    "type": "stool",
+    "id": "400e31e9-01ed-461e-8cd7-2803b8f7cabf",
+    "date": "2018-03-08",
+    "value": [{ "option": "constipation" }]
+  },
+  {
+    "type": "stool",
+    "id": "9a0f787d-5490-4118-9db2-cddcff014447",
+    "date": "2017-09-03",
+    "value": [{ "option": "ok" }]
+  },
+  {
+    "type": "stool",
+    "id": "f7859719-9efc-4b5b-9f57-a512a5b13520",
+    "date": "2017-07-05",
+    "value": [{ "option": "ok" }]
+  },
+  {
+    "type": "stool",
+    "id": "1fb30895-19ca-43da-bf6c-2d491eb1a3c7",
+    "date": "2018-04-10",
+    "value": [{ "option": "diarrhea" }]
+  },
+  {
+    "type": "stool",
+    "id": "e35dd707-4472-4dda-b797-51fe88634b24",
+    "date": "2018-03-24",
+    "value": [{ "option": "constipation" }]
+  },
+  {
+    "type": "stool",
+    "id": "6038b6bf-952c-4e04-98ba-7028371bc928",
+    "date": "2017-11-19",
+    "value": [{ "option": "constipation" }]
+  },
+  {
+    "type": "stool",
+    "id": "0fb2ae0c-7fc9-4a91-b486-0068bcb0781e",
+    "date": "2018-03-19",
+    "value": [{ "option": "constipation" }]
+  },
+  {
+    "type": "stool",
+    "id": "8abe718b-8ce0-4866-8cb6-1143b9458db7",
+    "date": "2017-11-21",
+    "value": [{ "option": "constipation" }]
+  },
+  {
+    "type": "stool",
+    "id": "321d8706-a911-4794-85cf-e5bf50ecc040",
+    "date": "2016-09-29",
+    "value": [{ "option": "constipation" }]
+  },
+  {
+    "type": "stool",
+    "id": "e5099987-4068-4665-9ff8-39ca2dfbb778",
+    "date": "2018-05-07",
+    "value": [{ "option": "constipation" }]
+  },
+  {
+    "type": "stool",
+    "id": "94791576-4338-4367-b9a6-149719c875a6",
+    "date": "2018-05-09",
+    "value": [{ "option": "diarrhea" }]
+  },
+  {
+    "type": "stool",
+    "id": "1df2e565-d121-49a3-be6a-9f0aea84abc8",
+    "date": "2018-05-08",
+    "value": [{ "option": "constipation" }]
+  },
+  {
+    "type": "stool",
+    "id": "a2bf5748-277b-4b63-90e9-b1ad66eb586a",
+    "date": "2018-03-29",
+    "value": [{ "option": "constipation" }]
+  },
+  {
+    "type": "stool",
+    "id": "f73614d6-47e4-4a24-bc5e-86beeeb4c57b",
+    "date": "2018-03-27",
+    "value": [{ "option": "constipation" }]
+  },
+  {
+    "type": "stool",
+    "id": "a951015e-24ff-48b8-92f2-a4eea3d04912",
+    "date": "2017-09-01",
+    "value": [{ "option": "diarrhea" }]
+  },
+  {
+    "type": "stool",
+    "id": "fca53e99-7037-4c72-ae1f-437843704a2d",
+    "date": "2020-12-25",
+    "value": [{ "option": "constipation" }]
+  },
+  {
+    "type": "stool",
+    "id": "985f5b45-0cf0-4243-8c2b-f6be5b3cc991",
+    "date": "2017-09-19",
+    "value": [{ "option": "constipation" }]
+  },
+  {
+    "type": "stool",
+    "id": "89742b3f-ab5d-4055-9eeb-f3ebef9f79c8",
+    "date": "2017-08-24",
+    "value": [{ "option": "constipation" }]
+  },
+  {
+    "type": "stool",
+    "id": "074c6da2-eeb6-4aa9-8bbf-a21be7d04dda",
+    "date": "2016-09-30",
+    "value": [{ "option": "constipation" }]
+  },
+  {
+    "type": "stool",
+    "id": "9524e449-04ab-42b2-af2c-5b3da168b8af",
+    "date": "2018-01-05",
+    "value": [{ "option": "ok" }]
+  },
+  {
+    "type": "stool",
+    "id": "c377f194-b99e-40b2-b460-27af0fe59ca8",
+    "date": "2017-08-25",
+    "value": [{ "option": "constipation" }]
+  },
+  {
+    "type": "stool",
+    "id": "ea9923ce-45fc-42c8-88cf-b7c9f87dcc40",
+    "date": "2017-09-02",
+    "value": [{ "option": "ok" }]
+  },
+  {
+    "type": "stool",
+    "id": "85b53a44-32d0-4b0a-a3b6-be9fca3d5da7",
+    "date": "2019-03-13",
+    "value": [{ "option": "diarrhea" }]
+  },
+  {
+    "type": "stool",
+    "id": "dab42034-4e88-46a0-b3e3-bb8e4a39b09e",
+    "date": "2020-12-24",
+    "value": [{ "option": "constipation" }]
+  },
+  {
+    "type": "stool",
+    "id": "5f0afe7b-773d-4629-940c-a2b2172f05c5",
+    "date": "2018-03-26",
+    "value": [{ "option": "constipation" }]
+  },
+  {
+    "type": "stool",
+    "id": "8b6e8529-3204-4662-ae42-b4afb619c57a",
+    "date": "2018-03-09",
+    "value": [{ "option": "diarrhea" }]
+  },
+  {
+    "type": "stool",
+    "id": "6c342833-e7ef-41a7-808a-d8a2d9d332de",
+    "date": "2019-07-21",
+    "value": [{ "option": "constipation" }]
+  },
+  {
+    "type": "tags",
+    "id": "64a54dcf-50da-4ca2-978c-b89789a93b43",
+    "date": "2025-05-26",
+    "value": [{ "option": "Sleep disturbances" }]
+  },
+  {
+    "type": "tags",
+    "id": "9d0cc8ee-f3cf-4ad2-a243-ee0273c218a4",
+    "date": "2025-05-27",
+    "value": [{ "option": "Sleep disturbances" }]
+  },
+  {
+    "type": "tags",
+    "id": "cd81d9d1-4e8b-4da6-a445-a39d8b45037f",
+    "date": "2025-08-14",
+    "value": [{ "option": "Sleep disturbances" }]
+  },
+  {
+    "type": "tags",
+    "id": "7ac7ac3f-82ae-4cee-9a41-2fdff1899416",
+    "date": "2025-08-17",
+    "value": [{ "option": "Sleep disturbances" }]
+  },
+  {
+    "type": "tags",
+    "id": "24ed0d28-68ac-4eb8-95e9-944dca71d1b2",
+    "date": "2025-08-15",
+    "value": [{ "option": "Sleep disturbances" }]
+  },
+  {
+    "type": "tags",
+    "id": "f3ed5956-d37f-4882-8db2-eb1ca47fb431",
+    "date": "2025-08-21",
+    "value": [{ "option": "Sleep disturbances" }]
+  }
+]
